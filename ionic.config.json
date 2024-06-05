@@ -1,0 +1,7 @@
+{
+  "name": "NovePorteNew",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
