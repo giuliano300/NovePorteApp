@@ -1,3 +1,61 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay" auto-hide="true">
+      <ion-content> 
+        <ion-list id="inbox-list">
+          
+          <div class="logo-menu">
+            <ion-menu-toggle auto-hide="true">
+              <a routerLink="home"><img src="assets/img/LogoPortaBianco.png" /></a>
+           </ion-menu-toggle>
+          </div>
+        
+          <nav>
+            <ul>
+              <li>
+                <ion-menu-toggle auto-hide="true">
+                   <a routerLink="/porte">Porte</a>
+                </ion-menu-toggle>
+              </li>
+              <li>
+                <ion-menu-toggle auto-hide="true">
+                  <a routerLink="/luoghi">Luoghi</a>
+               </ion-menu-toggle>
+              </li>
+              <li>
+                <ion-menu-toggle auto-hide="true">
+                  <a routerLink="/fortezza">Fortezza</a>
+               </ion-menu-toggle>
+              </li>
+              <li>
+                <ion-menu-toggle auto-hide="true">
+                  <a routerLink="eventi">Eventi</a>
+               </ion-menu-toggle>
+              </li>
+            </ul>
+          </nav>
+
+        </ion-list>
+     
+        
+      </ion-content>
+      
+
+    </ion-menu>
+
+    <div class="ion-page" id="main-content">
+      <ion-header>
+        <ion-toolbar class="new-background-color">
+          <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-title><a routerLink="home"><img src="assets/img/LogoPorta.png" /></a></ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+
+
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+
+    
+  

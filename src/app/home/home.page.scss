@@ -1,27 +1,41 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
+.homepage{
+  width:100%;
+  float: left;
+  padding:20vh 0 0 0;
   margin: 0;
+  text-align:center;
+  font-family: 'AvianoBold';
+  background: url(/assets/img/BgHome.jpg) repeat-y top;
+  min-height: 100vh;
 }
 
-#container a {
-  text-decoration: none;
+.homepage section{
+  width:100%;
+  float: left;
+  padding:0 0 45px 0;
+  margin:0;
+
 }
+.homepage section:first-child{
+  padding:0 0 65px 0;
+}
+
+.homepage section img{
+  width:80px;
+  
+}
+
+.homepage h3{
+  width:100%;
+  float: left;
+  padding:5px 0 0 0;
+  margin: 0;
+  color: #494845;
+  font-size: 24px;
+}
+
+.homepage h3 span{
+  font-size: 28px;
+  color: #C1272D;
+}
+

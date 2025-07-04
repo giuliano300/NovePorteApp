@@ -1,0 +1,220 @@
+.forum-det{
+    width:100%;
+    float: left;
+    padding: 20px 20px 50px 20px;
+    margin: 0;
+    font-family: 'GothamBook';
+}
+
+.forum-det h1{
+    width:100%;
+    float: left;
+    padding:0 0 5px 0;
+    margin: 0;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'AvianoRegular';
+}
+
+.forum-det h2{
+    width:100%;
+    float: left;
+    padding:0 0 15px 0;
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    font-family: 'AvianoRegular';
+}
+
+.forum-det section{
+    width:100%;
+    float: left;
+    padding:0 0 15px 0;
+    margin: 0;
+}
+
+.forum-det img{
+    width: 100%;
+}
+
+.forum-det article{
+    width:100%;
+    float: left;
+    padding:10px 0;
+    margin: 0;
+    border-top:1px solid #707070;
+}
+
+.forum-det article span{
+    width:100%;
+    float: left;
+    font-family: "AvianoBold";
+    font-size: 18px;
+}
+
+.forum-det article label{
+    width:100%;
+    float: left;
+    font-family: "AvianoRegular";
+    font-size: 15px;
+    padding: 2px 0 0;
+}
+
+.gallery-forum{
+    width:100%;
+    float: left;
+    padding:0px;
+    margin: 0;
+}
+
+.gallery-forum ul{
+    padding:15px 0 0 0;
+}
+
+.gallery-forum li{
+    width: 33.3%;
+    float: left;
+    padding:0 5px 0px 5px;
+    margin: 0;
+}
+
+.gallery-forum li a{
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.intervento{
+    width:90%;
+    float: left;
+    padding:15px 0;
+    margin: 0 0 0 20px;
+    
+    h3{
+        float: left;
+        padding: 10px;
+        margin: 0;
+        color: #FFFFFF;
+        font-family: "AvianoRegular";
+        background: #A59581;
+        font-size: 15px;
+    }
+    article{
+        width:100%;
+        float: left;
+        padding: 10px;
+        margin: 0;
+        background: rgba(255,255,255,.8);
+    }
+
+}
+
+ion-content::part(scroll) {
+  background: url('/assets/img/BgPage.jpg') repeat top !important;
+  min-height: 100vh;
+}
+
+.error{
+    float: left;
+    width: 100%;
+    margin: -10px 0 10px;
+    padding: 2px 5px 0;
+    color: red;
+}
+
+.valid{
+    float:left;
+    width: 100%;
+    margin:-12px 0 2px;
+    padding: 10px 5px;   
+    color: green; 
+    text-align: center;
+}
+
+.new-post-form ion-input, .new-post-form  ion-textarea {
+    font-family: 'GothamBook'!important;
+}
+
+.btn-new-forum{
+    font-family: "AvianoRegular";
+    background: #A59581;
+    float: left;
+    margin: -20px 20px 20px;
+    padding: 10px 40px;
+
+    a{
+        color: #fff!important;
+    }
+}
+
+.new-post{
+    h3{
+        font-family: "AvianoRegular";
+        float: left;
+        width: 100%;
+        padding: 0 22px;
+        margin: -5px 0 0;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .new-post-form{
+        float: left;
+        width: 90%;
+        margin: 0 5%;
+
+        li{
+            ion-input.custom-input, ion-textarea.custom-input {
+                font-family: "AvianoRegular";
+                --background: rgba(255,255,255,0.5);
+                --color: #333;
+                --border-color: #ccc;
+                --border-width: 1px;
+                --border-style: solid;
+                --border-radius: 4px;
+                --padding-start: 10px;
+                --padding-end: 10px;
+                margin-bottom: 12px;
+                width: 100%;
+                display: block;
+
+                &:last-child{
+                    border: none!important;
+                }
+            }
+
+            ion-textarea.custom-input{
+                min-height: 150px;
+            }
+        }
+
+    }
+}        
+
+ion-button.btn-sub{
+    float: right;
+    font-family: "AvianoRegular";
+    background: #A59581!important;
+    color: #fff;
+    /* Rimuove sfondo, bordi e padding */
+    --box-shadow: none !important;
+    --border-width: 0 !important;
+    --padding-start: 20px !important;
+    --padding-end: 20px !important;
+    --padding-top: 0 !important;
+    --padding-bottom: 0 !important;
+    --color: inherit;
+
+    /* Per sicurezza anche questi */
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+
+    /* Rimuove effetti click e bordo tondo */
+    --border-radius: 0 !important;        
+}

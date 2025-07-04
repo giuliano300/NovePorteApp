@@ -1,0 +1,96 @@
+<ion-content class="default-page">
+  <div>
+    <div *ngIf="preload" class="preload"><img src="../../assets/icon/spinner.gif"></div>
+
+    <div class="back">
+      <ul>
+        <li>
+          <a routerLink="/forum"><img src="assets/img/IcnBack.png" />Torna a {{f.categoria.categoriaForum}}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="forum-det">
+      <h1>{{f.forum.titolo}}</h1>
+      <h2>{{f.categoria.categoriaForum}}</h2>
+      <section>
+        <img src="{{f.forum.immagine}}" />
+      </section>
+      <article>
+        <span>{{f.utente.nome}} {{f.utente.cognome}}</span>
+        <label>da {{f.forum.citta}}, {{f.forum.data | date: 'dd/MM/yyyy hh:mm:ss'}}</label>
+      </article>
+      <article [innerHTML]="f.forum.descrizione">
+       </article>
+    </div>
+
+    <div class="btn-new-forum">
+      <a (click)='ShowNewPost();'>Intervenga</a>
+    </div>
+
+    <div class="new-post" id="new-post-det">
+      <h3>Aggiunga un nuovo contributo</h3>
+      <form [formGroup]="ionicForm" (ngSubmit)="submitDet()">
+        <div class="new-post-form">
+          <ul>
+            <li>
+              <ion-input type="text" placeholder="Inserisca il suo nome" formControlName="nome" class="custom-input"></ion-input>
+              <span class="error" *ngIf="isSubmitted && errorControl.nome.errors?.['required']">
+                Campo nome obbligatorio!
+              </span>
+            </li>
+            <li>
+              <ion-input type="text" placeholder="Inserisca il suo cognome" formControlName="cognome" class="custom-input"></ion-input>
+              <span class="error" *ngIf="isSubmitted && errorControl.cognome.errors?.['required']">
+                Campo cognome obbligatorio!
+              </span>
+            </li>
+            <li>
+              <ion-input type="text" placeholder="Inserisca la sua email" formControlName="email" class="custom-input"></ion-input>
+              <span class="error" *ngIf="isSubmitted && errorControl.email.errors?.['required']">
+                Campo email obbligatorio!
+              </span>         
+              <span class="error" *ngIf="isSubmitted && errorControl.email.errors?.['pattern']">
+                Inserisci una email valida!
+              </span>
+            </li>
+            <li>
+              <ion-input type="text" placeholder="Inserisca la città" formControlName="citta" class="custom-input"></ion-input>
+              <span class="error" *ngIf="isSubmitted && errorControl.citta.errors?.['required']">
+                Campo città obbligatorio!
+              </span>                  
+            </li>
+            <li>
+              <ion-input type="text" placeholder="Inserisca il titolo" formControlName="titolo" class="custom-input"></ion-input>
+              <span class="error" *ngIf="isSubmitted && errorControl.titolo.errors?.['required']">
+                Campo titolo obbligatorio!
+              </span>                           
+            </li>
+            <li>
+              <ion-textarea class="summernote custom-input" placeholder="Aggiunga il contenuto" formControlName="contenuto"></ion-textarea>
+              <span class="error" *ngIf="isSubmitted && errorControl.contenuto.errors?.['required']">
+                Campo contenuto obbligatorio!
+              </span>  
+            </li>
+              <li>
+              <ion-button class="btn-sub" type="submit" fill="clear">Invio</ion-button>
+            </li>
+            <li *ngIf="errors" class="error">Errore nella registrazione dell'intervento. Si prega di riprovare.</li>
+          </ul>
+        </div>
+      </form>
+    </div>
+  
+
+    <div class="intervento" *ngFor="let r of f.risposte">
+      <h3>{{r.utente.nome}} {{r.utente.cognome}}</h3>
+      <article [innerHtml]="r.forum.descrizione">
+     
+      </article>
+
+    </div>
+  
+    <ion-button class="btn-sub" fill="clear" (click)="gotoForum()">TORNI INDIETRO</ion-button>
+
+  </div>
+</ion-content>

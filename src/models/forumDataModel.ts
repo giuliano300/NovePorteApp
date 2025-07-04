@@ -1,0 +1,19 @@
+export class forumDataModel {
+    $id: number = 0;
+    id: number  = 0;
+    idCategoria: number  = 0;
+    idPadre: number = 0;
+    titolo: string = "";
+    descrizione: string = "";
+    attivo: boolean = true;
+    data: string = "";
+    dataUltimaModifica: string = "";
+    immagine: string = "";
+    citta: string = "";
+    keywords: string = "";
+    description: string = "";
+    subCategories: string = "";
+    nome: string = "";
+    cognome: string = "";
+    email: string = "";
+}

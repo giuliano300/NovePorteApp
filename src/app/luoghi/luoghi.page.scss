@@ -1,0 +1,33 @@
+.luoghi{
+    width:100%;
+    float: left;
+    padding:10vh 0 0 0;
+    margin:0;
+    font-family: AvianoRegular;
+}
+
+.luoghi li{
+    width: 100%;
+    float: left;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+.luoghi a{
+    width: 100%;
+    float: left;
+    padding:15px;
+    margin: 0;
+    background: rgba(95,168,178,.8);
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.luoghi img{
+    float: right;
+    padding: 3px 0 0 0;
+}
+.default-page{
+    background: url(/assets/img/BgPage.jpg) repeat top;
+    min-height: 100vh;
+}

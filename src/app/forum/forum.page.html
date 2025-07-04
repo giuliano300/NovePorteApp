@@ -1,0 +1,115 @@
+<ion-content>
+ 
+  
+  <div class="default-page"> 
+    
+    <div *ngIf="preload" class="preload"><img src="../../assets/icon/spinner.gif"></div>
+    
+    <h2 [innerHtml]="forumName"></h2>
+    
+
+  <div class="btn-new-forum">
+    <a (click)='ShowNewPost();'>NUOVO CONTRIBUTO +</a>
+  </div>
+
+  <div class="new-post" id="new-post">
+    <h3>Aggiunga un nuovo contributo in <br><span [innerHtml]="forumName"></span></h3>
+    <form [formGroup]="ionicForm" (ngSubmit)="submit()">
+      <div class="new-post-form">
+        <ul>
+          <li>
+            <ion-input type="text" formControlName="nome" label="Inserisca il suo nome" label-placement="floating" fill="solid"></ion-input>
+            <span class="error" *ngIf="isSubmitted && errorControl.nome.errors?.['required']">
+              Campo nome obbligatorio!
+            </span>
+          </li>
+          <li>
+            <ion-input type="text" label="Inserisca il suo cognome" formControlName="cognome" label-placement="floating" fill="solid"></ion-input>
+            <span class="error" *ngIf="isSubmitted && errorControl.cognome.errors?.['required']">
+              Campo cognome obbligatorio!
+            </span>
+          </li>
+          <li>
+            <ion-input type="text" label="Inserisca la sua email" formControlName="email" label-placement="floating" fill="solid"></ion-input>
+            <span class="error" *ngIf="isSubmitted && errorControl.email.errors?.['required']">
+              Campo email obbligatorio!
+            </span>         
+            <span class="error" *ngIf="isSubmitted && errorControl.email.errors?.['pattern']">
+              Inserisci una email valida!
+            </span>
+          </li>
+          <li>
+            <ion-input type="text" label="Inserisca la città" formControlName="citta" label-placement="floating" fill="solid"></ion-input>
+            <span class="error" *ngIf="isSubmitted && errorControl.citta.errors?.['required']">
+              Campo città obbligatorio!
+            </span>                  
+          </li>
+          <li>
+            <div class="select-category">
+              <ion-select placeholder="Selezioni con cura le categorie" multiple="true" cancelText="Cancella" okText="Ok" name="subs" formControlName="subs">
+                <ion-select-option *ngFor="let c of categorieForum" [value]="c.id">{{c.categoriaForum}}</ion-select-option>
+              </ion-select>
+            </div>  
+          </li>
+          <li>
+            <ion-input type="text" label="Inserisca il titolo" formControlName="titolo" label-placement="floating" fill="solid"></ion-input>
+            <span class="error" *ngIf="isSubmitted && errorControl.titolo.errors?.['required']">
+              Campo titolo obbligatorio!
+            </span>                           
+          </li>
+          <li>
+            <ion-textarea id="summernote" label="Aggiunga il contenuto" formControlName="contenuto"></ion-textarea>
+            <span class="error" *ngIf="isSubmitted && errorControl.contenuto.errors?.['required']">
+              Campo contenuto obbligatorio!
+            </span>  
+          </li>
+          <li>
+            <h4>Selezioni l'immagine di anteprima</h4>
+            <input type="file" (change)="fileProgress($event)" name="file" formControlName="file" label-placement="floating" fill="solid" />
+            <span class="error" *ngIf="isSubmitted && errorControl.file.errors?.['required']">
+              Campo immagine obbligatorio!
+            </span>  
+          </li>
+          <li>
+            <ion-button type="submit" expand="full">Invio</ion-button>
+          </li>
+          <li *ngIf="errors" class="error">Errore nella registrazione dell'intervento. Si prega di riprovare.</li>
+        </ul>
+      </div>
+    </form>
+  </div>
+
+  <div class="select-category" *ngIf="!notSubs">
+    <ion-select placeholder="Categorie" [ngModel]="selectedCategory" (ngModelChange)="onChange($event)">
+      <ion-select-option  *ngFor="let c of categorieForum" [value]="c.id">{{c.categoriaForum}}</ion-select-option>
+     </ion-select>
+</div>
+
+
+  <div class="forum-list" *ngFor="let f of forum">
+    <a (click)="gotoForum(f.forum.id)">
+      <div class="title-forum">
+        <div class="container-forum">
+          <img src="{{f.forum.immagine}}" />
+        </div> 
+        <span>
+          {{f.forum.titolo}}
+        </span>
+      </div>
+      <article>
+        <span>{{f.utente}}</span>
+      </article>
+      <article>
+        <strong>Categoria:</strong> {{f.categoria}}
+        <br><br>
+        N. INTERVENTI:<strong> {{f.numeroInterventi}}</strong>
+      </article>
+      <article [innerHTML]="truncateChar(f.forum.descrizione,250)">
+      </article>        
+      <strong>continua...</strong>
+    </a>
+  </div>
+  </div>
+
+
+</ion-content>

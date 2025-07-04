@@ -1,0 +1,35 @@
+<ion-content>
+  <div class="default-page">
+    <div *ngIf="preload" class="preload"><img src="../../assets/icon/spinner.gif"></div>
+    <h1><span>E</span>venti Celebrati</h1>
+  
+    <div class="back">
+      <ul>
+        <li>
+          <a routerLink="/eventi"><img src="assets/img/IcnBack.png" />Torna Indietro</a>
+        </li>
+      </ul>
+    </div>
+
+  
+    <div class="eventi-list">
+      <section  *ngFor="let event of events">
+        <a  (click)="gotoEvent(event.id)">
+          <article>
+            <img src="https://noveporte.it/Public/FotoNews/{{event.foto}}" />
+              <h3>
+                {{event.titolo}}<br>
+                <span>
+                  {{event.riassunto}}
+                </span>
+              </h3>
+          </article>
+          <h4>
+            {{event.luogo}}
+            <span>{{event.data | date: 'dd/MM/yyyy'}}</span>
+          </h4>
+        </a>  
+      </section>
+    </div> 
+  </div>
+  </ion-content>

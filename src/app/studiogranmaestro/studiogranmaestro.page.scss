@@ -1,0 +1,51 @@
+.gran-maestro{
+    width:100%;
+    float: left;
+    padding:30px 0 0 0;
+    margin:0;
+}
+
+.gran-maestro li{
+    width: 100%;
+    float: left;
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-family: AvianoRegular;
+}
+
+.gran-maestro a{
+    width: 100%;
+    float: left;
+    padding:10px 15px;
+    margin: 0;
+    background: rgba(95,168,178,.8);
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.gran-maestro li a img{
+    float: right;
+    padding: 3px 0 0 0;
+}
+
+
+.gran-maestro article img{
+    width:100%;
+    float: left;
+    padding:0 0 15px 0;
+    margin: 0;
+}
+
+.gran-maestro article span{
+    width:100%;
+    float: left;
+    border-top:1px solid #666;
+    margin: 15px 0 0 0;
+    padding:15px 0 30px 0;
+    font-weight: bold;
+}
+
+.default-page{
+    background: url(/assets/img/BgPage.jpg) repeat top;
+    min-height: 100vh;
+}

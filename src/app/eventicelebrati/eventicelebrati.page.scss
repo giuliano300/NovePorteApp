@@ -1,0 +1,42 @@
+.default-page{
+    background: url(/assets/img/BgPage.jpg) repeat top;
+    min-height: 100vh;
+}
+
+h2{
+    font-size: 14px;
+    font-family: 'GothamBook';
+    color: rgb(95 168 178 / 100%);
+}
+
+h3{
+    font-size: 15px;
+    font-family: 'GothamBook';
+    color: black;
+    margin:10px 0 0;
+    line-height: 20px;
+    padding: 0;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 12px;
+    font-family: 'GothamBook';
+    color: black;
+    margin:8px 0 25px;
+    padding: 0 0 10px;
+    border-bottom: solid 1px #ccc;
+    font-weight: 600;
+}
+
+.eventi-list{
+    margin: 10px;
+}
+
+.back{
+    margin: 20px 10px 0;
+
+    a{
+        color: rgb(95 168 178 / 100%);
+    }
+}

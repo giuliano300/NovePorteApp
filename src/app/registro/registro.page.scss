@@ -1,0 +1,29 @@
+.registro{
+    width:100%;
+    float: left;
+    padding: 30px 0 30px 0;
+    margin: 0;
+    border-bottom: 1px solid #707070;
+}
+
+.default-page{
+    background: url(/assets/img/BgPage.jpg) repeat top;
+    min-height: 100vh;
+}
+
+.error{
+    float:left;
+    width: 100%;
+    margin:-12px 0 2px;
+    padding: 2px 5px;   
+    color: red; 
+}
+
+.valid{
+    float:left;
+    width: 100%;
+    margin:-12px 0 2px;
+    padding: 10px 5px;   
+    color: green; 
+    text-align: center;
+}

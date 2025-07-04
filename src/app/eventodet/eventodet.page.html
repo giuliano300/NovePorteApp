@@ -1,0 +1,43 @@
+<ion-content>
+  <div class="default-page">
+    <div *ngIf="preload" class="preload"><img src="../../assets/icon/spinner.gif"></div>
+    <div class="back-eventi">
+      <ul>
+        <li *ngIf="type">
+          <a routerLink="/eventi"><img src="assets/img/IcnBack.png" />Torni Indietro</a>
+        </li>        
+        <li *ngIf="!type">
+          <a routerLink="/eventicelebrati"><img src="assets/img/IcnBack.png" />Torni Indietro</a>
+        </li>
+      </ul>
+    </div>
+
+  
+    <div class="evento-det">
+      <section>
+          <article>
+            <img src="https://noveporte.it/Public/FotoNews/{{event.foto}}" />
+              <h3>
+                {{event.titolo}}
+                <span>
+                  {{event.riassunto}}
+                </span>
+              </h3>
+          </article>
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva}}" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva1}}" [ngClass]="event.fotoSostitutiva1!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva2}}" [ngClass]="event.fotoSostitutiva2!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva3}}" [ngClass]="event.fotoSostitutiva3!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva4}}" [ngClass]="event.fotoSostitutiva4!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva5}}" [ngClass]="event.fotoSostitutiva5!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva6}}" [ngClass]="event.fotoSostitutiva6!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva7}}" [ngClass]="event.fotoSostitutiva7!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva8}}" [ngClass]="event.fotoSostitutiva8!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva9}}" [ngClass]="event.fotoSostitutiva9!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva10}}" [ngClass]="event.fotoSostitutiva10!=='' ? 'hide':''" />
+          <img src="https://noveporte.it/Public/FileUpload/{{event.fotoSostitutiva11}}" [ngClass]="event.fotoSostitutiva11!=='' ? 'hide':''" />
+        </section>
+    </div>
+  
+  </div>
+  </ion-content>

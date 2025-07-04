@@ -1,0 +1,52 @@
+<ion-content>
+  <div class="default-page">
+    <h1><span>L</span>ettere all'ordine</h1>
+    
+    
+    <div class="default-form">
+      <form [formGroup]="ionicForm" (ngSubmit)="submitForm()" novalidate>
+        <ion-input type="text" placeholder="Nome" required formControlName="nome"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.nome.errors?.['required']">
+          Campo nome obbligatorio!
+        </span>
+        <span class="error" *ngIf="isSubmitted && errorControl.nome.errors?.['minlength']">
+          il nome deve essere almeno 3 lettere
+        </span>
+        <ion-input type="text" placeholder="Cognome" required formControlName="cognome"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.cognome.errors?.['required']">
+          Campo cognome obbligatorio!
+        </span>
+        <span class="error" *ngIf="isSubmitted && errorControl.cognome.errors?.['minlength']">
+          il cognome deve essere almeno 3 lettere
+        </span>
+       <ion-input type="email" placeholder="Email" required formControlName="email"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.email.errors?.['required']">
+          Campo email obbligatorio!
+        </span>
+        <span class="error" *ngIf="isSubmitted && errorControl.email.errors?.['pattern']">
+          Inserisci una email valida!
+        </span>
+
+        <ion-textarea placeholder="Testo" required formControlName="testo"></ion-textarea>
+        <span class="error" *ngIf="isSubmitted && errorControl.testo.errors?.['required']">
+          Campo testo obbligatorio!
+        </span>
+       <ion-button type="submit">Invia</ion-button>
+      </form>
+      <span class="valid" *ngIf="isSubmitted && isValid">
+        Email inviata correttamente
+      </span>
+    
+    </div>
+  
+    <div class="back-int">
+      <ul>
+        <li>
+          <a href="javascript:history.go(-1)"><img src="assets/img/IcnBack.png" />Torna Indietro</a>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+  </ion-content>

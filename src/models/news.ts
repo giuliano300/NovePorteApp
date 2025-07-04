@@ -1,0 +1,31 @@
+export class news {
+    $id: number = 0;
+    id: number = 0;
+    data: Date = new Date();
+    titolo:string = "";
+    descrizione:string = "";
+    foto:string = "";
+    attiva:boolean  = false;
+    keywordsPage:string = "";
+    descriptionPage:string = "";
+    riassunto:string = "";
+    allegato:string = "";
+    luogo:string = "";
+    fotoSostitutiva:string = "";
+    fotoSostitutiva1:string = "";
+    fotoSostitutiva2:string = "";
+    fotoSostitutiva3:string = "";
+    fotoSostitutiva4:string = "";
+    fotoSostitutiva5:string = "";
+    fotoSostitutiva6:string = "";
+    fotoSostitutiva7:string = "";
+    fotoSostitutiva8:string = "";
+    fotoSostitutiva9:string = "";
+    fotoSostitutiva10:string = "";
+    fotoSostitutiva11:string = "";
+    nomeAllegato:string = "";
+    nomeAllegato1:string = "";
+    allegato1:string = "";
+    video:string = "";
+    visDettaglio:boolean = false;
+}

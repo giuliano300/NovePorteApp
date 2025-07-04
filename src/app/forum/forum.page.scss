@@ -1,0 +1,187 @@
+ion-select {
+    --placeholder-color: #FFFFFF;
+    --placeholder-opacity: 1;
+    font-family: 'GothamBook';
+  }
+
+.select-category{
+    width:100%;
+    float: left;
+    padding:0 15px;
+    margin:15px 0;
+    background: #A59581;
+}
+
+.forum-list{
+    width:100%;
+    float: left;
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+
+.title-forum{
+    width:100%;
+    min-height: 200px;
+    float: left;
+    padding: 0px;
+    margin: 0 0 20px;
+    position: relative;
+
+}
+
+.title-forum span{
+    width:100%;
+    float: left;
+    padding: 15px;
+    z-index: 200;
+    color: #FFF;
+    background: rgba(73,72,69,.9);
+    font-size: 16px;
+    font-family: 'AvianoRegular';
+}
+
+.forum-list article{
+    width:100%;
+    float: left;
+    padding:10px 0;
+    margin: 0;
+    border-top:1px solid #707070;
+    font-family: 'GothamBook';
+    color: #333;
+}
+
+.forum-list article span{
+    font-family: "AvianoBold";
+    font-size: 16px;
+    color: #A59581;
+}
+
+.forum-list strong{
+    font-family: "GothamBook";
+    font-size: 15px;
+    color:#333;
+}
+
+.forum-list article strong{
+    font-family: "GothamBook";
+    font-size: 15px;
+    color:#333;
+}
+
+.default-page{
+    background: url(../../assets/img/BgPage.jpg) repeat top;
+    min-height: 100vh;
+    padding:55px 20px 20px;
+}
+
+.container-forum{
+    max-height: 250px;
+    height: 205px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    width: 100%;
+
+    img{
+        float: left;
+        width: 120%;
+        position: absolute!important;
+        top:-50px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.hide{
+    display: none;
+}
+
+.error{
+    float:left;
+    width: 100%;
+    margin:0px 0 -10px;
+    padding: 2px 5px 0;   
+    color: red; 
+}
+
+.valid{
+    float:left;
+    width: 100%;
+    margin:-12px 0 2px;
+    padding: 10px 5px;   
+    color: green; 
+    text-align: center;
+}
+
+.new-post-form ion-input, .new-post-form  ion-textarea {
+    font-family: 'GothamBook'!important;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'GothamBook';
+    color: #534741;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 15px;
+    font-family: 'GothamBook';
+    color: black;
+    margin:10px 0 0;
+    line-height: 20px;
+    padding: 0;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 12px;
+    font-family: 'GothamBook';
+    color: black;
+    margin:8px 0 25px;
+    padding: 0 0 10px;
+    border-bottom: solid 1px #ccc;
+    font-weight: 400;
+}
+
+.btn-new-forum{
+    background: #A59581;
+    color: #fff;
+    padding: 10px;
+
+    a{
+        color: #FFF;
+        font-family: 'GothamBook';
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+
+ion-input{
+    border: solid 1px #707070;
+    padding: 0px 10px!important;
+    margin-bottom: 10px;
+}
+
+#new-post{
+    display: none;
+}
+
+ul li {
+    float: left;
+    width: 100%;
+}
+
+ion-button{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    --background:rgb(95, 168, 178);
+    --color:#fff;
+}
+
+.title-forum{
+    
+}

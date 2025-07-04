@@ -1,20 +1,28 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="cittadella">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <!--HOMEPAGE-->
+    <div class="homepage">
+        <section>
+            <a routerLink="/porte">
+                <img src="assets/img/ImgPorta.png" />
+                <h3><span>P</span>orte</h3>
+            </a>
+        </section>
+        <section>
+            <a routerLink="/luoghi">
+                <img src="assets/img/ImgLuoghi.png" />
+                <h3><span>L</span>uoghi</h3>
+            </a>
+        </section>
+        <section>
+            <a routerLink="/fortezza">
+                <img src="assets/img/ImgFortezza.png" />
+                <h3><span>F</span>ortezza</h3>
+            </a>
+        </section>
+    </div>
+    <!--end HOMEPAGE--> 
+
+</div>
 </ion-content>

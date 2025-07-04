@@ -1,0 +1,86 @@
+<ion-content>
+  <div class="default-page">
+    <h1><span>R</span>egistro</h1>
+
+    <div class="registro">
+      <article>
+        La registrazione non comporta alcun impegno, nè l'assunzione della qualità di socio. 
+        I dati personali resteranno custoditi in una rubrica dei Simpatizzanti e utilizzati dall'Associazione unicamente per la spedizione, 
+        lungo un periodo limitato di tempo, di parte della Posta dei Cavalieri. Non è possibile iscriversi direttamente dal sito. 
+        Per qualsiasi chiarimento, commento o critica, scrivete a "cavalleresco.ordine-noveporte.it". Ogni lettera troverà risposta.
+      </article>
+    </div>
+    
+    
+    <div class="default-form">
+      <form [formGroup]="ionicForm" (ngSubmit)="submitForm()" novalidate>
+        <ion-input type="text" placeholder="Nome" required formControlName="nome"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.nome.errors?.['required']">
+          Campo nome obbligatorio!
+        </span>
+        <span class="error" *ngIf="isSubmitted && errorControl.nome.errors?.['minlength']">
+          il nome deve essere almeno 3 lettere
+        </span>
+        <ion-input type="text" placeholder="Cognome" required formControlName="cognome"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.cognome.errors?.['required']">
+          Campo cognome obbligatorio!
+        </span>
+        <span class="error" *ngIf="isSubmitted && errorControl.cognome.errors?.['minlength']">
+          il cognome deve essere almeno 3 lettere
+        </span>
+      
+        <ion-input type="text" placeholder="Indirizzo" required formControlName="indirizzo"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.indirizzo.errors?.['required']">
+          Campo indirizzo obbligatorio!
+        </span>
+
+        <ion-input type="text" placeholder="Citt&agrave;" required formControlName="citta"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.citta.errors?.['required']">
+          Campo città obbligatorio!
+        </span>
+       
+        <ion-input type="text" placeholder="Et&agrave;" required formControlName="eta"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.eta.errors?.['required']">
+          Campo età obbligatorio!
+        </span>
+
+        <ion-input type="text" placeholder="Cellulare" required formControlName="cellulare"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.cellulare.errors?.['required']">
+          Campo cellulare obbligatorio!
+        </span>
+
+        <ion-input type="text" placeholder="Email" required formControlName="email"></ion-input>
+        <span class="error" *ngIf="isSubmitted && errorControl.email.errors?.['required']">
+          Campo email obbligatorio!
+        </span> 
+        <span class="error" *ngIf="isSubmitted && errorControl.email.errors?.['pattern']">
+          Inserisci una email valida!
+        </span>
+
+        <ion-textarea placeholder="Interessi" required formControlName="interessi"></ion-textarea>
+        <span class="error" *ngIf="isSubmitted && errorControl.interessi.errors?.['required']">
+          Campo obbligatorio!
+        </span> 
+
+        <ion-textarea placeholder="Come ha saputo del Cavalleresco Ordine?" required formControlName="come"></ion-textarea>
+        <span class="error" *ngIf="isSubmitted && errorControl.come.errors?.['required']">
+          Campo obbligatorio!
+        </span> 
+        <ion-button type="submit">Invia</ion-button>
+      </form>
+      <span class="valid" *ngIf="isSubmitted && isValid">
+        Email inviata correttamente
+      </span>
+    </div>
+
+    <div class="back-int">
+      <ul>
+        <li>
+          <a href="javascript:history.go(-1)"><img src="assets/img/IcnBack.png" />Torna Indietro</a>
+        </li>
+      </ul>
+    </div>
+
+  
+  </div>
+  </ion-content>

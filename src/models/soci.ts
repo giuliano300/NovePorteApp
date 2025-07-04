@@ -1,0 +1,36 @@
+export class soci {
+    $id: number | undefined ;
+    id: number | undefined ;
+    nome: string | undefined ;
+    cognome:string | undefined ;
+    idTipoSocio:string | undefined;
+    comune:string | undefined;
+    provincia:boolean | undefined;
+    cap:string | undefined;
+    email:string | undefined;
+    indirizzo:string | undefined;
+    immagine:string | undefined;
+    idPrefettura:string | undefined;
+    annoIscrizione:string | undefined;
+    telCasa:string | undefined;
+    telUfficio:string | undefined;
+    cellulare:string | undefined;
+    dataNascita:string | undefined;
+    titoliNobiliari:string | undefined;
+    attivita:string | undefined;
+    libereIniziative:string | undefined;
+    sport:string | undefined;
+    interessi:string | undefined;
+    ioSono:string | undefined;
+    ioNonSono:string | undefined;
+    mieiGusti:string | undefined;
+    mieiNemici:string | undefined;
+    mieiMaestri:string | undefined;
+    unMotto:string | undefined;
+    visibile:boolean | undefined;
+    titolo:string | undefined;
+    mieiMiti:string | undefined;
+    passwordlogin:string | undefined;
+    dataMotivoUscita:string | undefined;
+    gestione:boolean | undefined;
+}
