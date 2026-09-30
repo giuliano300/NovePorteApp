@@ -1,0 +1,49 @@
+:host { display: block; }
+.cittadella { background: #efddb9; height: 100vh; min-height: 650px; overflow: hidden; position: relative; }
+.map { display: block; height: 100%; min-width: 100%; object-fit: cover; object-position: top center; width: 100%; }
+.map-link { font-family: AvianoBold, sans-serif; font-size: 20px; font-style: normal; font-weight: 400; line-height: 1.1; position: absolute; transition: color .18s ease, text-shadow .18s ease; z-index: 4; }
+.map-link:hover { color: #100d0b; text-shadow: 0 0 8px rgba(255,246,214,.8); }
+.fortezza-hit { height: 25%; left: 18%; position: absolute; top: 36%; width: 12%; z-index: 3; }
+.arte { left: 28.5%; top: 32%; }
+.donne { left: 40%; top: 22%; }
+.nona-porta { left: 52%; top: 19.5%; }
+.tauromachia { right: 22%; top: 25%; }
+.gioco { right: 13%; top: 44.5%; }
+.fumo { bottom: 24%; right: 12%; }
+.gola { bottom: 10%; right: 19%; }
+.abbigliamento { bottom: 3%; right: 36%; }
+.azione { bottom: 6%; right: 52%; }
+.dandy { right: 8.5%; top: 37%; }
+.registro { bottom: 2.5%; right: 10.5%; }
+.atti { bottom: 10%; left: 8%; }
+.panopticon { left: 33%; top: 47%; }
+.lettere { bottom: 4%; left: 26%; max-width: 150px; text-align: center; }
+.salotto { left: 55%; top: 38%; }
+.maestro { right: 26%; top: 51%; }
+.eventi { right: 42.8%; top: 47.5%; }
+.fondaco { bottom: 21.8%; left: 41%; }
+.fornitori { bottom: 19.2%; left: 49.5%; }
+.portico { bottom: 19.2%; right: 30%; }
+
+@media (max-width: 1440px) {
+  .map { height: auto; min-height: 100%; width: 105%; }
+  .map-link { font-size: 17px; }
+  .arte { left: 29%; top: 31%; }
+  .donne { left: 41%; top: 21%; }
+  .nona-porta { left: 54%; top: 18%; }
+  .tauromachia { right: 17%; top: 23%; }
+  .gioco { right: 8%; top: 42%; }
+  .fumo { bottom: 26%; right: 7%; }
+  .gola { bottom: 12%; right: 15%; }
+  .abbigliamento { bottom: 5%; right: 32%; }
+  .azione { bottom: 9%; right: 49%; }
+  .dandy { right: 3%; top: 35%; }
+}
+
+@media (max-width: 760px) {
+  .cittadella { height: auto; min-height: 100vh; overflow: visible; }
+  .map { height: auto; min-height: 0; width: 100%; }
+  .fortezza-hit { display: none; }
+  .map-link { background: rgba(140,134,117,.86); color: #fff; display: block; padding: 14px 10px; position: static; text-align: center; }
+  .map-link:nth-of-type(odd) { background: rgba(83,71,65,.9); }
+}

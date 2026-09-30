@@ -1,0 +1,64 @@
+:host { background: #e4dccd; display: block; min-height: 100vh; overflow: hidden; }
+.entrance-header { display: none; }
+.animation-fortezza { animation: fortezza-fade 600ms ease both; background: url('/Images/BgCastello.jpg') no-repeat; display: block; height: 100vh; margin: 0; overflow: hidden; padding: 0; position: relative; width: 100%; }
+.bg-castello { animation: castle-rise 1s ease 500ms both; height: 100vh; left: 0; margin: 0; padding: 0; position: absolute; top: 0; width: 100%; z-index: 100; }
+.bg-castello img { display: block; width: 100%; }
+.cavaliere { margin: 0; padding: 0; position: absolute; z-index: 300; }
+.cavaliere img { display: block; width: 100%; }
+.cavaliere-1 { animation: rider-one 8.8s linear both; bottom: 0; right: -50%; width: 500px; }
+.cavaliere-1 img { animation: rider-one-scale 8.8s linear both; }
+.cavaliere-2 { animation: rider-two 8.8s linear both; bottom: 3%; opacity: 0; right: 44%; width: 355px; }
+.cavaliere-2 img { animation: rider-two-scale 8.8s linear both; }
+.cavaliere-3 { animation: rider-three 8.8s linear both; left: 30%; opacity: 0; top: 40%; width: 187px; }
+.cavaliere-3 img { animation: rider-three-scale 8.8s linear both; }
+
+@keyframes fortezza-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes castle-rise {
+  from { opacity: 0; transform: translate3d(0, 100%, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+@keyframes rider-one {
+  0%, 17.045% { opacity: 1; right: -50%; }
+  34.091%, 42.045% { opacity: 1; right: 0; }
+  50%, 52.273% { opacity: 1; right: 20%; }
+  55.682%, 100% { opacity: 0; right: 20%; }
+}
+@keyframes rider-one-scale {
+  0%, 29.545% { width: 100%; }
+  37.5%, 100% { width: 90%; }
+}
+@keyframes rider-two {
+  0%, 51.136% { bottom: 3%; opacity: 0; right: 44%; }
+  56.818%, 60.227% { bottom: 3%; opacity: 1; right: 44%; }
+  69.318%, 72.727% { bottom: 10%; opacity: 1; right: 50%; }
+  75%, 100% { bottom: 10%; opacity: 0; right: 50%; }
+}
+@keyframes rider-two-scale {
+  0%, 60.227% { width: 100%; }
+  69.318%, 100% { width: 88%; }
+}
+@keyframes rider-three {
+  0%, 72.727% { left: 30%; opacity: 0; top: 40%; }
+  75%, 82.955% { left: 30%; opacity: 1; top: 40%; }
+  100% { left: 31%; opacity: 1; top: 35%; }
+}
+@keyframes rider-three-scale {
+  0%, 82.955% { width: 100%; }
+  100% { width: 82%; }
+}
+
+@media (max-width: 1440px) {
+  .cavaliere-1 { width: 400px; }
+  .cavaliere-2 { width: 230px; }
+  .cavaliere-3 { width: 100px; }
+  @keyframes rider-three { 0%, 72.727% { left: 30%; opacity: 0; top: 40%; } 75%, 82.955% { left: 30%; opacity: 1; top: 40%; } 100% { left: 35%; opacity: 1; top: 35%; } }
+}
+@media (max-width: 1300px) {
+  .cavaliere-1 { width: 350px; }
+  .cavaliere-2 { width: 180px; }
+  .cavaliere-3 { width: 80px; }
+}
+@media (max-width: 991px) {
+  :host { overflow: auto; }
+  .entrance-header { display: block; }
+}

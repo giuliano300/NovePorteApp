@@ -1,0 +1,3870 @@
+{
+  "generatedAt": "2026-09-30T08:43:32.136Z",
+  "origin": "https://noveporte.it",
+  "count": 761,
+  "pages": {
+    "/castello": {
+      "path": "/Castello",
+      "title": "Castello",
+      "file": "manual-castello.json"
+    },
+    "/panopticon/lepanoramiche.aspx": {
+      "path": "/Panopticon/LePanoramiche.aspx",
+      "title": "Le panoramiche",
+      "file": "8f3350e67eb7376c.json"
+    },
+    "/salottolancillotto": {
+      "path": "/SalottoLancillotto",
+      "title": "Il Salotto Di Lancillotto",
+      "file": "af7046daf44e8765.json"
+    },
+    "/elencofornitori.aspx": {
+      "path": "/ElencoFornitori.aspx",
+      "title": "Fornitori",
+      "file": "22d1e7ddea4df006.json"
+    },
+    "/ildandy": {
+      "path": "/IlDandy",
+      "title": "Il Dandy",
+      "file": "359557ad3e7bbb59.json"
+    },
+    "/studio": {
+      "path": "/Studio",
+      "title": "Studio del Gran Maestro",
+      "file": "f35e2b1365dd155a.json"
+    },
+    "/portico": {
+      "path": "/Portico",
+      "title": "Il portico dei maestri",
+      "file": "55ef13182f4c3244.json"
+    },
+    "/registro.aspx": {
+      "path": "/Registro.aspx",
+      "title": "Registro",
+      "file": "9ad6dbc7d19d8024.json"
+    },
+    "/lettereordine.aspx": {
+      "path": "/LettereOrdine.aspx",
+      "title": "Lettere all'ordine",
+      "file": "9583b10c18184cd3.json"
+    },
+    "/atti.aspx": {
+      "path": "/Atti.aspx",
+      "title": "Atti",
+      "file": "1b92f026feffdfff.json"
+    },
+    "/forum/dettaglio-forum/arte-1": {
+      "path": "/Forum/Dettaglio-Forum/Arte-1",
+      "title": "Laboratorio della porta dell'Arte",
+      "file": "3d3f98b523a0cc56.json"
+    },
+    "/forum/dettaglio-forum/azione-4": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4",
+      "title": "Laboratorio della porta dell'Azione",
+      "file": "f0c32ebd60527acf.json"
+    },
+    "/forum/dettaglio-forum/tauromachia-3": {
+      "path": "/Forum/Dettaglio-Forum/Tauromachia-3",
+      "title": "Laboratorio della porta della Tauromachia",
+      "file": "f00742e59b44bd97.json"
+    },
+    "/forum/dettaglio-forum/fumo-5": {
+      "path": "/Forum/Dettaglio-Forum/Fumo-5",
+      "title": "Laboratorio della porta del Fumo",
+      "file": "a74aaa7e2ac9356d.json"
+    },
+    "/forum/dettaglio-forum/gioco-6": {
+      "path": "/Forum/Dettaglio-Forum/Gioco-6",
+      "title": "Laboratorio della porta del Gioco",
+      "file": "d7fba23e797c3fbf.json"
+    },
+    "/forum/dettaglio-forum/donne-2": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2",
+      "title": "Laboratorio della porta delle Donne",
+      "file": "20f89bb94602a2d0.json"
+    },
+    "/forum/dettaglio-forum/gola-8": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8",
+      "title": "Laboratorio della porta della Gola",
+      "file": "68b8bd76d00fa5ec.json"
+    },
+    "/eventi": {
+      "path": "/Eventi",
+      "title": "Eventi",
+      "file": "b2fbfd6d7a09a18f.json"
+    },
+    "/salottolancillotto.aspx": {
+      "path": "/SalottoLancillotto.aspx",
+      "title": "Il Salotto Di Lancillotto",
+      "file": "e622e62c05bf781d.json"
+    },
+    "/ildandy.aspx": {
+      "path": "/IlDandy.aspx",
+      "title": "Il Dandy",
+      "file": "3df1c6e8d7dbbe8d.json"
+    },
+    "/portico.aspx": {
+      "path": "/Portico.aspx",
+      "title": "Il portico dei maestri",
+      "file": "79a4f401c132cdde.json"
+    },
+    "/registro": {
+      "path": "/Registro",
+      "title": "Registro",
+      "file": "6543e21d88e0168b.json"
+    },
+    "/rubricalancillotto.aspx": {
+      "path": "/RubricaLancillotto.aspx",
+      "title": "La Rubrica",
+      "file": "1cb9821866a8f68d.json"
+    },
+    "/monologhi.aspx": {
+      "path": "/Monologhi.aspx",
+      "title": "Monologhi di Ser Lancillotto",
+      "file": "f88dee2ebbfc31c1.json"
+    },
+    "/compendio.aspx": {
+      "path": "/Compendio.aspx",
+      "title": "Il Salotto Di Lancillotto",
+      "file": "1e719ca3ccf53a1c.json"
+    },
+    "/forum/dettaglio-forum/la-nona-porta-9": {
+      "path": "/Forum/Dettaglio-Forum/La-nona-porta-9",
+      "title": "Laboratorio della porta della La nona porta",
+      "file": "55cb8fcf84d66ef3.json"
+    },
+    "/forum/dettaglio-forum/conversazioni-di-lancillotto-87": {
+      "path": "/Forum/Dettaglio-Forum/Conversazioni-di-Lancillotto-87",
+      "title": "Conversazioni con Lancillotto",
+      "file": "ec2343c7460097dc.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7",
+      "title": "Laboratorio della porta dell'Abbigliamento",
+      "file": "15da641bdb2f71a4.json"
+    },
+    "/forum/dettaglio-forum/scrivaniagranmaestro-86": {
+      "path": "/Forum/Dettaglio-Forum/ScrivaniaGranMaestro-86",
+      "title": "La Scrivania del Gran Maestro",
+      "file": "3ab08c323900449c.json"
+    },
+    "/panopticon/cinemaclassico.aspx": {
+      "path": "/Panopticon/CinemaClassico.aspx",
+      "title": "Il cinema classico",
+      "file": "973a7e5b13e76cf5.json"
+    },
+    "/panopticon/introduzione.aspx": {
+      "path": "/Panopticon/Introduzione.aspx",
+      "title": "Introduzione",
+      "file": "26a0d7f326d22514.json"
+    },
+    "/panopticon/panoramica1.aspx": {
+      "path": "/Panopticon/Panoramica1.aspx",
+      "title": "Dell'industria e delle star",
+      "file": "a143639955be4f49.json"
+    },
+    "/panopticon/panoramica2.aspx": {
+      "path": "/Panopticon/Panoramica2.aspx",
+      "title": "Cinema De-Genere",
+      "file": "e14722e8b8a7d4ab.json"
+    },
+    "/forum/dettaglio-forum/campocontrocampo-88": {
+      "path": "/Forum/Dettaglio-Forum/CampoControCampo-88",
+      "title": "Campo e Controcampo",
+      "file": "1b63dd38b239c412.json"
+    },
+    "/panopticon/panoramica3.aspx": {
+      "path": "/Panopticon/Panoramica3.aspx",
+      "title": "Barlume di classico",
+      "file": "ae12a246411c8e0d.json"
+    },
+    "/panopticon/panoramica4.aspx": {
+      "path": "/Panopticon/Panoramica4.aspx",
+      "title": "L'inizio della fine",
+      "file": "701f3aaa4de9e3f2.json"
+    },
+    "/panopticon/panoramica5.aspx": {
+      "path": "/Panopticon/Panoramica5.aspx",
+      "title": "L'inizio della fine",
+      "file": "5dfb2e5a14a839cb.json"
+    },
+    "/panopticon/panoramica6.aspx": {
+      "path": "/Panopticon/Panoramica6.aspx",
+      "title": "Titoli e mestieri",
+      "file": "f36add69bbeb9a7c.json"
+    },
+    "/panopticon/panoramica7.aspx": {
+      "path": "/Panopticon/Panoramica7.aspx",
+      "title": "Ai minimi termini",
+      "file": "94b3020d6c2fd4da.json"
+    },
+    "/ombraportico.aspx": {
+      "path": "/OmbraPortico.aspx",
+      "title": "Il portico dei maestri",
+      "file": "d8be4e406f88b919.json"
+    },
+    "/dandy/cronologiateorica": {
+      "path": "/Dandy/CronologiaTeorica",
+      "title": "Cronologia Teorica",
+      "file": "203e579ac86532d1.json"
+    },
+    "/dandy/eccentrico": {
+      "path": "/Dandy/Eccentrico",
+      "title": "L' Eccentrico",
+      "file": "f2c5813cc29485a1.json"
+    },
+    "/dandy/dizionario": {
+      "path": "/Dandy/Dizionario",
+      "title": "Documenti",
+      "file": "d7a43efc35ab27dc.json"
+    },
+    "/forum/dettaglio-forum/postagranmaestro-11": {
+      "path": "/Forum/Dettaglio-Forum/PostaGranMaestro-11",
+      "title": "La Posta del Gran Maestro",
+      "file": "9da473b1b8808ec8.json"
+    },
+    "/dandy/snob": {
+      "path": "/Dandy/Snob",
+      "title": "Lo Snob",
+      "file": "4fc63ffcf656421f.json"
+    },
+    "/dandy/naturaartificio": {
+      "path": "/Dandy/NaturaArtificio",
+      "title": "Natura e Artificio",
+      "file": "c37324288f7bf136.json"
+    },
+    "/dandy/eleganza": {
+      "path": "/Dandy/Eleganza",
+      "title": "Eleganza",
+      "file": "1a30d48da825636b.json"
+    },
+    "/dandy/divisaestetica": {
+      "path": "/Dandy/DivisaEstetica",
+      "title": "Divisa Estetica",
+      "file": "389f5053b0aeb3fb.json"
+    },
+    "/dandy/fioreocchiello": {
+      "path": "/Dandy/FioreOcchiello",
+      "title": "Fiore all'occhiello",
+      "file": "be8351cef922b16b.json"
+    },
+    "/dandy/yellowbook": {
+      "path": "/Dandy/YellowBook",
+      "title": "Yellow book & Savoy",
+      "file": "89fb3cbc9c315ebe.json"
+    },
+    "/dandy/bastonepasseggio": {
+      "path": "/Dandy/BastonePasseggio",
+      "title": "Il bastone da passeggio",
+      "file": "992850aafd0402f6.json"
+    },
+    "/dandy/caricature": {
+      "path": "/Dandy/Caricature",
+      "title": "Caricature",
+      "file": "e1799d5d397fd8d5.json"
+    },
+    "/dandy/bibliografia": {
+      "path": "/Dandy/Bibliografia",
+      "title": "Bibliografia",
+      "file": "ee9e21182519640c.json"
+    },
+    "/dandy/docsdandy": {
+      "path": "/Dandy/DocsDandy",
+      "title": "Documenti",
+      "file": "9baa07e0d095921a.json"
+    },
+    "/dandy/documenti": {
+      "path": "/Dandy/Documenti",
+      "title": "Documenti",
+      "file": "9baa07e0d095921a.json"
+    },
+    "/dandy/marchesacasati": {
+      "path": "/Dandy/MarchesaCasati",
+      "title": "Marchesa Casati",
+      "file": "fa96c6996e405110.json"
+    },
+    "/dandy/rinascimento": {
+      "path": "/Dandy/Rinascimento",
+      "title": "Rinascimento e Decadenza",
+      "file": "65de3a73ad736db2.json"
+    },
+    "/dandy/morte": {
+      "path": "/Dandy/Morte",
+      "title": "Morte",
+      "file": "b3c2294f9d7a22be.json"
+    },
+    "/dandy/droga": {
+      "path": "/Dandy/Droga",
+      "title": "Droga",
+      "file": "590cb06337da470c.json"
+    },
+    "/dandy/religione": {
+      "path": "/Dandy/Religione",
+      "title": "Religione",
+      "file": "54987a843fd146cb.json"
+    },
+    "/dandy/musica": {
+      "path": "/Dandy/Musica",
+      "title": "Musica",
+      "file": "f0af5125f62237ca.json"
+    },
+    "/dandy/denarolavoro": {
+      "path": "/Dandy/DenaroLavoro",
+      "title": "Denaro e Lavoro",
+      "file": "41ac08af8dd490a3.json"
+    },
+    "/dandy/donna": {
+      "path": "/Dandy/Donna",
+      "title": "La Donna",
+      "file": "49f24c695a2fcab9.json"
+    },
+    "/dandy/politica": {
+      "path": "/Dandy/Politica",
+      "title": "Politica",
+      "file": "ab83c9534c00bd16.json"
+    },
+    "/dandy/malinconia": {
+      "path": "/Dandy/Malinconia",
+      "title": "Malinconia",
+      "file": "5087ecf7713dd3f5.json"
+    },
+    "/dandy/link": {
+      "path": "/Dandy/Link",
+      "title": "Link",
+      "file": "97737a6806492575.json"
+    },
+    "/dandy/fumodandy": {
+      "path": "/Dandy/FumoDandy",
+      "title": "Dizionario",
+      "file": "e21672afeee7e78e.json"
+    },
+    "/dandy/massimeminime": {
+      "path": "/Dandy/MassimeMinime",
+      "title": "Massime e Minime",
+      "file": "58c3ef3db31036c3.json"
+    },
+    "/statuto.aspx": {
+      "path": "/Statuto.aspx",
+      "title": "Atti",
+      "file": "d30d47a3cf8f9123.json"
+    },
+    "/principi": {
+      "path": "/Principi",
+      "title": "Principi",
+      "file": "29768800c2e641bb.json"
+    },
+    "/costituzione.aspx": {
+      "path": "/Costituzione.aspx",
+      "title": "Atti",
+      "file": "657ada8e0c586cfd.json"
+    },
+    "/forum/dettaglio-forum/postadandy-10": {
+      "path": "/Forum/Dettaglio-Forum/PostaDandy-10",
+      "title": "La posta del Andrea Sperelli",
+      "file": "0c2776136fbaa21f.json"
+    },
+    "/forum/dettaglio-forum/scrivaniadandy-85": {
+      "path": "/Forum/Dettaglio-Forum/ScrivaniaDandy-85",
+      "title": "La Scrivania del Andrea Sperelli",
+      "file": "b74e4b66644cbc31.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-all-opera-vii-98": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-all-Opera-VII-98",
+      "title": "Eventi",
+      "file": "b28148fc9858acd3.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/v-adunanza-delle-marche-58": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/V-ADUNANZA-DELLE-MARCHE-58",
+      "title": "Eventi",
+      "file": "3aa5d5eb9544dd6c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-arte-del-coraggio-104": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-Arte-del-Coraggio-104",
+      "title": "Eventi",
+      "file": "e599c384fdf98680.json"
+    },
+    "/forum/dettaglio-forum/fumo-5/il-vero-problema-120": {
+      "path": "/Forum/Dettaglio-Forum/Fumo-5/Il-vero-problema-120",
+      "title": "Il vero problema",
+      "file": "2a47f5f37d07a666.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-eta-delle-chitarre-106": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-eta-delle-chitarre-106",
+      "title": "Eventi",
+      "file": "46e68f3f387488a5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/the-shaving-academy-107": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/The-Shaving-Academy-107",
+      "title": "Eventi",
+      "file": "fc326203ab6d0733.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/tuber-magnatum-59": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Tuber-Magnatum-59",
+      "title": "Eventi",
+      "file": "0651cd1e81b606f5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-60": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-60",
+      "title": "Eventi",
+      "file": "0422189c82f48fa9.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/nella-city-londinese-15-anni-dopo-134": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Nella-City-londinese-15-anni-dopo-134",
+      "title": "Nella City londinese 15 anni dopo",
+      "file": "2083412b2561c6e4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-61": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-61",
+      "title": "Eventi",
+      "file": "a5e6ad296334e6bc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ave-martini-v-e-giostra-dei-panettoni-vii-62": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Ave-Martini-V-e-Giostra-dei-panettoni-VII-62",
+      "title": "Eventi",
+      "file": "293994f7238a73cf.json"
+    },
+    "/lancillotto/rubrica/giocatore.aspx": {
+      "path": "/Lancillotto/Rubrica/Giocatore.aspx",
+      "title": "Il Giocatore",
+      "file": "e54ead6cab594c2a.json"
+    },
+    "/lancillotto/rubrica/yachtman.aspx": {
+      "path": "/Lancillotto/Rubrica/Yachtman.aspx",
+      "title": "Yachtman",
+      "file": "1015d3498e890dce.json"
+    },
+    "/lancillotto/rubrica/padrifigli.aspx": {
+      "path": "/Lancillotto/Rubrica/PadriFigli.aspx",
+      "title": "Padri e figli",
+      "file": "67ed51fda7a39934.json"
+    },
+    "/lancillotto/rubrica/cellulare.aspx": {
+      "path": "/Lancillotto/Rubrica/Cellulare.aspx",
+      "title": "Il Cellulare",
+      "file": "141e04ba8a328f97.json"
+    },
+    "/lancillotto/rubrica/anfitrione.aspx": {
+      "path": "/Lancillotto/Rubrica/Anfitrione.aspx",
+      "title": "Anfitrione",
+      "file": "ef6d7a5f94248751.json"
+    },
+    "/lancillotto/rubrica/separazione.aspx": {
+      "path": "/Lancillotto/Rubrica/Separazione.aspx",
+      "title": "Il Giocatore",
+      "file": "8860c2fe31764fe4.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/dinner-jacket-in-velluto-e-abbinamenti-con-pantaloni-129": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Dinner-Jacket-in-velluto-e-abbinamenti-con-pantaloni-129",
+      "title": "Dinner Jacket in velluto e abbinamenti con pantaloni",
+      "file": "4d022fefb6dc8756.json"
+    },
+    "/lancillotto/compendio/defbuonaeducazionemaschile.aspx": {
+      "path": "/Lancillotto/Compendio/DefBuonaEducazioneMaschile.aspx",
+      "title": "Compendio",
+      "file": "d4694502a73df0e8.json"
+    },
+    "/lancillotto/compendio/defeducazione.aspx": {
+      "path": "/Lancillotto/Compendio/DefEducazione.aspx",
+      "title": "Compendio",
+      "file": "058b03cc8b8e88b4.json"
+    },
+    "/lancillotto/compendio/defbuonaeducazione.aspx": {
+      "path": "/Lancillotto/Compendio/DefBuonaEducazione.aspx",
+      "title": "Compendio",
+      "file": "bcd32fff71c0d438.json"
+    },
+    "/lancillotto/compendio/dellamicizia.aspx": {
+      "path": "/Lancillotto/Compendio/DellAmicizia.aspx",
+      "title": "Compendio",
+      "file": "2f78e25e8b521ac5.json"
+    },
+    "/lancillotto/compendio/gentilidame.aspx": {
+      "path": "/Lancillotto/Compendio/GentiliDame.aspx",
+      "title": "Compendio",
+      "file": "1bf603e8c64bcc27.json"
+    },
+    "/lancillotto/compendio/dellonore.aspx": {
+      "path": "/Lancillotto/Compendio/DellOnore.aspx",
+      "title": "Compendio",
+      "file": "f54d58f8ad84d3f1.json"
+    },
+    "/lancillotto/compendio/affettazione.aspx": {
+      "path": "/Lancillotto/Compendio/Affettazione.aspx",
+      "title": "Compendio",
+      "file": "4ac8e535049c6d11.json"
+    },
+    "/lancillotto/compendio/raffinatezze.aspx": {
+      "path": "/Lancillotto/Compendio/Raffinatezze.aspx",
+      "title": "Compendio",
+      "file": "56610d2ce60b04d4.json"
+    },
+    "/lancillotto/compendio/ambientiintimi.aspx": {
+      "path": "/Lancillotto/Compendio/AmbientiIntimi.aspx",
+      "title": "Compendio",
+      "file": "a1866553b73e4700.json"
+    },
+    "/lancillotto/compendio/ambientirappresentanza.aspx": {
+      "path": "/Lancillotto/Compendio/AmbientiRappresentanza.aspx",
+      "title": "Compendio",
+      "file": "66b44361547d9b10.json"
+    },
+    "/lancillotto/compendio/suppellettili.aspx": {
+      "path": "/Lancillotto/Compendio/Suppellettili.aspx",
+      "title": "Compendio",
+      "file": "1e5f90a8ed01d85c.json"
+    },
+    "/lancillotto/compendio/collezioni.aspx": {
+      "path": "/Lancillotto/Compendio/Collezioni.aspx",
+      "title": "Compendio",
+      "file": "51b6f3d521dd7935.json"
+    },
+    "/lancillotto/compendio/biblioteca.aspx": {
+      "path": "/Lancillotto/Compendio/Biblioteca.aspx",
+      "title": "Compendio",
+      "file": "c94a71ab138fb1ab.json"
+    },
+    "/lancillotto/compendio/abbigliamento.aspx": {
+      "path": "/Lancillotto/Compendio/Abbigliamento.aspx",
+      "title": "Compendio",
+      "file": "e78c24d350dfde95.json"
+    },
+    "/lancillotto/compendio/ricorrenze.aspx": {
+      "path": "/Lancillotto/Compendio/Ricorrenze.aspx",
+      "title": "Compendio",
+      "file": "fd2e253856c7d32d.json"
+    },
+    "/lancillotto/compendio/cartalettera.aspx": {
+      "path": "/Lancillotto/Compendio/CartaLettera.aspx",
+      "title": "Compendio",
+      "file": "c6fd01a5910e9330.json"
+    },
+    "/lancillotto/compendio/fisico.aspx": {
+      "path": "/Lancillotto/Compendio/Fisico.aspx",
+      "title": "Compendio",
+      "file": "e88e12fc85939868.json"
+    },
+    "/lancillotto/monologhi/aereo.aspx": {
+      "path": "/Lancillotto/Monologhi/Aereo.aspx",
+      "title": "Aereo",
+      "file": "2bacf4b78cb03cfb.json"
+    },
+    "/lancillotto/compendio/contegnogentiluomo.aspx": {
+      "path": "/Lancillotto/Compendio/ContegnoGentiluomo.aspx",
+      "title": "Compendio",
+      "file": "8cee30dfbb46679c.json"
+    },
+    "/lancillotto/monologhi/anfitrione.aspx": {
+      "path": "/Lancillotto/Monologhi/Anfitrione.aspx",
+      "title": "Anfitrione",
+      "file": "a2d959cacf0217ac.json"
+    },
+    "/lancillotto/monologhi/amante.aspx": {
+      "path": "/Lancillotto/Monologhi/Amante.aspx",
+      "title": "Amante",
+      "file": "462f97e5731191df.json"
+    },
+    "/lancillotto/monologhi/animalisti.aspx": {
+      "path": "/Lancillotto/Monologhi/Animalisti.aspx",
+      "title": "Animalisti, ambientalisti e assolutisti",
+      "file": "44097ed6cc1a2fc7.json"
+    },
+    "/lancillotto/monologhi/baciamano.aspx": {
+      "path": "/Lancillotto/Monologhi/Baciamano.aspx",
+      "title": "Baciamano",
+      "file": "c333fc244dbb3db0.json"
+    },
+    "/lancillotto/monologhi/cellulare.aspx": {
+      "path": "/Lancillotto/Monologhi/Cellulare.aspx",
+      "title": "Cellulare",
+      "file": "579c4701b5832122.json"
+    },
+    "/lancillotto/monologhi/clubman.aspx": {
+      "path": "/Lancillotto/Monologhi/Clubman.aspx",
+      "title": "Clubman",
+      "file": "c9b4b09a659eb081.json"
+    },
+    "/lancillotto/monologhi/dueruote.aspx": {
+      "path": "/Lancillotto/Monologhi/DueRuote.aspx",
+      "title": "Due ruote",
+      "file": "6f77ad9e4ed5fdc4.json"
+    },
+    "/lancillotto/monologhi/funerali.aspx": {
+      "path": "/Lancillotto/Monologhi/Funerali.aspx",
+      "title": "Funerali",
+      "file": "0e31c0ce8ffe512a.json"
+    },
+    "/lancillotto/monologhi/giocatore.aspx": {
+      "path": "/Lancillotto/Monologhi/Giocatore.aspx",
+      "title": "Giocatore",
+      "file": "acb35f9013f542f8.json"
+    },
+    "/lancillotto/monologhi/hotel.aspx": {
+      "path": "/Lancillotto/Monologhi/Hotel.aspx",
+      "title": "Hotel",
+      "file": "0378380344bc1711.json"
+    },
+    "/lancillotto/monologhi/mance.aspx": {
+      "path": "/Lancillotto/Monologhi/Mance.aspx",
+      "title": "Mance",
+      "file": "54d1a8c8c80659aa.json"
+    },
+    "/lancillotto/monologhi/lettere.aspx": {
+      "path": "/Lancillotto/Monologhi/Lettere.aspx",
+      "title": "Lettere",
+      "file": "adeb6144dedbc06c.json"
+    },
+    "/lancillotto/monologhi/matrimonio.aspx": {
+      "path": "/Lancillotto/Monologhi/Matrimonio.aspx",
+      "title": "Matrimonio",
+      "file": "eda864c4e479d0ab.json"
+    },
+    "/lancillotto/monologhi/necrologi.aspx": {
+      "path": "/Lancillotto/Monologhi/Necrologi.aspx",
+      "title": "Necrologi",
+      "file": "857532d5bb500dc4.json"
+    },
+    "/lancillotto/monologhi/ospite.aspx": {
+      "path": "/Lancillotto/Monologhi/Ospite.aspx",
+      "title": "Ospite",
+      "file": "b7fea17c1973ac4f.json"
+    },
+    "/lancillotto/monologhi/presentazioni.aspx": {
+      "path": "/Lancillotto/Monologhi/Presentazioni.aspx",
+      "title": "Presentazioni",
+      "file": "946136894f2eaf0f.json"
+    },
+    "/lancillotto/monologhi/ospedale.aspx": {
+      "path": "/Lancillotto/Monologhi/Ospedale.aspx",
+      "title": "Ospedale",
+      "file": "68416644c9ddc22c.json"
+    },
+    "/lancillotto/monologhi/puntualita.aspx": {
+      "path": "/Lancillotto/Monologhi/Puntualita.aspx",
+      "title": "Puntualità",
+      "file": "33e16279dff7c6e6.json"
+    },
+    "/lancillotto/monologhi/padrifigli.aspx": {
+      "path": "/Lancillotto/Monologhi/PadriFigli.aspx",
+      "title": "Padri e figli",
+      "file": "3b379706275d9404.json"
+    },
+    "/lancillotto/monologhi/ristorante.aspx": {
+      "path": "/Lancillotto/Monologhi/Ristorante.aspx",
+      "title": "Ristorante",
+      "file": "1a9ef73a88776413.json"
+    },
+    "/lancillotto/monologhi/prostitute.aspx": {
+      "path": "/Lancillotto/Monologhi/Prostitute.aspx",
+      "title": "Prostitute",
+      "file": "21564032ec0393e1.json"
+    },
+    "/lancillotto/monologhi/separazione.aspx": {
+      "path": "/Lancillotto/Monologhi/Separazione.aspx",
+      "title": "Separazione",
+      "file": "6bac164c788d396d.json"
+    },
+    "/lancillotto/monologhi/summertime.aspx": {
+      "path": "/Lancillotto/Monologhi/Summertime.aspx",
+      "title": "Summertime",
+      "file": "65f2aa537d901ab2.json"
+    },
+    "/lancillotto/monologhi/spazzatura.aspx": {
+      "path": "/Lancillotto/Monologhi/Spazzatura.aspx",
+      "title": "Sazzatura",
+      "file": "937c1a05baf654fd.json"
+    },
+    "/lancillotto/monologhi/tavola.aspx": {
+      "path": "/Lancillotto/Monologhi/Tavola.aspx",
+      "title": "Tavola",
+      "file": "544ab6e9dd6fb308.json"
+    },
+    "/lancillotto/monologhi/vacanze.aspx": {
+      "path": "/Lancillotto/Monologhi/Vacanze.aspx",
+      "title": "Vacanze",
+      "file": "adef3731dbb4f1bc.json"
+    },
+    "/lancillotto/monologhi/yachtman.aspx": {
+      "path": "/Lancillotto/Monologhi/Yachtman.aspx",
+      "title": "Yachtman",
+      "file": "1c157507b9a4573a.json"
+    },
+    "/principiregolegm": {
+      "path": "/PrincipiRegoleGm",
+      "title": "Principi e Regole",
+      "file": "433731082d800797.json"
+    },
+    "/forum/dettaglio-forum/scrivania-86/civilta-e-progresso-117": {
+      "path": "/Forum/Dettaglio-Forum/Scrivania-86/Civilta-e-progresso-117",
+      "title": "Oggetto: Civiltà e progresso",
+      "file": "8e68a0242b76d70f.json"
+    },
+    "/forum/dettaglio-forum/scrivania-86/piccolo-dizionario-cavalleresco--estetica-101": {
+      "path": "/Forum/Dettaglio-Forum/Scrivania-86/Piccolo-dizionario-cavalleresco--Estetica-101",
+      "title": "Oggetto: Piccolo dizionario cavalleresco: Estetica",
+      "file": "a71d539c1796cb51.json"
+    },
+    "/porticomaestri/camiciaiapioli.aspx": {
+      "path": "/PorticoMaestri/CamiciaiaPioli.aspx",
+      "title": "Il portico dei maestri",
+      "file": "fde14c1e81d01fb4.json"
+    },
+    "/porticomaestri/otticagallia.aspx": {
+      "path": "/PorticoMaestri/OtticaGallia.aspx",
+      "title": "Il portico dei maestri",
+      "file": "7185f96a96e29544.json"
+    },
+    "/porticomaestri/paoloscafora.aspx": {
+      "path": "/PorticoMaestri/PaoloScafora.aspx",
+      "title": "Il portico dei maestri",
+      "file": "01d0c6f03fd0493b.json"
+    },
+    "/forum/dettaglio-forum/posta-11/il-collo-giusto-124": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/Il-collo-giusto-124",
+      "title": "Oggetto: Il collo giusto",
+      "file": "4dd5bc9e62dbbaa7.json"
+    },
+    "/porticomaestri/cometacravatte.aspx": {
+      "path": "/PorticoMaestri/CometaCravatte.aspx",
+      "title": "Il portico dei maestri",
+      "file": "d90701ca78a2b393.json"
+    },
+    "/porticomaestri/ferdinandodangio.aspx": {
+      "path": "/PorticoMaestri/FerdinandoDangio.aspx",
+      "title": "Il portico dei maestri",
+      "file": "ed5823afae424de4.json"
+    },
+    "/porticomaestri/cappelleriamelegari.aspx": {
+      "path": "/PorticoMaestri/CappelleriaMelegari.aspx",
+      "title": "Il portico dei maestri",
+      "file": "c95475da7b307ec0.json"
+    },
+    "/forum/dettaglio-forum/posta-11/bavero-del-gilet-da-smoking-127": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/Bavero-del-gilet-da-smoking-127",
+      "title": "Oggetto: Bavero del gilet da smoking",
+      "file": "0c9f783557158f62.json"
+    },
+    "/porticomaestri/guarnicionerialopez.aspx": {
+      "path": "/PorticoMaestri/GuarnicioneriaLopez.aspx",
+      "title": "Il portico dei maestri",
+      "file": "b6de9d3956cedb82.json"
+    },
+    "/porticomaestri/sartoriacelentano.aspx": {
+      "path": "/PorticoMaestri/SartoriaCelentano.aspx",
+      "title": "Il portico dei maestri",
+      "file": "67ceab6c2dcee570.json"
+    },
+    "/porticomaestri/sartoriaparmelli.aspx": {
+      "path": "/PorticoMaestri/SartoriaParmelli.aspx",
+      "title": "Il portico dei maestri",
+      "file": "48e22e740bf2f8e3.json"
+    },
+    "/porticomaestri/sartoriadetogni.aspx": {
+      "path": "/PorticoMaestri/SartoriaDeTogni.aspx",
+      "title": "Il portico dei maestri",
+      "file": "8ac5316b63db8abc.json"
+    },
+    "/porticomaestri/sartoriatedde.aspx": {
+      "path": "/PorticoMaestri/SartoriaTedde.aspx",
+      "title": "Il portico dei maestri",
+      "file": "8d2c9777bf025de3.json"
+    },
+    "/porticomaestri/marinella.aspx": {
+      "path": "/PorticoMaestri/Marinella.aspx",
+      "title": "Il portico dei maestri",
+      "file": "b4a2bb68a5ace0f3.json"
+    },
+    "/dandy/suldandismo": {
+      "path": "/Dandy/SulDandismo",
+      "title": "Bibliografia",
+      "file": "fc4cf232c9caa328.json"
+    },
+    "/porticomaestri/giannimarigliano.aspx": {
+      "path": "/PorticoMaestri/GianniMarigliano.aspx",
+      "title": "Il portico dei maestri",
+      "file": "efded1fce7b7a8cd.json"
+    },
+    "/dandy/suidandies": {
+      "path": "/Dandy/SuiDandies",
+      "title": "Bibliografia",
+      "file": "d7e9b457b147dfb3.json"
+    },
+    "/dandy/eleganzamaschile": {
+      "path": "/Dandy/EleganzaMaschile",
+      "title": "Bibliografia",
+      "file": "b5f9b84112ac2195.json"
+    },
+    "/dandy/lettureintegrative": {
+      "path": "/Dandy/LettureIntegrative",
+      "title": "Bibliografia",
+      "file": "0a4e73473b51565f.json"
+    },
+    "/dandy/doc/continuita": {
+      "path": "/Dandy/Doc/Continuita",
+      "title": "Documenti",
+      "file": "f6005cad2374c92a.json"
+    },
+    "/dandy/doc/frammenti": {
+      "path": "/Dandy/Doc/Frammenti",
+      "title": "Documenti",
+      "file": "710c73f8a6b18036.json"
+    },
+    "/dandy/doc/tastiera": {
+      "path": "/Dandy/Doc/Tastiera",
+      "title": "Documenti",
+      "file": "ebdab250ac33d0ce.json"
+    },
+    "/dandy/doc/modamaschile": {
+      "path": "/Dandy/Doc/ModaMaschile",
+      "title": "Documenti",
+      "file": "83b75cf78b15acec.json"
+    },
+    "/dandy/doc/femmefatale": {
+      "path": "/Dandy/Doc/FemmeFatale",
+      "title": "Documenti",
+      "file": "6ce747fd2b6694ee.json"
+    },
+    "/dandy/doc/roussel": {
+      "path": "/Dandy/Doc/Roussel",
+      "title": "Documenti",
+      "file": "5e1d7e77f2842a42.json"
+    },
+    "/dandy/doc/gnoseologia": {
+      "path": "/Dandy/Doc/Gnoseologia",
+      "title": "Documenti",
+      "file": "0c7bdad49fe95de7.json"
+    },
+    "/dandy/doc/notecamp": {
+      "path": "/Dandy/Doc/NoteCamp",
+      "title": "Documenti",
+      "file": "6e3a1368cf664709.json"
+    },
+    "/dandy/doc/vitadandy": {
+      "path": "/Dandy/Doc/VitaDandy",
+      "title": "Documenti",
+      "file": "a031121011b9e728.json"
+    },
+    "/dandy/doc/gozzano": {
+      "path": "/Dandy/Doc/Gozzano",
+      "title": "Documenti",
+      "file": "5b39296bdc3a08d8.json"
+    },
+    "/dandy/doc/proust": {
+      "path": "/Dandy/Doc/Proust",
+      "title": "Documenti",
+      "file": "6f6f421b4521fe41.json"
+    },
+    "/dandy/doc/vittoriale": {
+      "path": "/Dandy/Doc/Vittoriale",
+      "title": "Documenti",
+      "file": "5777a652baaff230.json"
+    },
+    "/dandy/doc/pignatelli": {
+      "path": "/Dandy/Doc/Pignatelli",
+      "title": "Documenti",
+      "file": "4e48ac94298cc720.json"
+    },
+    "/dandy/doc/monsieur": {
+      "path": "/Dandy/Doc/Monsieur",
+      "title": "Documenti",
+      "file": "89bfb453187c08e8.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/l-anello-di-congiunzione-132": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/L-anello-di-congiunzione-132",
+      "title": "L'anello di congiunzione",
+      "file": "44803824c644b757.json"
+    },
+    "/dandy/doc/lempicka": {
+      "path": "/Dandy/Doc/Lempicka",
+      "title": "Documenti",
+      "file": "e002ad1cf0e2ac45.json"
+    },
+    "/dandy/doc/brummel": {
+      "path": "/Dandy/Doc/Brummel",
+      "title": "Documenti",
+      "file": "535d001bbf14b9f7.json"
+    },
+    "/dandy/doc/radiguet": {
+      "path": "/Dandy/Doc/Radiguet",
+      "title": "Documenti",
+      "file": "d9dcdfdeef2382b5.json"
+    },
+    "/dandy/doc/dandyamer": {
+      "path": "/Dandy/Doc/DandyAmer",
+      "title": "Documenti",
+      "file": "9822697a22d8f4b7.json"
+    },
+    "/dandy/doc/europeismo": {
+      "path": "/Dandy/Doc/Europeismo",
+      "title": "Documenti",
+      "file": "eb87478a1c3bed46.json"
+    },
+    "/dandy/doc/poetsix": {
+      "path": "/Dandy/Doc/Poetsix",
+      "title": "Documenti",
+      "file": "4ee0c403fdc736b0.json"
+    },
+    "/dandy/doc/poetasei": {
+      "path": "/Dandy/Doc/Poetasei",
+      "title": "Documenti",
+      "file": "2ba8e48fb10d01c6.json"
+    },
+    "/dandy/doc/makelife": {
+      "path": "/Dandy/Doc/MakeLife",
+      "title": "Documenti",
+      "file": "7b9500d8f7a43801.json"
+    },
+    "/dandy/doc/morand": {
+      "path": "/Dandy/Doc/Morand",
+      "title": "Documenti",
+      "file": "4715f8e4b4004039.json"
+    },
+    "/dandy/doc/beaton": {
+      "path": "/Dandy/Doc/Beaton",
+      "title": "Documenti",
+      "file": "ff6c9adc70ccd6ad.json"
+    },
+    "/dandy/doc/nimier": {
+      "path": "/Dandy/Doc/Nimier",
+      "title": "Documenti",
+      "file": "003e36a1f3fae950.json"
+    },
+    "/dandy/doc/saki": {
+      "path": "/Dandy/Doc/Saki",
+      "title": "Documenti",
+      "file": "a27f274ba0afdf64.json"
+    },
+    "/dandy/doc/sickert": {
+      "path": "/Dandy/Doc/Sickert",
+      "title": "Documenti",
+      "file": "7f77fc50159512c4.json"
+    },
+    "/dandy/doc/rigaut": {
+      "path": "/Dandy/Doc/Rigaut",
+      "title": "Documenti",
+      "file": "7df493f2fd1ea9ef.json"
+    },
+    "/dandy/doc/nota": {
+      "path": "/Dandy/Doc/Nota",
+      "title": "Documenti",
+      "file": "9d5a53470d918969.json"
+    },
+    "/dandy/doc/cocteau": {
+      "path": "/Dandy/Doc/Cocteau",
+      "title": "Documenti",
+      "file": "35260482e4176770.json"
+    },
+    "/dandy/doc/daverio": {
+      "path": "/Dandy/Doc/Daverio",
+      "title": "Documenti",
+      "file": "bd4106a0c03dd89d.json"
+    },
+    "/dandy/doc/malaparte": {
+      "path": "/Dandy/Doc/Malaparte",
+      "title": "Documenti",
+      "file": "66600e2e665543c4.json"
+    },
+    "/dandy/doc/larochelle": {
+      "path": "/Dandy/Doc/LaRochelle",
+      "title": "Documenti",
+      "file": "b95e2930bae4cdd1.json"
+    },
+    "/dandy/doc/politicaestetica": {
+      "path": "/Dandy/Doc/PoliticaEstetica",
+      "title": "Documenti",
+      "file": "22482f1dea00a963.json"
+    },
+    "/dandy/doc/wilde": {
+      "path": "/Dandy/Doc/Wilde",
+      "title": "Documenti",
+      "file": "b467a23943cd8d06.json"
+    },
+    "/dandy/doc/branioppio": {
+      "path": "/Dandy/Doc/BraniOppio",
+      "title": "Documenti",
+      "file": "021dcfe624fde1de.json"
+    },
+    "/dandy/doc/wildeprocesso": {
+      "path": "/Dandy/Doc/WildeProcesso",
+      "title": "Documenti",
+      "file": "e28c44b3365df643.json"
+    },
+    "/dandy/doc/controcorrente": {
+      "path": "/Dandy/Doc/Controcorrente",
+      "title": "Documenti",
+      "file": "aaccfc10becb448b.json"
+    },
+    "/dandy/doc/ruskin": {
+      "path": "/Dandy/Doc/Ruskin",
+      "title": "Documenti",
+      "file": "a6ffd4db6c0bd371.json"
+    },
+    "/dandy/doc/introduzionerigaut": {
+      "path": "/Dandy/Doc/IntroduzioneRigaut",
+      "title": "Documenti",
+      "file": "01c51f00bdab1134.json"
+    },
+    "/dandy/doc/sentimentalismo": {
+      "path": "/Dandy/Doc/Sentimentalismo",
+      "title": "Documenti",
+      "file": "4d6897fbe724c37f.json"
+    },
+    "/dandy/doc/vache": {
+      "path": "/Dandy/Doc/Vache",
+      "title": "Documenti",
+      "file": "8f105c3f30873f31.json"
+    },
+    "/dandy/doc/lospecchio": {
+      "path": "/Dandy/Doc/LoSpecchio",
+      "title": "Documenti",
+      "file": "5ec16d3dc19b9c1e.json"
+    },
+    "/dandy/doc/soames": {
+      "path": "/Dandy/Doc/Soames",
+      "title": "Documenti",
+      "file": "f7c7015a1d09ef27.json"
+    },
+    "/dandy/doc/poesiemontesquiou": {
+      "path": "/Dandy/Doc/PoesieMontesquiou",
+      "title": "Documenti",
+      "file": "e7636eec368bd513.json"
+    },
+    "/dandy/doc/spleen": {
+      "path": "/Dandy/Doc/Spleen",
+      "title": "Documenti",
+      "file": "3482793e91662689.json"
+    },
+    "/dandy/doc/cilindro": {
+      "path": "/Dandy/Doc/Cilindro",
+      "title": "Documenti",
+      "file": "ca46ee25d6daba36.json"
+    },
+    "/dandy/doc/riflessioni": {
+      "path": "/Dandy/Doc/Riflessioni",
+      "title": "Documenti",
+      "file": "32db8ce8d160b416.json"
+    },
+    "/dandy/doc/sulledonne": {
+      "path": "/Dandy/Doc/SulleDonne",
+      "title": "Documenti",
+      "file": "f39a57bdb4233dd6.json"
+    },
+    "/dandy/doc/riflessionirigaut": {
+      "path": "/Dandy/Doc/RiflessioniRigaut",
+      "title": "Documenti",
+      "file": "8804029d9f9cfcc1.json"
+    },
+    "/principiregoledandy": {
+      "path": "/PrincipiRegoleDandy",
+      "title": "Principi e Regole",
+      "file": "26849823e5405a51.json"
+    },
+    "/dandy/doc/tobermory": {
+      "path": "/Dandy/Doc/Tobermory",
+      "title": "Documenti",
+      "file": "863ece45e06fcdc7.json"
+    },
+    "/porticomaestri/marinellanegozio.aspx": {
+      "path": "/PorticoMaestri/MarinellaNegozio.aspx",
+      "title": "Marinella",
+      "file": "988892a197b1b67e.json"
+    },
+    "/porticomaestri/marinellasalone.aspx": {
+      "path": "/PorticoMaestri/MarinellaSalone.aspx",
+      "title": "Marinella",
+      "file": "d24549880960a024.json"
+    },
+    "/forum/dettaglio-forum/scrivania-85/g-103": {
+      "path": "/Forum/Dettaglio-Forum/Scrivania-85/g-103",
+      "title": "Oggetto: g",
+      "file": "5143d5e8dc4f4105.json"
+    },
+    "/forum/dettaglio-forum/scrivania-85/avvocato-118": {
+      "path": "/Forum/Dettaglio-Forum/Scrivania-85/Avvocato-118",
+      "title": "Oggetto: Avvocato",
+      "file": "25064ba8137f109e.json"
+    },
+    "/porticomaestri/marinellalaboratorio.aspx": {
+      "path": "/PorticoMaestri/MarinellaLaboratorio.aspx",
+      "title": "Marinella",
+      "file": "f4e51a71b543fac1.json"
+    },
+    "/porticomaestri/marinellatessuti.aspx": {
+      "path": "/PorticoMaestri/MarinellaTessuti.aspx",
+      "title": "Marinella",
+      "file": "4e7170a407490167.json"
+    },
+    "/porticomaestri/marinellaetichette.aspx": {
+      "path": "/PorticoMaestri/MarinellaEtichette.aspx",
+      "title": "Marinella",
+      "file": "12a105671d0da5ae.json"
+    },
+    "/forum/dettaglio-forum/posta-10/demo-test-83": {
+      "path": "/Forum/Dettaglio-Forum/Posta-10/Demo-test-83",
+      "title": "Oggetto:",
+      "file": "2e3cccf717379dbc.json"
+    },
+    "/forum/dettaglio-forum/arte-1/cabana-magazine-725": {
+      "path": "/Forum/Dettaglio-Forum/Arte-1/Cabana-Magazine-725",
+      "title": "Cabana Magazine",
+      "file": "97dfe859acde331a.json"
+    },
+    "/forum/dettaglio-forum/arte-1/gruppo-di-interesse-scaligero-715": {
+      "path": "/Forum/Dettaglio-Forum/Arte-1/Gruppo-di-Interesse-Scaligero-715",
+      "title": "Gruppo di Interesse Scaligero",
+      "file": "6a1ff6854aac3370.json"
+    },
+    "/forum/dettaglio-forum/arte-1/tour-de-france_1-699": {
+      "path": "/Forum/Dettaglio-Forum/Arte-1/Tour-de-France_1-699",
+      "title": "Tour de France_1",
+      "file": "96e36c17af589555.json"
+    },
+    "/forum/dettaglio-forum/arte-1/la-portineria-360": {
+      "path": "/Forum/Dettaglio-Forum/Arte-1/La-portineria-360",
+      "title": "La portineria",
+      "file": "3bbb7c8e126ad0e9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvi-apa-della-grande-milano-2448": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVI-APA-DELLA-GRANDE-MILANO-2448",
+      "title": "Eventi",
+      "file": "f6fc33d6d6cd89f7.json"
+    },
+    "/forum/dettaglio-forum/arte-1/gruppo-di-interesse-scaligero-714": {
+      "path": "/Forum/Dettaglio-Forum/Arte-1/Gruppo-di-Interesse-Scaligero-714",
+      "title": "Gruppo di Interesse Scaligero",
+      "file": "bc97032d3ab55dc1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-eleganza-delle-armi-2452": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-ELEGANZA-DELLE-ARMI-2452",
+      "title": "Eventi",
+      "file": "a732bc93a001dbfc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoa---riva-2453": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoa---Riva-2453",
+      "title": "Eventi",
+      "file": "b8990ea8b58e08b6.json"
+    },
+    "/forum/dettaglio-forum/azione-4/le-luci-gialle-francesi-633": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4/Le-luci-gialle-francesi-633",
+      "title": "Le luci gialle francesi",
+      "file": "0551ac1381498f69.json"
+    },
+    "/forum/dettaglio-forum/azione-4/quella-passione-che-manca-a-troppi-pessimi-guidatori-di-oggi--608": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4/Quella-passione-che-manca-a-troppi-pessimi-guidatori-di-oggi--608",
+      "title": "Quella passione che manca a troppi pessimi guidatori di oggi",
+      "file": "c2a14ee2f6a18e93.json"
+    },
+    "/forum/dettaglio-forum/azione-4/la-sportiva-non-c-e-pi%c3%b9--571": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4/La-sportiva-non-c-e-pi%C3%B9--571",
+      "title": "La sportiva non c'è più",
+      "file": "ace0e8e1f6679378.json"
+    },
+    "/forum/dettaglio-forum/azione-4/la-ferrari-dell-avvocato-agnelli--476": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4/La-Ferrari-dell-Avvocato-Agnelli--476",
+      "title": "La Ferrari dell'Avvocato Agnelli.",
+      "file": "dc84959219160dd4.json"
+    },
+    "/forum/dettaglio-forum/azione-4/yukio-mishima-616": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4/Yukio-Mishima-616",
+      "title": "Yukio Mishima",
+      "file": "e2bb80528d7e5eb8.json"
+    },
+    "/forum/dettaglio-forum/azione-4/la-bentley-dell-avvocato-agnelli--475": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4/La-Bentley-dell-Avvocato-Agnelli--475",
+      "title": "La Bentley dell'Avvocato Agnelli.",
+      "file": "5797ab2025097018.json"
+    },
+    "/forum/dettaglio-forum/azione-4/un-altra-ferrari-dell-avvocato-agnelli--477": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4/Un-altra-Ferrari-dell-Avvocato-Agnelli--477",
+      "title": "Un'altra Ferrari dell'Avvocato Agnelli.",
+      "file": "40b184894f9931e9.json"
+    },
+    "/forum/dettaglio-forum/azione-4/renato-%22sonny%22-levi-e-i-motoscafi-dell-avvocato-agnelli--471": {
+      "path": "/Forum/Dettaglio-Forum/Azione-4/Renato-%22Sonny%22-Levi-e-i-motoscafi-dell-Avvocato-Agnelli--471",
+      "title": "Renato \"Sonny\" Levi e i motoscafi dell'Avvocato Agnelli.",
+      "file": "8cbfef3cd57868f6.json"
+    },
+    "/forum/dettaglio-forum/tauromachia-3/l-indulto-di-orgulllito-413": {
+      "path": "/Forum/Dettaglio-Forum/Tauromachia-3/L-indulto-di-Orgulllito-413",
+      "title": "L'indulto di Orgulllito",
+      "file": "9f3a8b835fe31b79.json"
+    },
+    "/forum/dettaglio-forum/tauromachia-3/cruz-720": {
+      "path": "/Forum/Dettaglio-Forum/Tauromachia-3/Cruz-720",
+      "title": "Cruz",
+      "file": "55fa18bc8588dad6.json"
+    },
+    "/forum/dettaglio-forum/tauromachia-3/el-toreo-unido-jamas-sera-vencido-564": {
+      "path": "/Forum/Dettaglio-Forum/Tauromachia-3/El-toreo-unido-jamas-sera-vencido-564",
+      "title": "El toreo unido jamas serà vencido",
+      "file": "23489117a8e5cb9f.json"
+    },
+    "/forum/dettaglio-forum/tauromachia-3/juan-jos%c3%a9-padilla-313": {
+      "path": "/Forum/Dettaglio-Forum/Tauromachia-3/Juan-Jos%C3%A9-Padilla-313",
+      "title": "Juan José Padilla",
+      "file": "50db0c852967f557.json"
+    },
+    "/forum/dettaglio-forum/arte-1/villa-foscari--sempre-malcontenta--nella-prima-meta-del-xx-secolo-anche-dandy--649": {
+      "path": "/Forum/Dettaglio-Forum/Arte-1/Villa-Foscari--sempre-Malcontenta--nella-prima-meta-del-XX-secolo-anche-Dandy--649",
+      "title": "Villa Foscari, sempre Malcontenta, nella prima metà del XX secolo anche Dandy.",
+      "file": "e9762c1d7baac3fe.json"
+    },
+    "/forum/dettaglio-forum/fumo-5/il-sovrano-423": {
+      "path": "/Forum/Dettaglio-Forum/Fumo-5/Il-Sovrano-423",
+      "title": "Il Sovrano",
+      "file": "63ae5ca2572d7092.json"
+    },
+    "/forum/dettaglio-forum/fumo-5/avana--italia--oggi--178": {
+      "path": "/Forum/Dettaglio-Forum/Fumo-5/Avana--Italia--oggi--178",
+      "title": "Avana, Italia, oggi",
+      "file": "80643a33b952b83d.json"
+    },
+    "/forum/dettaglio-forum/donne-2/la-grazia-382": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/La-grazia-382",
+      "title": "La grazia",
+      "file": "760b72543cc4a726.json"
+    },
+    "/forum/dettaglio-forum/donne-2/la-contessa-olghina-di-robilant-612": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/La-Contessa-Olghina-di-Robilant-612",
+      "title": "La Contessa Olghina di Robilant",
+      "file": "702b4c776a53ead4.json"
+    },
+    "/forum/dettaglio-forum/donne-2/elena-checchi-676": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/Elena-Checchi-676",
+      "title": "Elena Checchi",
+      "file": "97a736109f2d05cb.json"
+    },
+    "/forum/dettaglio-forum/donne-2/histoire-d-eau--530": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/Histoire-d-eau--530",
+      "title": "Histoire d'eau.",
+      "file": "20dd080a3dcb65b2.json"
+    },
+    "/forum/dettaglio-forum/donne-2/jane-mallory-birkin-212": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/Jane-Mallory-Birkin-212",
+      "title": "Jane Mallory Birkin",
+      "file": "7a31ea82212783e5.json"
+    },
+    "/forum/dettaglio-forum/tauromachia-3/della-corrida-211": {
+      "path": "/Forum/Dettaglio-Forum/Tauromachia-3/Della-Corrida-211",
+      "title": "Della Corrida",
+      "file": "ea85073f9c9501b0.json"
+    },
+    "/forum/dettaglio-forum/donne-2/modernita-giusta-391": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/Modernita-giusta-391",
+      "title": "Modernità giusta",
+      "file": "542e696a9672bac6.json"
+    },
+    "/forum/dettaglio-forum/donne-2/contorni-di---femminilita--388": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/Contorni-di---femminilita--388",
+      "title": "Contorni di...femminilità",
+      "file": "90b7287a6df0a355.json"
+    },
+    "/forum/dettaglio-forum/donne-2/la-marchesa-luisa-casati-(2)-606": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/La-Marchesa-Luisa-Casati-(2)-606",
+      "title": "La Marchesa Luisa Casati (2)",
+      "file": "1b21d9e389f326bd.json"
+    },
+    "/forum/dettaglio-forum/gola-8/giacomo-casanova--tra-alcove--vini--piatti-dal-forte-carattere-e-una-curiosita-549": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/Giacomo-Casanova--tra-alcove--vini--piatti-dal-forte-carattere-e-una-curiosita-549",
+      "title": "Giacomo Casanova, tra alcove, vini, piatti dal forte carattere e una curiosità",
+      "file": "bd64cde6d750b97a.json"
+    },
+    "/forum/dettaglio-forum/gola-8/l%e2%80%99arrivo-del-te-in-europa-e-la-nascita-di-un%e2%80%99istituzione-668": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/L%E2%80%99arrivo-del-te-in-Europa-e-la-nascita-di-un%E2%80%99istituzione-668",
+      "title": "L’arrivo del tè in Europa e la nascita di un’istituzione",
+      "file": "091b9c034b866755.json"
+    },
+    "/forum/dettaglio-forum/donne-2/la-marchesa-luisa-casati-(1)-603": {
+      "path": "/Forum/Dettaglio-Forum/Donne-2/La-Marchesa-Luisa-Casati-(1)-603",
+      "title": "La Marchesa Luisa Casati (1)",
+      "file": "2b194ffe606e969b.json"
+    },
+    "/forum/dettaglio-forum/gola-8/carlo-emilio-gadda-e-il-suo-risotto-alla-milanese-o-risotto-patrio-506": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/Carlo-Emilio-Gadda-e-il-suo-risotto-alla-Milanese-o-risotto-patrio-506",
+      "title": "Carlo Emilio Gadda e il suo risotto alla Milanese o risotto patrio",
+      "file": "f28eac685ae8f696.json"
+    },
+    "/forum/dettaglio-forum/gola-8/il-conte-benso-di-cavour-e-la-sua-finanziera-del-cambio-di-torino--488": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/Il-Conte-Benso-di-Cavour-e-la-sua-Finanziera-del-Cambio-di-Torino--488",
+      "title": "Il Conte Benso di Cavour e la sua Finanziera del Cambio di Torino.",
+      "file": "3252f805f91a68b0.json"
+    },
+    "/forum/dettaglio-forum/gola-8/pastissada-de-manzo--omaggio-a-c-goldoni-456": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/Pastissada-de-manzo--omaggio-a-C-Goldoni-456",
+      "title": "Pastissada de manzo, omaggio a C.Goldoni",
+      "file": "d1414c55414302cf.json"
+    },
+    "/forum/dettaglio-forum/gola-8/tarte-tatin-originale-455": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/Tarte-Tatin-originale-455",
+      "title": "Tarte Tatin originale",
+      "file": "7e2431bbf9ce96bb.json"
+    },
+    "/forum/dettaglio-forum/gola-8/couscous-m%c3%a9diterran%c3%a9en--487": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/Couscous-M%C3%A9diterran%C3%A9en--487",
+      "title": "Couscous Méditerranéen",
+      "file": "526152f549944f2b.json"
+    },
+    "/forum/dettaglio-forum/gola-8/ricetta-originale-della-%22cassoeula-milanese%22-372": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/RICETTA-ORIGINALE-DELLA-%22CASSOEULA-MILANESE%22-372",
+      "title": "RICETTA ORIGINALE DELLA \"CASSOEULA MILANESE\"",
+      "file": "9496a7a11bd13d72.json"
+    },
+    "/forum/dettaglio-forum/gola-8/una-pizza-notevole-384": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/Una-pizza-notevole-384",
+      "title": "Una pizza notevole",
+      "file": "7bd9a39fc834a572.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-lungimirante-dieta-2450": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-Lungimirante-Dieta-2450",
+      "title": "Eventi",
+      "file": "155326d30a20bd29.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-lungimirante-dieta-2451": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-Lungimirante-Dieta-2451",
+      "title": "Eventi",
+      "file": "7941ade3938c8aeb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/x-apa-delle-marche-orientali-2449": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/X-APA-DELLE-MARCHE-ORIENTALI-2449",
+      "title": "Eventi",
+      "file": "0f69eb1429e4a8b6.json"
+    },
+    "/forum/dettaglio-forum/gola-8/alcune-regole-375": {
+      "path": "/Forum/Dettaglio-Forum/Gola-8/Alcune-regole-375",
+      "title": "Alcune regole",
+      "file": "2b1a71fd0894def8.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/stephen-tennant--the-great-writer-who-never-wrote--624": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Stephen-Tennant--the-great-writer-who-never-wrote--624",
+      "title": "Stephen Tennant, the great writer who never wrote.",
+      "file": "1f570c8519e75a5b.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/notti-a-napoli-146": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Notti-a-Napoli-146",
+      "title": "Notti a Napoli",
+      "file": "04fd7d2c96ee97b4.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/francesco-%22pupetto%22-caravita-di-sirignano-568": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Francesco-%22Pupetto%22-Caravita-di-Sirignano-568",
+      "title": "Francesco \"Pupetto\" Caravita di Sirignano",
+      "file": "c0f3b69a473b3e79.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/le-train-bleu-595": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Le-Train-Bleu-595",
+      "title": "Le Train Bleu",
+      "file": "606659397fc5d012.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/i-play-boys-558": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/I-play-boys-558",
+      "title": "I play-boys",
+      "file": "0afab365854edd9d.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/alessandro-%22dado%22-ruspoli-559": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Alessandro-%22Dado%22-Ruspoli-559",
+      "title": "Alessandro \"Dado\" Ruspoli",
+      "file": "4b9863cec63800fa.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/cecil-beaton--fotografo-dandy--630": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Cecil-Beaton--fotografo-dandy--630",
+      "title": "Cecil Beaton, fotografo dandy.",
+      "file": "6044e54f2b3cb218.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/denham-%22denny%22-fouts--le-gigolo--526": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Denham-%22Denny%22-Fouts--le-gigolo--526",
+      "title": "Denham \"Denny\" Fouts, le gigolò.",
+      "file": "a17b57f10ce8d277.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/raimondo-lanza-di-trabia--un-principe-avventuroso--535": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Raimondo-Lanza-di-Trabia--un-principe-avventuroso--535",
+      "title": "Raimondo Lanza di Trabia, un principe avventuroso.",
+      "file": "86eccd8f6a47fce4.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/arnys--il-canto-del-cigno-722": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Arnys--il-canto-del-cigno-722",
+      "title": "Arnys, il canto del cigno",
+      "file": "a9b5904ff84359ec.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/manifesto-della-critica-del-vestire-718": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Manifesto-della-Critica-del-Vestire-718",
+      "title": "Manifesto della Critica del Vestire",
+      "file": "a082808d5a21f56c.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/truman-capote--lo-scrittore-del--550": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Truman-Capote--lo-scrittore-del--550",
+      "title": "Truman Capote, lo scrittore del",
+      "file": "7eba77825491b89a.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/aloha-shirt-1---dove-e-nata-719": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/ALOHA-SHIRT-1---Dove-e-nata-719",
+      "title": "ALOHA SHIRT 1 - Dove è nata",
+      "file": "392a3f2e377c420e.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/camicia-a-roma-707": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Camicia-a-Roma-707",
+      "title": "Camicia a Roma",
+      "file": "7be4b0db204084f7.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/soprabito-675": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Soprabito-675",
+      "title": "Soprabito",
+      "file": "839b83d92729839e.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/sul-wait-coat-o-polo-698": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Sul-Wait-Coat-o-Polo-698",
+      "title": "Sul Wait Coat o Polo",
+      "file": "90ddea0465a95e41.json"
+    },
+    "/forum/dettaglio-forum/scrivania-86/piccolo-dizionario-cavalleresco--la-tradizione-269": {
+      "path": "/Forum/Dettaglio-Forum/Scrivania-86/Piccolo-Dizionario-Cavalleresco--La-tradizione-269",
+      "title": "Oggetto: Piccolo Dizionario Cavalleresco: La tradizione",
+      "file": "3aed970dfb7c74c5.json"
+    },
+    "/forum/dettaglio-forum/posta-11/bottoni-di-corno-700": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/bottoni-di-corno-700",
+      "title": "Oggetto: bottoni di corno",
+      "file": "2b3d1f9d42cb8024.json"
+    },
+    "/forum/dettaglio-forum/posta-11/il-successo-705": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/il-successo-705",
+      "title": "Oggetto: il successo",
+      "file": "899463f5b659dfa7.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/la-camicia-perfetta-per-il-gran-caldo----726": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/La-camicia-perfetta-per-il-gran-caldo----726",
+      "title": "La camicia perfetta per il gran caldo...",
+      "file": "da7121cf661a2e4c.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/un--avventura-di-domenico-caraceni--144": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Un--avventura-di-Domenico-Caraceni--144",
+      "title": "Un' avventura di Domenico Caraceni.",
+      "file": "dc6ad0fafa124cc8.json"
+    },
+    "/forum/dettaglio-forum/posta-11/conservare-o-rinnovare--671": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/Conservare-o-rinnovare--671",
+      "title": "Oggetto: Conservare o rinnovare?",
+      "file": "8db8f7c1fbede8f7.json"
+    },
+    "/forum/dettaglio-forum/posta-11/guanti-smoking-695": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/Guanti-smoking-695",
+      "title": "Oggetto: Guanti smoking",
+      "file": "f65cd5e18870197f.json"
+    },
+    "/forum/dettaglio-forum/abbigliamento-7/ringraziamento-706": {
+      "path": "/Forum/Dettaglio-Forum/Abbigliamento-7/Ringraziamento-706",
+      "title": "Ringraziamento",
+      "file": "6b8d6c7a8a5f571f.json"
+    },
+    "/forum/dettaglio-forum/posta-11/smoking-639": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/Smoking-639",
+      "title": "Oggetto: Smoking",
+      "file": "696ff894757003a5.json"
+    },
+    "/forum/dettaglio-forum/posta-11/scarpe-inglesi-435": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/Scarpe-inglesi-435",
+      "title": "Oggetto: Scarpe inglesi",
+      "file": "7aac6c9ec0137a82.json"
+    },
+    "/forum/dettaglio-forum/posta-11/la-giacca-semi-intelata-----420": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/La-giacca-semi-intelata-----420",
+      "title": "Oggetto: La giacca semi intelata....",
+      "file": "80fb8dac7496fecf.json"
+    },
+    "/forum/dettaglio-forum/posta-11/la-camicia-perfetta-per-il-gran-caldo----727": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/La-camicia-perfetta-per-il-gran-caldo----727",
+      "title": "Oggetto: La camicia perfetta per il gran caldo...",
+      "file": "25edf4ff4dc7d1f5.json"
+    },
+    "/forum/dettaglio-forum/posta-10/curiosita--702": {
+      "path": "/Forum/Dettaglio-Forum/Posta-10/Curiosita--702",
+      "title": "Oggetto: Curiosità",
+      "file": "2ed4a90a8d517eb1.json"
+    },
+    "/forum/dettaglio-forum/posta-10/info-678": {
+      "path": "/Forum/Dettaglio-Forum/Posta-10/info-678",
+      "title": "Oggetto: info",
+      "file": "d7d716447b81dc87.json"
+    },
+    "/forum/dettaglio-forum/posta-11/scarpa-nera-532": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/Scarpa-nera-532",
+      "title": "Oggetto: Scarpa nera",
+      "file": "f53264a908068547.json"
+    },
+    "/forum/dettaglio-forum/posta-11/manutenzione-e-conservazione-di-cravatte-e-farfallini-424": {
+      "path": "/Forum/Dettaglio-Forum/Posta-11/Manutenzione-e-conservazione-di-cravatte-e-farfallini-424",
+      "title": "Oggetto: Manutenzione e conservazione di cravatte e farfallini",
+      "file": "ad28a1f0b08ed671.json"
+    },
+    "/dandy/bellezza": {
+      "path": "/Dandy/Bellezza",
+      "title": "Bellezza",
+      "file": "ba615e9d19371e44.json"
+    },
+    "/porticomaestri/otticaspiezia.aspx": {
+      "path": "/PorticoMaestri/OtticaSpiezia.aspx",
+      "title": "Il portico dei maestri",
+      "file": "c9c90bb644a745f0.json"
+    },
+    "/arte.aspx": {
+      "path": "/Arte.aspx",
+      "title": "Arte",
+      "file": "04ffc31d3a1dcec6.json"
+    },
+    "/donne.aspx": {
+      "path": "/Donne.aspx",
+      "title": "Donne",
+      "file": "54e62c71f7801ac1.json"
+    },
+    "/tauromachia.aspx": {
+      "path": "/Tauromachia.aspx",
+      "title": "Tauromachia",
+      "file": "c8fc310728bc3256.json"
+    },
+    "/dandy/contemporanei.aspx": {
+      "path": "/Dandy/Contemporanei.aspx",
+      "title": "Contemporanei",
+      "file": "3629f9c98cb6e92e.json"
+    },
+    "/dandy/immaginari.aspx": {
+      "path": "/Dandy/Immaginari.aspx",
+      "title": "Immaginari",
+      "file": "ac3dfe25d85e4253.json"
+    },
+    "/dandy/galleria.aspx": {
+      "path": "/Dandy/Galleria.aspx",
+      "title": "La Galleria",
+      "file": "705ea2a29e94fdd6.json"
+    },
+    "/dandy/contemporanei/alainekkann.aspx": {
+      "path": "/Dandy/Contemporanei/AlainEkkann.aspx",
+      "title": "Contemporanei",
+      "file": "b175fe84617acb43.json"
+    },
+    "/dandy/contemporanei/albertobongini.aspx": {
+      "path": "/Dandy/Contemporanei/AlbertoBongini.aspx",
+      "title": "Contemporanei",
+      "file": "b6d9ab7c6038d0f0.json"
+    },
+    "/dandy/contemporanei/albertoarbasino.aspx": {
+      "path": "/Dandy/Contemporanei/AlbertoArbasino.aspx",
+      "title": "Contemporanei",
+      "file": "59e3135661231cf0.json"
+    },
+    "/dandy/contemporanei/alexisderede.aspx": {
+      "path": "/Dandy/Contemporanei/AlexisDeRede.aspx",
+      "title": "Contemporanei",
+      "file": "379b45d0ec98cd1c.json"
+    },
+    "/dandy/contemporanei/carlorampazzi.aspx": {
+      "path": "/Dandy/Contemporanei/CarloRampazzi.aspx",
+      "title": "Contemporanei",
+      "file": "0e9601216c62a9c1.json"
+    },
+    "/dandy/contemporanei/christostoledo.aspx": {
+      "path": "/Dandy/Contemporanei/ChristosToledo.aspx",
+      "title": "Contemporanei",
+      "file": "32ee10cc18405756.json"
+    },
+    "/dandy/contemporanei/danielhourde.aspx": {
+      "path": "/Dandy/Contemporanei/DanielHourde.aspx",
+      "title": "Contemporanei",
+      "file": "e31609ccb01b5c88.json"
+    },
+    "/dandy/contemporanei/davidcarter.aspx": {
+      "path": "/Dandy/Contemporanei/DavidCarter.aspx",
+      "title": "Contemporanei",
+      "file": "7df2c88072ae1488.json"
+    },
+    "/dandy/contemporanei/gottfriedbismarck.aspx": {
+      "path": "/Dandy/Contemporanei/GottfriedBismarck.aspx",
+      "title": "Contemporanei",
+      "file": "0188c22d192edf2f.json"
+    },
+    "/dandy/contemporanei/hamishbowles.aspx": {
+      "path": "/Dandy/Contemporanei/HamishBowles.aspx",
+      "title": "Contemporanei",
+      "file": "7ff44f71b7b4f1a5.json"
+    },
+    "/dandy/contemporanei/johnstoddart.aspx": {
+      "path": "/Dandy/Contemporanei/JohnStoddart.aspx",
+      "title": "Contemporanei",
+      "file": "47f1eacbda7c9d46.json"
+    },
+    "/dandy/contemporanei/karllagerfeld.aspx": {
+      "path": "/Dandy/Contemporanei/KarlLagerfeld.aspx",
+      "title": "Contemporanei",
+      "file": "5c684c538c7e0d7a.json"
+    },
+    "/dandy/contemporanei/nickfoulkes.aspx": {
+      "path": "/Dandy/Contemporanei/NickFoulkes.aspx",
+      "title": "Contemporanei",
+      "file": "2d953486d378288e.json"
+    },
+    "/dandy/contemporanei/pasqualedidonato.aspx": {
+      "path": "/Dandy/Contemporanei/PasqualeDiDonato.aspx",
+      "title": "Contemporanei",
+      "file": "fe2a38180a2a5943.json"
+    },
+    "/dandy/contemporanei/philippedaverio.aspx": {
+      "path": "/Dandy/Contemporanei/PhilippeDaverio.aspx",
+      "title": "Contemporanei",
+      "file": "e1f126d442ba8321.json"
+    },
+    "/dandy/contemporanei/philippejullian.aspx": {
+      "path": "/Dandy/Contemporanei/PhilippeJullian.aspx",
+      "title": "Contemporanei",
+      "file": "5e0d4a221f4f28ea.json"
+    },
+    "/dandy/contemporanei/pimfortuyn.aspx": {
+      "path": "/Dandy/Contemporanei/PimFortuyn.aspx",
+      "title": "Contemporanei",
+      "file": "9384aaf70d8f6916.json"
+    },
+    "/dandy/contemporanei/yinkashonibare.aspx": {
+      "path": "/Dandy/Contemporanei/YinkaShonibare.aspx",
+      "title": "Contemporanei",
+      "file": "7ebf32d54be4ea22.json"
+    },
+    "/dandy/contemporanei/tomwolfe.aspx": {
+      "path": "/Dandy/Contemporanei/TomWolfe.aspx",
+      "title": "Contemporanei",
+      "file": "617272a61540718b.json"
+    },
+    "/dandy/galleria/albertcamus.aspx": {
+      "path": "/Dandy/Galleria/AlbertCamus.aspx",
+      "title": "La Galleria",
+      "file": "1a13970962ac8601.json"
+    },
+    "/dandy/galleria/alfredmusset.aspx": {
+      "path": "/Dandy/Galleria/AlfredMusset.aspx",
+      "title": "La Galleria",
+      "file": "adfc882deb8595dc.json"
+    },
+    "/dandy/galleria/amedeomodigliani.aspx": {
+      "path": "/Dandy/Galleria/AmedeoModigliani.aspx",
+      "title": "La Galleria",
+      "file": "52a93099d3b34d6d.json"
+    },
+    "/dandy/galleria/alfredvigny.aspx": {
+      "path": "/Dandy/Galleria/AlfredVigny.aspx",
+      "title": "La Galleria",
+      "file": "710d65abbe0e91e0.json"
+    },
+    "/dandy/galleria/andremalraux.aspx": {
+      "path": "/Dandy/Galleria/AndreMalraux.aspx",
+      "title": "La Galleria",
+      "file": "73871b2ccdcf3ee8.json"
+    },
+    "/dandy/galleria/aubreybeardsley.aspx": {
+      "path": "/Dandy/Galleria/AubreyBeardsley.aspx",
+      "title": "La Galleria",
+      "file": "a3c7fddcf887e564.json"
+    },
+    "/dandy/galleria/bonifacecastellane.aspx": {
+      "path": "/Dandy/Galleria/BonifaceCastellane.aspx",
+      "title": "La Galleria",
+      "file": "a5db2fabcf6de77e.json"
+    },
+    "/dandy/galleria/augustevilliers.aspx": {
+      "path": "/Dandy/Galleria/AugusteVilliers.aspx",
+      "title": "La Galleria",
+      "file": "24b58490eb4dedde.json"
+    },
+    "/dandy/galleria/carmelobene.aspx": {
+      "path": "/Dandy/Galleria/CarmeloBene.aspx",
+      "title": "La Galleria",
+      "file": "ed39c9467d4e7ae2.json"
+    },
+    "/dandy/galleria/cecilbeaton.aspx": {
+      "path": "/Dandy/Galleria/CecilBeaton.aspx",
+      "title": "La Galleria",
+      "file": "9739111247521175.json"
+    },
+    "/dandy/galleria/charlesbaudelaire.aspx": {
+      "path": "/Dandy/Galleria/CharlesBaudelaire.aspx",
+      "title": "La Galleria",
+      "file": "61903a07e0ad7521.json"
+    },
+    "/dandy/galleria/curziomalaparte.aspx": {
+      "path": "/Dandy/Galleria/CurzioMalaparte.aspx",
+      "title": "La Galleria",
+      "file": "eabf97f6f1c17031.json"
+    },
+    "/dandy/galleria/dashielhammett.aspx": {
+      "path": "/Dandy/Galleria/DashielHammett.aspx",
+      "title": "La Galleria",
+      "file": "c5c87a954f9316ac.json"
+    },
+    "/dandy/galleria/erichvonstroheim.aspx": {
+      "path": "/Dandy/Galleria/ErichVonStroheim.aspx",
+      "title": "La Galleria",
+      "file": "c0afaf06a4dee541.json"
+    },
+    "/dandy/galleria/francisfitzgerald.aspx": {
+      "path": "/Dandy/Galleria/FrancisFitzgerald.aspx",
+      "title": "La Galleria",
+      "file": "34c200fb67ebbf20.json"
+    },
+    "/dandy/galleria/filippodepisis.aspx": {
+      "path": "/Dandy/Galleria/FilippodePisis.aspx",
+      "title": "La Galleria",
+      "file": "85ba97b52a7d45c4.json"
+    },
+    "/dandy/galleria/eugenedelacroix.aspx": {
+      "path": "/Dandy/Galleria/EugeneDelacroix.aspx",
+      "title": "La Galleria",
+      "file": "873c999c3d8827fb.json"
+    },
+    "/dandy/galleria/franzblei.aspx": {
+      "path": "/Dandy/Galleria/FranzBlei.aspx",
+      "title": "La Galleria",
+      "file": "69e2ff64ff69e669.json"
+    },
+    "/dandy/galleria/georgebrummell.aspx": {
+      "path": "/Dandy/Galleria/GeorgeBrummell.aspx",
+      "title": "La Galleria",
+      "file": "15765fb3ff6c24aa.json"
+    },
+    "/dandy/galleria/gabrieledannunzio.aspx": {
+      "path": "/Dandy/Galleria/GabrieleDAnnunzio.aspx",
+      "title": "La Galleria",
+      "file": "6deb23ed04fb0bff.json"
+    },
+    "/dandy/galleria/georgebyron.aspx": {
+      "path": "/Dandy/Galleria/GeorgeByron.aspx",
+      "title": "La Galleria",
+      "file": "730ab242245d5182.json"
+    },
+    "/dandy/galleria/georgemoore.aspx": {
+      "path": "/Dandy/Galleria/GeorgeMoore.aspx",
+      "title": "La Galleria",
+      "file": "f47fb1cf8f8c7ebb.json"
+    },
+    "/dandy/galleria/gilbertclavel.aspx": {
+      "path": "/Dandy/Galleria/GilbertClavel.aspx",
+      "title": "La Galleria",
+      "file": "310ea6f709c2a2d6.json"
+    },
+    "/dandy/galleria/guidogozzano.aspx": {
+      "path": "/Dandy/Galleria/GuidoGozzano.aspx",
+      "title": "La Galleria",
+      "file": "8dea7ffeb7ceb0c4.json"
+    },
+    "/dandy/galleria/henritoulouse.aspx": {
+      "path": "/Dandy/Galleria/HenriToulouse.aspx",
+      "title": "La Galleria",
+      "file": "5db628b9115eed06.json"
+    },
+    "/dandy/galleria/henryroche.aspx": {
+      "path": "/Dandy/Galleria/HenryRoche.aspx",
+      "title": "La Galleria",
+      "file": "52e5da66caee1b8e.json"
+    },
+    "/dandy/galleria/ignacywitkiewicz.aspx": {
+      "path": "/Dandy/Galleria/IgnacyWitkiewicz.aspx",
+      "title": "La Galleria",
+      "file": "a13e26fd3fe11805.json"
+    },
+    "/dandy/galleria/jacqueschardonne.aspx": {
+      "path": "/Dandy/Galleria/JacquesChardonne.aspx",
+      "title": "La Galleria",
+      "file": "ca0587b67029db85.json"
+    },
+    "/dandy/galleria/jacquesfersen.aspx": {
+      "path": "/Dandy/Galleria/JacquesFersen.aspx",
+      "title": "La Galleria",
+      "file": "f737693736ae3d45.json"
+    },
+    "/dandy/galleria/jacquesvache.aspx": {
+      "path": "/Dandy/Galleria/JacquesVache.aspx",
+      "title": "La Galleria",
+      "file": "55507f8035c8517d.json"
+    },
+    "/dandy/galleria/jamesjoyce.aspx": {
+      "path": "/Dandy/Galleria/JamesJoyce.aspx",
+      "title": "La Galleria",
+      "file": "18b4c049d6f573dc.json"
+    },
+    "/dandy/galleria/jacquesrigaut.aspx": {
+      "path": "/Dandy/Galleria/JacquesRigaut.aspx",
+      "title": "La Galleria",
+      "file": "e54d380c04d98fd7.json"
+    },
+    "/dandy/galleria/jeancocteau.aspx": {
+      "path": "/Dandy/Galleria/JeanCocteau.aspx",
+      "title": "La Galleria",
+      "file": "d8d66b25322d4b43.json"
+    },
+    "/dandy/galleria/jameswhistler.aspx": {
+      "path": "/Dandy/Galleria/JamesWhistler.aspx",
+      "title": "La Galleria",
+      "file": "8997919aa416ea11.json"
+    },
+    "/dandy/galleria/jeangiraudoux.aspx": {
+      "path": "/Dandy/Galleria/JeanGiraudoux.aspx",
+      "title": "La Galleria",
+      "file": "e942f3b4179f20d6.json"
+    },
+    "/dandy/galleria/julesbarbey.aspx": {
+      "path": "/Dandy/Galleria/JulesBarbey.aspx",
+      "title": "La Galleria",
+      "file": "a400a8426911af0e.json"
+    },
+    "/dandy/galleria/louisaragon.aspx": {
+      "path": "/Dandy/Galleria/LouisAragon.aspx",
+      "title": "La Galleria",
+      "file": "d8e739bb97faf15a.json"
+    },
+    "/dandy/galleria/mauriceravel.aspx": {
+      "path": "/Dandy/Galleria/MauriceRavel.aspx",
+      "title": "La Galleria",
+      "file": "ef003fae9418a3aa.json"
+    },
+    "/dandy/galleria/matthewarnold.aspx": {
+      "path": "/Dandy/Galleria/MatthewArnold.aspx",
+      "title": "La Galleria",
+      "file": "4ed7073d109c02a5.json"
+    },
+    "/dandy/galleria/marcelproust.aspx": {
+      "path": "/Dandy/Galleria/MarcelProust.aspx",
+      "title": "La Galleria",
+      "file": "7451dfe5666116f8.json"
+    },
+    "/dandy/galleria/maxbeerbohm.aspx": {
+      "path": "/Dandy/Galleria/MaxBeerbohm.aspx",
+      "title": "La Galleria",
+      "file": "49c35b0049d3ca80.json"
+    },
+    "/dandy/galleria/maxjacob.aspx": {
+      "path": "/Dandy/Galleria/MaxJacob.aspx",
+      "title": "La Galleria",
+      "file": "6636c412db9c361a.json"
+    },
+    "/dandy/galleria/nilsvondardel.aspx": {
+      "path": "/Dandy/Galleria/NilsVonDardel.aspx",
+      "title": "La Galleria",
+      "file": "2e0627d2c956d10d.json"
+    },
+    "/dandy/galleria/paulmorand.aspx": {
+      "path": "/Dandy/Galleria/PaulMorand.aspx",
+      "title": "La Galleria",
+      "file": "264eee92b8f87e1b.json"
+    },
+    "/dandy/galleria/pierrelarochelle.aspx": {
+      "path": "/Dandy/Galleria/PierreLaRochelle.aspx",
+      "title": "La Galleria",
+      "file": "f9ba9e34d8072ba6.json"
+    },
+    "/dandy/galleria/oscarwilde.aspx": {
+      "path": "/Dandy/Galleria/OscarWilde.aspx",
+      "title": "La Galleria",
+      "file": "a42f546e8240f975.json"
+    },
+    "/dandy/galleria/pierrelouys.aspx": {
+      "path": "/Dandy/Galleria/PierreLouys.aspx",
+      "title": "La Galleria",
+      "file": "59f2ddbb3d1cbc71.json"
+    },
+    "/dandy/galleria/raymondroussel.aspx": {
+      "path": "/Dandy/Galleria/RaymondRoussel.aspx",
+      "title": "La Galleria",
+      "file": "ee77aae8de62061c.json"
+    },
+    "/dandy/galleria/robertcoates.aspx": {
+      "path": "/Dandy/Galleria/RobertCoates.aspx",
+      "title": "La Galleria",
+      "file": "c2451640736ee464.json"
+    },
+    "/dandy/galleria/robertfezensac.aspx": {
+      "path": "/Dandy/Galleria/RobertFezensac.aspx",
+      "title": "La Galleria",
+      "file": "571647c1727f6195.json"
+    },
+    "/dandy/galleria/rogernimier.aspx": {
+      "path": "/Dandy/Galleria/RogerNimier.aspx",
+      "title": "La Galleria",
+      "file": "fe7b2e484ab3f898.json"
+    },
+    "/dandy/galleria/rogervailland.aspx": {
+      "path": "/Dandy/Galleria/RogerVailland.aspx",
+      "title": "La Galleria",
+      "file": "1b39a4050b9eae93.json"
+    },
+    "/dandy/galleria/ronaldfirbank.aspx": {
+      "path": "/Dandy/Galleria/RonaldFirbank.aspx",
+      "title": "La Galleria",
+      "file": "2ae706d2e0c5ba9a.json"
+    },
+    "/dandy/galleria/renecrevel.aspx": {
+      "path": "/Dandy/Galleria/ReneCrevel.aspx",
+      "title": "La Galleria",
+      "file": "8994db6f705becf3.json"
+    },
+    "/dandy/galleria/saki.aspx": {
+      "path": "/Dandy/Galleria/Saki.aspx",
+      "title": "La Galleria",
+      "file": "c47ddaadc4f389fa.json"
+    },
+    "/dandy/galleria/stephentennant.aspx": {
+      "path": "/Dandy/Galleria/StephenTennant.aspx",
+      "title": "La Galleria",
+      "file": "533e2d7ab60a1deb.json"
+    },
+    "/dandy/galleria/stendhal.aspx": {
+      "path": "/Dandy/Galleria/Stendhal.aspx",
+      "title": "La Galleria",
+      "file": "0793bbb78ac5453f.json"
+    },
+    "/dandy/galleria/tommasolandolfi.aspx": {
+      "path": "/Dandy/Galleria/TommasoLandolfi.aspx",
+      "title": "La Galleria",
+      "file": "c3bd4bb0a5d76ebd.json"
+    },
+    "/dandy/galleria/valerylarbaud.aspx": {
+      "path": "/Dandy/Galleria/ValeryLarbaud.aspx",
+      "title": "La Galleria",
+      "file": "179d52dfb089f151.json"
+    },
+    "/dandy/galleria/vladimirmajakovskij.aspx": {
+      "path": "/Dandy/Galleria/VladimirMajakovskij.aspx",
+      "title": "La Galleria",
+      "file": "c5bef82287a85dfb.json"
+    },
+    "/dandy/galleria/waltersickert.aspx": {
+      "path": "/Dandy/Galleria/WalterSickert.aspx",
+      "title": "La Galleria",
+      "file": "bd361501246164ef.json"
+    },
+    "/dandy/galleria/thomaseliot.aspx": {
+      "path": "/Dandy/Galleria/ThomasEliot.aspx",
+      "title": "La Galleria",
+      "file": "eb43cf0ea9853e07.json"
+    },
+    "/dandy/immaginari/andreasperelli.aspx": {
+      "path": "/Dandy/Immaginari/AndreaSperelli.aspx",
+      "title": "Gli Immaginari",
+      "file": "7c59fcf2ca5cbe43.json"
+    },
+    "/dandy/immaginari/alainleroy.aspx": {
+      "path": "/Dandy/Immaginari/AlainLeroy.aspx",
+      "title": "Gli Immaginari",
+      "file": "a697025355f3b9f5.json"
+    },
+    "/dandy/immaginari/doriangray.aspx": {
+      "path": "/Dandy/Immaginari/DorianGray.aspx",
+      "title": "Gli Immaginari",
+      "file": "1365bc4bb93d77a6.json"
+    },
+    "/dandy/immaginari/baronecharlus.aspx": {
+      "path": "/Dandy/Immaginari/BaroneCharlus.aspx",
+      "title": "Gli Immaginari",
+      "file": "0a6b3f59eb62be0c.json"
+    },
+    "/dandy/immaginari/esseintes.aspx": {
+      "path": "/Dandy/Immaginari/Esseintes.aspx",
+      "title": "Gli Immaginari",
+      "file": "1112c5b47d7b0fb3.json"
+    },
+    "/dandy/immaginari/herculepoirot.aspx": {
+      "path": "/Dandy/Immaginari/HerculePoirot.aspx",
+      "title": "Gli Immaginari",
+      "file": "d8eff10cc0bf8a41.json"
+    },
+    "/dandy/immaginari/jaygatsby.aspx": {
+      "path": "/Dandy/Immaginari/JayGatsby.aspx",
+      "title": "Gli Immaginari",
+      "file": "93cf81c0720b1d3e.json"
+    },
+    "/dandy/immaginari/juliensorel.aspx": {
+      "path": "/Dandy/Immaginari/JulienSorel.aspx",
+      "title": "Gli Immaginari",
+      "file": "ede94abc5cdd9245.json"
+    },
+    "/dandy/immaginari/lafcadio.aspx": {
+      "path": "/Dandy/Immaginari/Lafcadio.aspx",
+      "title": "Gli Immaginari",
+      "file": "baf168a5f49d78d3.json"
+    },
+    "/dandy/immaginari/olivierdorsel.aspx": {
+      "path": "/Dandy/Immaginari/OlivierdOrsel.aspx",
+      "title": "Gli Immaginari",
+      "file": "63c74158a266942b.json"
+    },
+    "/dandy/immaginari/peterwimsey.aspx": {
+      "path": "/Dandy/Immaginari/PeterWimsey.aspx",
+      "title": "Gli Immaginari",
+      "file": "4f02a215d13a63ae.json"
+    },
+    "/dandy/immaginari/sherlokholmes.aspx": {
+      "path": "/Dandy/Immaginari/SherlokHolmes.aspx",
+      "title": "Gli Immaginari",
+      "file": "0b047ab01db64e32.json"
+    },
+    "/dandy/immaginari/toniokroger.aspx": {
+      "path": "/Dandy/Immaginari/TonioKroger.aspx",
+      "title": "Gli Immaginari",
+      "file": "adb511319b3fa1e1.json"
+    },
+    "/nonaporta": {
+      "path": "/NonaPorta",
+      "title": "La nona porta",
+      "file": "2a565470690c8fc7.json"
+    },
+    "/nuovocontributo?id=9": {
+      "path": "/NuovoContributo?Id=9",
+      "title": "AGGIUNGA NUOVO CONTRIBUTO IN La nona porta",
+      "file": "7d69b0766fd3d6a6.json"
+    },
+    "/forum/dettaglio-forum/la-nona-porta-9?pagina=2": {
+      "path": "/Forum/Dettaglio-Forum/La-nona-porta-9?pagina=2",
+      "title": "Laboratorio della porta della La nona porta",
+      "file": "7dcf17deaccd368f.json"
+    },
+    "/forum/dettaglio-forum/la-nona-porta-9?pagina=3": {
+      "path": "/Forum/Dettaglio-Forum/La-nona-porta-9?pagina=3",
+      "title": "Laboratorio della porta della La nona porta",
+      "file": "bc983e5941318cc4.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/george-best--una-vita-vissuta-senza-risparmio--513": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/George-Best--una-vita-vissuta-senza-risparmio--513",
+      "title": "George Best: una vita vissuta senza risparmio.",
+      "file": "a9998bf85240b1ff.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/il-ballo-dei-re--napoli--1960--489": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/il-Ballo-dei-Re--Napoli--1960--489",
+      "title": "il Ballo dei Re. Napoli, 1960.",
+      "file": "2194855479fe9727.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/bellisvintage-490": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/BellisVintage-490",
+      "title": "BellisVintage",
+      "file": "2f4d8e16b2b8722f.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/l-estate-del-1968--bb-e-gigi-rizzi-482": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/L-estate-del-1968--BB-e-Gigi-Rizzi-482",
+      "title": "L'estate del 1968: BB e Gigi Rizzi",
+      "file": "7b2fef69b2ad4d5f.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/breve--ma-vera-storia-dell-estate-481": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Breve--ma-vera-storia-dell-estate-481",
+      "title": "Breve, ma vera storia dell'estate",
+      "file": "d2165c8e808f8dbb.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/africa-di-mazzolari-393": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Africa-di-Mazzolari-393",
+      "title": "Africa di Mazzolari",
+      "file": "de683260a47156d8.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/al-diavolo-la-sicurezza-223": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Al-diavolo-la-sicurezza-223",
+      "title": "Al diavolo la sicurezza",
+      "file": "dbb80a0b9b108bf1.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/floid-dopobarba-387": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Floid-Dopobarba-387",
+      "title": "Floid Dopobarba",
+      "file": "bb4bb88491d79142.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/tobs-peppermint-shaving-cream-352": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/TOBS-Peppermint-shaving-cream-352",
+      "title": "TOBS Peppermint shaving cream",
+      "file": "3c6e773525b6e5a6.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/bruno-acampora-208": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/Bruno-Acampora-208",
+      "title": "Bruno Acampora",
+      "file": "e8aaeffd643e1f1f.json"
+    },
+    "/forum/dettaglio-forum/la%20nona%20porta-9/g-preattoni---70%c2%b0-di-via-manzoni-177": {
+      "path": "/Forum/Dettaglio-Forum/La%20nona%20porta-9/G-PREATTONI---70%C2%B0-di-via-Manzoni-177",
+      "title": "G.PREATTONI - 70° di via Manzoni",
+      "file": "d6ab20a0f443ece4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/the-tie-master-2418": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/The-Tie-Master-2418",
+      "title": "Eventi",
+      "file": "f7a9e5bbda991f10.json"
+    },
+    "/eventi?tipo=celebrati": {
+      "path": "/Eventi?tipo=celebrati",
+      "title": "Eventi",
+      "file": "2ff806b3b8cb14cc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/terza-notte-dei-tavoli-verdi-34": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Terza-Notte-dei-Tavoli-Verdi-34",
+      "title": "Eventi",
+      "file": "926c84d93512c743.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-notte-dei-tavoli-verdi-2320": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-Notte-dei-Tavoli-Verdi-2320",
+      "title": "Eventi",
+      "file": "853c2387ea1cd933.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ii-notte-dei-tavoli-verdi-122": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/II-Notte-dei-Tavoli-Verdi-122",
+      "title": "Eventi",
+      "file": "70392229884bdffd.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-prima-cena-dei-veterani-35": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-prima-Cena-dei-Veterani-35",
+      "title": "Eventi",
+      "file": "b75faa9711f7fa68.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/notte-dei-tavoli-verdi-2253": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Notte-dei-tavoli-verdi-2253",
+      "title": "Eventi",
+      "file": "2edb58d071b7aa02.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri--all-opera!-2204": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri--all-Opera!-2204",
+      "title": "Eventi",
+      "file": "535ae233e0c9b464.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/il-guardaroba-ideale-170": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Il-guardaroba-ideale-170",
+      "title": "Eventi",
+      "file": "2737e5a1848c39b7.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/v-gemellaggio-bologna---udine-168": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/V-Gemellaggio-Bologna---Udine-168",
+      "title": "Eventi",
+      "file": "d0b988935c276016.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/v-notte-dei-tavoli-verdi-2194": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/V-Notte-dei-Tavoli-Verdi-2194",
+      "title": "Eventi",
+      "file": "e248b4c787b23b27.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/decennale-degli-auspici-171": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Decennale-degli-Auspici-171",
+      "title": "Eventi",
+      "file": "bfea794dded3ae9f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-dei-grandi-nebbioli-2376": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-dei-Grandi-Nebbioli-2376",
+      "title": "Eventi",
+      "file": "469c32b10e2f301d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ix-notte-dei-tavoli-verdi-2417": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IX-Notte-dei-Tavoli-Verdi-2417",
+      "title": "Eventi",
+      "file": "b39a760b22b962e3.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/bow-tie-trophy-2321": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Bow-Tie-Trophy-2321",
+      "title": "Eventi",
+      "file": "5169a79d5fced625.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/camera-dei-prefetti-2322": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Camera-dei-Prefetti-2322",
+      "title": "Eventi",
+      "file": "bfeb8db08a6b8dd8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-ottava-notte-2401": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-Ottava-Notte-2401",
+      "title": "Eventi",
+      "file": "1fceb50c620df216.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/tavolo-dei-bastoni-2209": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Tavolo-dei-Bastoni-2209",
+      "title": "Eventi",
+      "file": "4a1bf8aa0562e1f8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-magnifici-sette-2205": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Magnifici-Sette-2205",
+      "title": "Eventi",
+      "file": "5afc92a39519f0b6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-all’opera!-36": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-all’Opera!-36",
+      "title": "Eventi",
+      "file": "9f4c6f9a09566b02.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/iv-notte-dei-tavoli-verdi-173": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IV-Notte-dei-Tavoli-Verdi-173",
+      "title": "Eventi",
+      "file": "e51cd3c0ed81e08a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/iv-anniversario-del-gemellaggio--37": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IV-Anniversario-del-gemellaggio--37",
+      "title": "Eventi",
+      "file": "b4ccd075206c1c24.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/iii-gemellaggio-tra-bologna-e-udine-123": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/III-Gemellaggio-tra-Bologna-e-Udine-123",
+      "title": "Eventi",
+      "file": "83235fe9b70603a8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/dello-stile-napoletano-2402": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Dello-Stile-Napoletano-2402",
+      "title": "Eventi",
+      "file": "2dcfe38e3599fae2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-tradizione-2259": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-Tradizione-2259",
+      "title": "Eventi",
+      "file": "63182912eefcde8d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/guarda-che-combinazione!-154": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Guarda-che-combinazione!-154",
+      "title": "Eventi",
+      "file": "14d64e4fa9022bd0.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/robachesuleanapulesefa-2210": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Robachesuleanapulesefa-2210",
+      "title": "Eventi",
+      "file": "c531cb0d9ca09246.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-dei-fondatori-2254": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-dei-Fondatori-2254",
+      "title": "Eventi",
+      "file": "ea18e00872c6e878.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-dei-guardiani-2255": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-dei-Guardiani-2255",
+      "title": "Eventi",
+      "file": "4e80f1c6bbcf5790.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/seconda-cena--2258": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Seconda-Cena--2258",
+      "title": "Eventi",
+      "file": "1ae2898c2f0f91c5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/abaco-dei-cavalieri-2211": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Abaco-dei-Cavalieri-2211",
+      "title": "Eventi",
+      "file": "0a74c5c189297d39.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/uomini-e-pipe-124": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Uomini-e-Pipe-124",
+      "title": "Eventi",
+      "file": "fa5ef572714a29b4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-solenne-cena-2208": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Solenne-Cena-2208",
+      "title": "Eventi",
+      "file": "61d0220c33c35ff5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/camera-dei-prefetti-2212": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Camera-dei-Prefetti-2212",
+      "title": "Eventi",
+      "file": "9884a1d28e1f819b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/altissimo-concistoro-2213": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Altissimo-Concistoro-2213",
+      "title": "Eventi",
+      "file": "ae606286a3fcff4b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-38": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-38",
+      "title": "Eventi",
+      "file": "b27967fc076b6c2b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vi-adunanza-dei-giovani-leoni-2439": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VI-ADUNANZA-DEI-GIOVANI-LEONI-2439",
+      "title": "Eventi",
+      "file": "214325acd669c942.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/a-little-party-2323": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/A-Little-Party-2323",
+      "title": "Eventi",
+      "file": "f477405b587b60cc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xv-adunanza-di-roma-2404": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XV-Adunanza-di-Roma-2404",
+      "title": "Eventi",
+      "file": "534969925bb13bd1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/dello-stile-napoletano-2377": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Dello-stile-napoletano-2377",
+      "title": "Eventi",
+      "file": "cbdd8c1fa753662a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-155": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-155",
+      "title": "Eventi",
+      "file": "dce30932c6474b16.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoaroma-iii-174": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoaroma-III-174",
+      "title": "Eventi",
+      "file": "efec410c24e99529.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/blazer-39": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/BLAZER-39",
+      "title": "Eventi",
+      "file": "1a33ba6edaa3c076.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-125": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-125",
+      "title": "Eventi",
+      "file": "eaa9961092c76da2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/sola-contro-tutti-126": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Sola-contro-tutti-126",
+      "title": "Eventi",
+      "file": "c2cd70c3719785af.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xix-adunanza-provinciale-2427": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIX-ADUNANZA-PROVINCIALE-2427",
+      "title": "Eventi",
+      "file": "f5afb3bad3c1e94d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiii-adunanza-provinciale-2304": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIII-Adunanza-Provinciale-2304",
+      "title": "Eventi",
+      "file": "d07b4230ef2fe3d3.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/camera-degli-anziani-2305": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Camera-degli-Anziani-2305",
+      "title": "Eventi",
+      "file": "1a846bf9db2046eb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/camera-degli-anziani-2306": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Camera-degli-Anziani-2306",
+      "title": "Eventi",
+      "file": "f3e4367802af48ef.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoamilano-n--5-127": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoamilano-n--5-127",
+      "title": "Eventi",
+      "file": "26c3030dce60eac1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoaroma-2324": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoaroma-2324",
+      "title": "Eventi",
+      "file": "8b4dde1766a86fbc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/gentlemen---ladies-2195": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Gentlemen---Ladies-2195",
+      "title": "Eventi",
+      "file": "e3b20b9dcce5ad2d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-all’opera!-40": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-all’Opera!-40",
+      "title": "Eventi",
+      "file": "5bd4772046ed60ea.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiv-adunanza-di-roma-2378": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIV-Adunanza-di-Roma-2378",
+      "title": "Eventi",
+      "file": "fd26bc54bca00da0.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/robachesuleanapulesefa-2214": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Robachesuleanapulesefa-2214",
+      "title": "Eventi",
+      "file": "742421aa65674584.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/capodanno-veneto-2403": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Capodanno-Veneto-2403",
+      "title": "Eventi",
+      "file": "94e483daaf1f7664.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ave-martini-iv-145": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Ave-Martini-IV-145",
+      "title": "Eventi",
+      "file": "4d9eee6e5e036ad9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiv-adunanza-2262": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIV-ADUNANZA-2262",
+      "title": "Eventi",
+      "file": "9050904b2d299236.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ecole-de-pipe-2263": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Ecole-de-pipe-2263",
+      "title": "Eventi",
+      "file": "62cfff9bfd97d705.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/camera-dei-prefetti-2264": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Camera-dei-Prefetti-2264",
+      "title": "Eventi",
+      "file": "fd1cf8e5b9a89d54.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/the-shoe-must-go-on-2261": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/The-shoe-must-go-on-2261",
+      "title": "Eventi",
+      "file": "797597158f6fb868.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiii-adunanza-provinciale-2203": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIII-Adunanza-Provinciale-2203",
+      "title": "Eventi",
+      "file": "32c371228a6c1243.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoabologna-4-2215": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoabologna-4-2215",
+      "title": "Eventi",
+      "file": "d91c70cb743df80f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/x-adunanza-provinciale-2441": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/X-ADUNANZA-PROVINCIALE-2441",
+      "title": "Eventi",
+      "file": "ae17bda7a008c16b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-69": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-69",
+      "title": "Eventi",
+      "file": "38442687cf12f331.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/terza-adunanza-2428": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/TERZA-ADUNANZA-2428",
+      "title": "Eventi",
+      "file": "678fb8317b51008d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/robachesuleanapulesefa-2218": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Robachesuleanapulesefa-2218",
+      "title": "Eventi",
+      "file": "1f3ec12b3c980145.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/twees-walk-i-109": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Twees-Walk-I-109",
+      "title": "Eventi",
+      "file": "aee4ddc3e54c0131.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-di-milano-160": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-di-Milano-160",
+      "title": "Eventi",
+      "file": "ba41674b5b3ac244.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoamilano----n-6-175": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoamilano----n-6-175",
+      "title": "Eventi",
+      "file": "d2abe65b3efbf8ef.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/il-diavolo-e-nel-dettaglio-42": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Il-diavolo-e-nel-dettaglio-42",
+      "title": "Eventi",
+      "file": "051eb5d25c62df68.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/viii-adunanza-del-drago-2405": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VIII-Adunanza-del-Drago-2405",
+      "title": "Eventi",
+      "file": "560ab767106a0992.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/a-tutta-gradiscutta-2266": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/A-tutta-Gradiscutta-2266",
+      "title": "Eventi",
+      "file": "1f8756551975634f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/music-academy-viii-128": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Music-Academy-VIII-128",
+      "title": "Eventi",
+      "file": "f7616893564bd508.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-pantaloni-2216": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Pantaloni-2216",
+      "title": "Eventi",
+      "file": "9cfc7eea5976ef3f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/v-adunanza-dei-giovani-leoni-2379": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/V-Adunanza-dei-Giovani-Leoni-2379",
+      "title": "Eventi",
+      "file": "b203f3550c98321b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/perle-176": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/PERLE-176",
+      "title": "Eventi",
+      "file": "6219b135c2f24d45.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/perle-177": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/PERLE-177",
+      "title": "Eventi",
+      "file": "b18cc6aee1291cfa.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ave-martini-2-72": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Ave-Martini-2-72",
+      "title": "Eventi",
+      "file": "35ecef53898d6b4a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/9-gin-x-nove-porte-2430": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/9-gin-X-Nove-Porte-2430",
+      "title": "Eventi",
+      "file": "ac257341635166ad.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/british-style-by-a-british-gentleman-157": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/British-style-by-a-british-gentleman-157",
+      "title": "Eventi",
+      "file": "7571857b3d7fda70.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/sciamadda-2265": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Sciamadda-2265",
+      "title": "Eventi",
+      "file": "ef2460117f79a995.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/prima-adunanza-2260": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Prima-Adunanza-2260",
+      "title": "Eventi",
+      "file": "4b7b61636a0bf493.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/camera-dei-prefetti-2269": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Camera-dei-Prefetti-2269",
+      "title": "Eventi",
+      "file": "c781ee2c6ce5b304.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/seta-2267": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/SETA-2267",
+      "title": "Eventi",
+      "file": "1916409372072050.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/whisky-moment-178": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/WHISKY-MOMENT-178",
+      "title": "Eventi",
+      "file": "3cffbedb498f0c25.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/iii-adunanza-provinciale-159": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/III-Adunanza-Provinciale-159",
+      "title": "Eventi",
+      "file": "49bb9d8b5209fc48.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/robachesuleanapulesefa-2220": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Robachesuleanapulesefa-2220",
+      "title": "Eventi",
+      "file": "abe09a176ecb641b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ix-adunanza-dell-umbria-2429": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IX-ADUNANZA-DELL-UMBRIA-2429",
+      "title": "Eventi",
+      "file": "274165882ea84e61.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiv-adunanza-provinciale-2197": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIV-Adunanza-Provinciale-2197",
+      "title": "Eventi",
+      "file": "fc94777b705b4a62.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoagenova-4-2219": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoagenova-4-2219",
+      "title": "Eventi",
+      "file": "af2932e4c976ed3d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/once-in-a-lifetime-2-2221": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Once-in-a-Lifetime-2-2221",
+      "title": "Eventi",
+      "file": "dd000111aee0ae6b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-di-milano-43": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-di-Milano-43",
+      "title": "Eventi",
+      "file": "2e47ba6f333156e9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri--in-pista!-99": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri--in-pista!-99",
+      "title": "Eventi",
+      "file": "4d64b35520a85ddf.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xviii-adunanza-provinciale-2440": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVIII-ADUNANZA-PROVINCIALE-2440",
+      "title": "Eventi",
+      "file": "63a65d241a8af341.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-protocollare-di-fondazione-129": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Protocollare-di-Fondazione-129",
+      "title": "Eventi",
+      "file": "b05b0104cc78641f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoaverona-130": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoaverona-130",
+      "title": "Eventi",
+      "file": "48f6f950a0299190.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/diciottesima-adunanza-2406": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Diciottesima-Adunanza-2406",
+      "title": "Eventi",
+      "file": "f579b97334779fb8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ii-adunanza-del-lago-2380": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/II-Adunanza-del-Lago-2380",
+      "title": "Eventi",
+      "file": "c2ad5eeb365a1f3a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/dal-nostro-agente-all’avana-44": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Dal-nostro-agente-all’Avana-44",
+      "title": "Eventi",
+      "file": "6547d2baddea09de.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-protocollare--158": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Protocollare--158",
+      "title": "Eventi",
+      "file": "34610a0b51ad1a92.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoallago-179": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoallago-179",
+      "title": "Eventi",
+      "file": "d6d47a41d8869a15.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/robachesoloanapolisifa-2223": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Robachesoloanapolisifa-2223",
+      "title": "Eventi",
+      "file": "286ea0abc5418a40.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/panama-school-180": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/PANAMA-SCHOOL-180",
+      "title": "Eventi",
+      "file": "98a46eb08db1bbc2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-protocollare-2366": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/ADUNANZA-PROTOCOLLARE-2366",
+      "title": "Eventi",
+      "file": "767450e7452daa4d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamonelprosecco-2360": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamonelprosecco-2360",
+      "title": "Eventi",
+      "file": "69aaced084737812.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/prima-adunanza-provinciale-annuale-131": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Prima-Adunanza-Provinciale-Annuale-131",
+      "title": "Eventi",
+      "file": "996e0212205defb9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/kings-of-scent-132": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Kings-of-Scent-132",
+      "title": "Eventi",
+      "file": "a12830b1aee65885.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xv-adunanza-2270": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XV-ADUNANZA-2270",
+      "title": "Eventi",
+      "file": "d05a8e2ade4ce730.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoneltigullio-2271": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoneltigullio-2271",
+      "title": "Eventi",
+      "file": "479f58c9856ae076.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvii-adunanza-di-bologna-2381": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVII-Adunanza-di-Bologna-2381",
+      "title": "Eventi",
+      "file": "3e182ac2c738c1d1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-di-udine--45": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-di-Udine--45",
+      "title": "Eventi",
+      "file": "28030dac55aa909c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xx-adunanza-provinciale-2442": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XX-Adunanza-Provinciale-2442",
+      "title": "Eventi",
+      "file": "da3ce6d51fa85715.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/iii-torneo-di-golf-e-stile-2309": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/III-Torneo-di-Golf-e-Stile-2309",
+      "title": "Eventi",
+      "file": "c91b0d5b674b12e8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoagenova-2443": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VISTOCHESIAMOAGENOVA-2443",
+      "title": "Eventi",
+      "file": "4c14c56d01c536ab.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xix-adunanza-provinciale-2422": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIX-ADUNANZA-PROVINCIALE-2422",
+      "title": "Eventi",
+      "file": "7a8527b25ce1a3cc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-sul-cammino-120": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-sul-Cammino-120",
+      "title": "Eventi",
+      "file": "00e4e0a5b3a50eb6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoagenova-2431": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VISTOCHESIAMOAGENOVA-2431",
+      "title": "Eventi",
+      "file": "02f2d7f6167420a9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/prefetti-a-madrid-2274": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Prefetti-a-Madrid-2274",
+      "title": "Eventi",
+      "file": "256ef4d6feb54859.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-acciaio-della-gioia-2226": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-Acciaio-della-Gioia-2226",
+      "title": "Eventi",
+      "file": "a689e938d5417a2c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiii-adunanza-di-milano-2222": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIII-Adunanza-di-Milano-2222",
+      "title": "Eventi",
+      "file": "a17f25f6dea23f7b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/milano-sull-acqua-2227": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Milano-sull-acqua-2227",
+      "title": "Eventi",
+      "file": "1e7b9f9580a5f094.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/shining-shoes-181": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/SHINING-SHOES-181",
+      "title": "Eventi",
+      "file": "1002f8ee494d23f6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/palla-al-centro-46": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Palla-al-centro-46",
+      "title": "Eventi",
+      "file": "607bf1517063885f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/robachesoloanapolisifa-6-2228": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Robachesoloanapolisifa-6-2228",
+      "title": "Eventi",
+      "file": "8a5d06e98bfeae63.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/prefetti-a-terni-2275": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Prefetti-a-Terni-2275",
+      "title": "Eventi",
+      "file": "885a167e6f55ec0f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xv-adunanza-provinciale-2407": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XV-Adunanza-Provinciale-2407",
+      "title": "Eventi",
+      "file": "1aabb222b49369b8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/tre-toscani--tre-toscane-133": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Tre-Toscani--tre-Toscane-133",
+      "title": "Eventi",
+      "file": "a3a25a467c8ba245.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvii-laboratorio-della-tranquillita-2382": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVII-Laboratorio-della-Tranquillita-2382",
+      "title": "Eventi",
+      "file": "f06d3c2e2270242e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/libera-adunanza-165": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Libera-Adunanza-165",
+      "title": "Eventi",
+      "file": "40d747f998078bd5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvi-adunanza-2359": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVI-ADUNANZA-2359",
+      "title": "Eventi",
+      "file": "39ea42e8c27fe3e0.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/numquam-servavi-2358": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/NUMQUAM-SERVAVI-2358",
+      "title": "Eventi",
+      "file": "e3bfc026b30bbc4e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/navigare-necesse-est-2268": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Navigare-necesse-est-2268",
+      "title": "Eventi",
+      "file": "40b924f0c9109e84.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/laboratori-della-tranquillita-2225": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Laboratori-della-Tranquillita-2225",
+      "title": "Eventi",
+      "file": "16c5a7b80fa9b88d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/come-se-niente-fosse-2325": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Come-se-niente-fosse-2325",
+      "title": "Eventi",
+      "file": "ab308195e04f996c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/laboratori-di-ricerca-103": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/LABORATORI-DI-RICERCA-103",
+      "title": "Eventi",
+      "file": "8fb0591d5910a5f2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-80": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-80",
+      "title": "Eventi",
+      "file": "8eb6a305919025b4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvi-adunanza-2272": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVI-ADUNANZA-2272",
+      "title": "Eventi",
+      "file": "5fc64e09a17c28b6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/beef---cigar-experience-2229": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Beef---Cigar-Experience-2229",
+      "title": "Eventi",
+      "file": "fa165c3a24a5c5d9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-mari-del-mito-2-2273": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Mari-del-Mito-2-2273",
+      "title": "Eventi",
+      "file": "6176161fd8830089.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-acciaio-della-gioia-2230": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-acciaio-della-gioia-2230",
+      "title": "Eventi",
+      "file": "b1d39129ecaf9c9f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/kings-of-scent-ii-2231": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Kings-of-Scent-II-2231",
+      "title": "Eventi",
+      "file": "cad849782f826d42.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/iv-adunanza-provinciale-2199": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IV-Adunanza-Provinciale-2199",
+      "title": "Eventi",
+      "file": "afa757fd156705e0.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cotton-school-2385": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cotton-School-2385",
+      "title": "Eventi",
+      "file": "bdc20f5eeaa578e7.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiv-adunanza-di-milano-2383": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIV-ADUNANZA-DI-MILANO-2383",
+      "title": "Eventi",
+      "file": "e39e53be9a564189.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamo----2386": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VISTOCHESIAMO----2386",
+      "title": "Eventi",
+      "file": "6aead73345a2f05b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-48": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-48",
+      "title": "Eventi",
+      "file": "1a8552bbe7e52c45.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiv-dress-code-100": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIV-Dress-Code-100",
+      "title": "Eventi",
+      "file": "d2a79ad57882c9b3.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/green-power-2326": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Green-Power-2326",
+      "title": "Eventi",
+      "file": "438af0b14f4009ad.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-mari-del-mito-49": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-mari-del-mito-49",
+      "title": "Eventi",
+      "file": "1696adcb9d63f964.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvi-adunanza-di-roma-2444": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVI-ADUNANZA-DI-ROMA-2444",
+      "title": "Eventi",
+      "file": "e29e0ed54b7c19ff.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/sciamadda-n--2-2278": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Sciamadda-n--2-2278",
+      "title": "Eventi",
+      "file": "a7f3a7bd172d7492.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoaroma-2445": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VISTOCHESIAMOAROMA-2445",
+      "title": "Eventi",
+      "file": "0338852c16a8f149.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/v-adunanza-degli-erranti-2423": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/V-ADUNANZA-DEGLI-ERRANTI-2423",
+      "title": "Eventi",
+      "file": "c30735043ca38b46.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/robachesoloanapolisifa-2234": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Robachesoloanapolisifa-2234",
+      "title": "Eventi",
+      "file": "c75f528b479ab404.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/numquam-servavi-2408": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/NUMQUAM-SERVAVI-2408",
+      "title": "Eventi",
+      "file": "d0e6c1c46c7bbce9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vini-e-oli-2384": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vini-e-Oli-2384",
+      "title": "Eventi",
+      "file": "41155467cb78fdba.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xi-adunanza-provinciale-annuale-167": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XI-Adunanza-Provinciale-Annuale-167",
+      "title": "Eventi",
+      "file": "054370d8b104506e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/quarta-adunanza-2361": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/QUARTA-ADUNANZA-2361",
+      "title": "Eventi",
+      "file": "f3324eae88329687.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoinsicilia-2362": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoinsicilia-2362",
+      "title": "Eventi",
+      "file": "a4bd875a9def00c6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-coppa-dei-fondatori-182": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Coppa-dei-Fondatori-182",
+      "title": "Eventi",
+      "file": "169782c42b5c6576.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xv-laboratorio-della-tranqullita-2327": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XV-Laboratorio-della-Tranqullita-2327",
+      "title": "Eventi",
+      "file": "ebdb26f3b0b3d2e2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/il-colore-del-bianco-142": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Il-Colore-del-Bianco-142",
+      "title": "Eventi",
+      "file": "8b436a145045bd05.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-annuale-di-udine-143": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Annuale-di-Udine-143",
+      "title": "Eventi",
+      "file": "0590b80de659cde7.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/qualita-della-vita-2277": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Qualita-della-Vita-2277",
+      "title": "Eventi",
+      "file": "114a56753e164765.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/decennale-della-fondazione-2328": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Decennale-della-Fondazione-2328",
+      "title": "Eventi",
+      "file": "41a4e3187ed2872b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-acciaio-della-gioia-2235": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-Acciaio-della-Gioia-2235",
+      "title": "Eventi",
+      "file": "6343acdbd48f663c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/gin---tonic-parade-2239": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Gin---Tonic-Parade-2239",
+      "title": "Eventi",
+      "file": "1b39e4479ee95044.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xii-adunanza-2207": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XII-Adunanza-2207",
+      "title": "Eventi",
+      "file": "88fb94701d68bc4c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xii-laboratorio-della-tranquillita-50": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XII-Laboratorio-della-Tranquillita-50",
+      "title": "Eventi",
+      "file": "e9d650f0ffc7fcec.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-giusta-guerra-2387": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-Giusta-Guerra-2387",
+      "title": "Eventi",
+      "file": "67785c11c6d0681b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoinfriuli-2232": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoinfriuli-2232",
+      "title": "Eventi",
+      "file": "453aca77846c224f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cenetta-degli-auspici-2365": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cenetta-degli-Auspici-2365",
+      "title": "Eventi",
+      "file": "5d84fe367344cf1e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/panama---pimm-s-2364": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Panama---Pimm-s-2364",
+      "title": "Eventi",
+      "file": "1eac4c037a0815a5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-all-opera!-140": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-all-Opera!-140",
+      "title": "Eventi",
+      "file": "f58ff73a47bdb55a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xviii-adunanza-2409": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVIII-ADUNANZA-2409",
+      "title": "Eventi",
+      "file": "04db76d8945b8df5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/aperitivo-degli-auspici-2236": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Aperitivo-degli-Auspici-2236",
+      "title": "Eventi",
+      "file": "d1e63f3e2b79fe6d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-estivi-51": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-auspici-estivi-51",
+      "title": "Eventi",
+      "file": "3ddf7e07a9b28965.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-estivi-141": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-Estivi-141",
+      "title": "Eventi",
+      "file": "fdb4194decc0b602.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/robachesoloanapolisifa-8-2240": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Robachesoloanapolisifa-8-2240",
+      "title": "Eventi",
+      "file": "7d7646d932157350.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-stellata-2238": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-stellata-2238",
+      "title": "Eventi",
+      "file": "221f39647b961244.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvii-adunanza-di-genova-2388": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVII-Adunanza-di-Genova-2388",
+      "title": "Eventi",
+      "file": "eddc9dedb7f29f3b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/iii-adunanza-dei-leoni-2276": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/III-Adunanza-dei-Leoni-2276",
+      "title": "Eventi",
+      "file": "d9197b77382ae32a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiii-adunanza-provinciale-164": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIII-Adunanza-Provinciale-164",
+      "title": "Eventi",
+      "file": "ac1d0591fdd5cbfb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-2333": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-2333",
+      "title": "Eventi",
+      "file": "1128c482bd8a0d03.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ave-sante!-2329": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/AVE-SANTE!-2329",
+      "title": "Eventi",
+      "file": "75f2278b4cdc8608.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-52": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-52",
+      "title": "Eventi",
+      "file": "43aa4c369cc3dc90.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-cena-della-peste-2332": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-Cena-della-Peste-2332",
+      "title": "Eventi",
+      "file": "27325c97342999d8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/smokings-2363": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/smoKings-2363",
+      "title": "Eventi",
+      "file": "fb7913e1a13f16bb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/for-members-only-2279": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/For-members-only-2279",
+      "title": "Eventi",
+      "file": "4afceb5d0112c9cb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/aperitivo-degli-auspici-2281": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Aperitivo-degli-Auspici-2281",
+      "title": "Eventi",
+      "file": "c20687e57f9f94e2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-all-opera!-139": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-all-Opera!-139",
+      "title": "Eventi",
+      "file": "80a7b40591a7d9c3.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ii-cena-estiva-2237": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/II-Cena-Estiva-2237",
+      "title": "Eventi",
+      "file": "fb6566c3600788c6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-estivi-53": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-auspici-estivi-53",
+      "title": "Eventi",
+      "file": "8c020753cb36dde3.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/panama---pimm-s-2241": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Panama---Pimm-s-2241",
+      "title": "Eventi",
+      "file": "4dd0d54edfdf00d1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-estivi-54": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-auspici-estivi-54",
+      "title": "Eventi",
+      "file": "bd47decf8522c410.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/for-members-only-iv-2331": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/For-Members-Only-IV-2331",
+      "title": "Eventi",
+      "file": "eb4b853e0f866240.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvi-dress-code-2446": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVI-DRESS-CODE-2446",
+      "title": "Eventi",
+      "file": "9191ca11322597bc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ci-va-di-giocare-2330": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Ci-va-di-giocare-2330",
+      "title": "Eventi",
+      "file": "4d8535e4556ba231.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-di-fra--cristoforo-2336": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-di-Fra--Cristoforo-2336",
+      "title": "Eventi",
+      "file": "bce500135e8a73a4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/-cena-del-congedo-estivo-55": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/-Cena-del-congedo-estivo-55",
+      "title": "Eventi",
+      "file": "1fb93b0bc0adab32.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/il-piacere-della-carne-2432": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Il-Piacere-della-Carne-2432",
+      "title": "Eventi",
+      "file": "3fc09ce1e40005ab.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/panama---pimm-s-2334": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Panama---Pimm-s-2334",
+      "title": "Eventi",
+      "file": "2c8055b347896e9c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/---più-forte-ragazzi!-2335": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/---Più-forte-ragazzi!-2335",
+      "title": "Eventi",
+      "file": "47a64305c2bed5ed.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/sapore-di-mare-2337": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Sapore-di-Mare-2337",
+      "title": "Eventi",
+      "file": "45d824aacdfadc1d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri--alla-lizza!-2367": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri--alla-lizza!-2367",
+      "title": "Eventi",
+      "file": "5285b8d2114e7ba4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/once-in-a-lifetime-163": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/ONCE-IN-A-LIFETIME-163",
+      "title": "Eventi",
+      "file": "00f833a2a7586d9d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/avemartini---il-tour-2340": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/AveMartini---Il-Tour-2340",
+      "title": "Eventi",
+      "file": "070033ca29cd128e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiii-adunanza-2282": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIII-Adunanza-2282",
+      "title": "Eventi",
+      "file": "45ba3fd81378107c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/numquam-servavi-2283": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/NUMQUAM-SERVAVI-2283",
+      "title": "Eventi",
+      "file": "375bf6e6f5c55d6f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoinfriuli-2284": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoinfriuli-2284",
+      "title": "Eventi",
+      "file": "80201f45f108aff0.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-acciaio-della-gioia-2394": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-ACCIAIO-DELLA-GIOIA-2394",
+      "title": "Eventi",
+      "file": "eb5dbb947ca9e8f5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xv-adunanza-dell-aquila-d-oro-2389": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XV-Adunanza-dell-Aquila-d-Oro-2389",
+      "title": "Eventi",
+      "file": "43933e86def1aa9c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xviii-apa-dell-aquila-d-oro-2447": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVIII-APA-DELL-AQUILA-D-ORO-2447",
+      "title": "Eventi",
+      "file": "fd29c979b2977f43.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/avemartini---il-tour-2341": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/AveMartini---Il-Tour-2341",
+      "title": "Eventi",
+      "file": "6d4aa6178f1e450e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/comesenientefosse-n-2-2338": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Comesenientefosse-n-2-2338",
+      "title": "Eventi",
+      "file": "18fefc45954fa45a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvii-adunanza-provinciale-2424": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVII-ADUNANZA-PROVINCIALE-2424",
+      "title": "Eventi",
+      "file": "ef80b8d767940235.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-mari-del-mito-n-3-2339": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Mari-del-Mito-n-3-2339",
+      "title": "Eventi",
+      "file": "76abac23ecd7ebc5.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoacividale-2433": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoacividale-2433",
+      "title": "Eventi",
+      "file": "1b12c649b966577f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvi-adunanza-provinciale-2411": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVI-ADUNANZA-PROVINCIALE-2411",
+      "title": "Eventi",
+      "file": "deb133c7923fb674.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/numquam-servavi-2224": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Numquam-Servavi-2224",
+      "title": "Eventi",
+      "file": "ea912b238f90bfc1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/londra-184": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Londra-184",
+      "title": "Eventi",
+      "file": "38f69e7dc8d95266.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvi-adunanza-2368": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVI-ADUNANZA-2368",
+      "title": "Eventi",
+      "file": "e1cc6df1d3058e31.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vestire-oggi-2369": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VESTIRE-OGGI-2369",
+      "title": "Eventi",
+      "file": "648c2e6917a32dcb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xii-adunanza-di-bologna--56": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XII-Adunanza-di-Bologna--56",
+      "title": "Eventi",
+      "file": "547bbde73e509c88.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/dress-code-xii-136": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Dress-Code-XII-136",
+      "title": "Eventi",
+      "file": "fe1312c4072d3404.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xv-adunanza-napolitana-2345": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XV-ADUNANZA-NAPOLITANA-2345",
+      "title": "Eventi",
+      "file": "ad3fb733704fa149.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/avemartini-il-tour-2343": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/AveMartini-il-Tour-2343",
+      "title": "Eventi",
+      "file": "36a40428e91666e2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoabologna…-57": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoabologna…-57",
+      "title": "Eventi",
+      "file": "b97455206f512299.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoanapoli-2346": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoanapoli-2346",
+      "title": "Eventi",
+      "file": "ebd090bc5cd92993.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/spirito-di-osservazione-2242": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Spirito-di-Osservazione-2242",
+      "title": "Eventi",
+      "file": "8a655c46495894c3.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vi-adunanza-provinciale-2200": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VI-Adunanza-Provinciale-2200",
+      "title": "Eventi",
+      "file": "eb1e29f3723963dc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamonellemarche-2243": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamonellemarche-2243",
+      "title": "Eventi",
+      "file": "df96916694f15c81.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-cena-delle-prefetture-183": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Cena-delle-Prefetture-183",
+      "title": "Eventi",
+      "file": "b4d3204a639e4954.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-135": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-135",
+      "title": "Eventi",
+      "file": "8d975ff61943743e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/panama---pimm-s-2412": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Panama---Pimm-s-2412",
+      "title": "Eventi",
+      "file": "d224015c1a3153e9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vesper-in-london-2233": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vesper-in-London-2233",
+      "title": "Eventi",
+      "file": "3aff770e2116bdcb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/puglia-terra-da-re-2347": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Puglia-terra-da-re-2347",
+      "title": "Eventi",
+      "file": "622588c233e2f727.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-all-opera!-137": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-all-Opera!-137",
+      "title": "Eventi",
+      "file": "6ba2c32aa01b9168.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/leoni-in-toscana-146": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Leoni-in-Toscana-146",
+      "title": "Eventi",
+      "file": "81859a157d26d4ab.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/mishima-2342": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/MISHIMA-2342",
+      "title": "Eventi",
+      "file": "50c59eaccb654098.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/adunanza-provinciale-annuale-134": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Adunanza-Provinciale-Annuale-134",
+      "title": "Eventi",
+      "file": "e2bb7f315b467801.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ix-adunanza-provinciale-2425": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IX-ADUNANZA-PROVINCIALE-2425",
+      "title": "Eventi",
+      "file": "f6745a073adcd5e4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ottava-adunanza--2413": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/OTTAVA-ADUNANZA--2413",
+      "title": "Eventi",
+      "file": "67a1c66fcce17efe.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vii-adunanza-provinciale-2392": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VII-Adunanza-Provinciale-2392",
+      "title": "Eventi",
+      "file": "1a4e4d0d5495f2e2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ix-adunanza-provinciale-162": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IX-Adunanza-Provinciale-162",
+      "title": "Eventi",
+      "file": "80c5fde0a927ba13.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/iv-adunanza-dei-leoni-2371": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IV-ADUNANZA-DEI-LEONI-2371",
+      "title": "Eventi",
+      "file": "a2429423ab4be5ef.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamonelmonferrato-186": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamonelmonferrato-186",
+      "title": "Eventi",
+      "file": "53a6e17fd82ee61b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-scarpiera-ideale-110": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-Scarpiera-Ideale-110",
+      "title": "Eventi",
+      "file": "3198d00fa1ae80d0.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xv-adunanza-di-bologna-2348": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XV-Adunanza-di-Bologna-2348",
+      "title": "Eventi",
+      "file": "f8070c5f18fc280a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-sul-cammino-121": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-sul-Cammino-121",
+      "title": "Eventi",
+      "file": "f24364b06f9cf87c.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/il-grande-gioco-2285": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Il-Grande-Gioco-2285",
+      "title": "Eventi",
+      "file": "bb0e4f50af2042d2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoamilano-2286": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoamilano-2286",
+      "title": "Eventi",
+      "file": "d0043bff5a1c1ec7.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cacio---pepe-2245": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cacio---Pepe-2245",
+      "title": "Eventi",
+      "file": "6bcc119645c86893.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/stati-generali-dell-ordine-2201": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Stati-Generali-dell-Ordine-2201",
+      "title": "Eventi",
+      "file": "34f8437aca03ac84.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/palio-delle-prefetture-2244": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Palio-delle-Prefetture-2244",
+      "title": "Eventi",
+      "file": "1387a982f44446d6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/prima-cena-d-autunno-185": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Prima-Cena-d-Autunno-185",
+      "title": "Eventi",
+      "file": "602a23c6ce42b1bb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/l-arte-del-coraggio-2372": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/L-arte-del-Coraggio-2372",
+      "title": "Eventi",
+      "file": "360aa66306fcfef2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/arriba-españa-2344": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Arriba-España-2344",
+      "title": "Eventi",
+      "file": "9196164ecbbd71eb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/tweed---truffle-2350": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Tweed---Truffle-2350",
+      "title": "Eventi",
+      "file": "6857c371f49266a6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-nascita-del-classico-2351": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-nascita-del-Classico-2351",
+      "title": "Eventi",
+      "file": "5fea3408ece9c954.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/oyster-master-2434": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/OYSTER-MASTER-2434",
+      "title": "Eventi",
+      "file": "6a04d09c4abcf174.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-di-sant---uberto-2414": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-di-Sant---Uberto-2414",
+      "title": "Eventi",
+      "file": "0f4135e235e6cfda.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/chapeau!-2246": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Chapeau!-2246",
+      "title": "Eventi",
+      "file": "feb375f2f29e9007.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vii-adunanza-provinciale-2396": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VII-Adunanza-Provinciale-2396",
+      "title": "Eventi",
+      "file": "7d5ddacd526b86bd.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/x-adunanza-generale-156": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/X-Adunanza-Generale-156",
+      "title": "Eventi",
+      "file": "24edba65dd05308d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-torneo-cavalleresco-2395": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Torneo-Cavalleresco-2395",
+      "title": "Eventi",
+      "file": "3c0d69e3856eb390.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xv-adunanza-generale-2373": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XV-Adunanza-Generale-2373",
+      "title": "Eventi",
+      "file": "4598bf5937665eed.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/a-san-martino-2349": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/A-SAN-MARTINO-2349",
+      "title": "Eventi",
+      "file": "d1054748180a2b51.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/primo-ballo-1186": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/PRIMO-BALLO-1186",
+      "title": "Eventi",
+      "file": "90c28f2c426341d6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/viii-adunanza-annuale-60": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VIII-Adunanza-Annuale-60",
+      "title": "Eventi",
+      "file": "39fd0070a342a9b1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/god-save-the-gin-144": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/God-Save-the-Gin-144",
+      "title": "Eventi",
+      "file": "f03f25e51e2eaaac.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-della-svolta-2435": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-della-Svolta-2435",
+      "title": "Eventi",
+      "file": "b10ffbdb08ab9165.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistocheetempoditartufi-111": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistocheetempoditartufi-111",
+      "title": "Eventi",
+      "file": "f27b182b1935f402.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri--all-opera!-138": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri--all-Opera!-138",
+      "title": "Eventi",
+      "file": "2e0b3b3bc38d4d21.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/v-adunanza-dell-umbria-2287": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/V-Adunanza-dell-Umbria-2287",
+      "title": "Eventi",
+      "file": "7f697ca3a7c0c881.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoaspoleto-2288": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoaspoleto-2288",
+      "title": "Eventi",
+      "file": "249eadb719cc66e6.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-pranzo-dei-leoni-2289": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Pranzo-dei-Leoni-2289",
+      "title": "Eventi",
+      "file": "1afa8d2c26d0d912.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/x-adunanza-provinciale-2202": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/X-Adunanza-Provinciale-2202",
+      "title": "Eventi",
+      "file": "f8803b8951b2c763.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/il-diavolo-e-nel-dettaglio-2397": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Il-Diavolo-e-nel-Dettaglio-2397",
+      "title": "Eventi",
+      "file": "32ae231945b7a29f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/tweed-walk-ii-108": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Tweed-Walk-II-108",
+      "title": "Eventi",
+      "file": "4ef1953b805ef334.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vi-adunanza-del-drago-2352": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VI-Adunanza-del-Drago-2352",
+      "title": "Eventi",
+      "file": "9317730a1d8b62e8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ix-adunanza-generale-119": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IX-Adunanza-Generale-119",
+      "title": "Eventi",
+      "file": "37b3ba94f448111e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-dei-reduci-2290": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-dei-Reduci-2290",
+      "title": "Eventi",
+      "file": "ce89adcf5dd67058.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoagenova-115": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoagenova-115",
+      "title": "Eventi",
+      "file": "acff28117ff8bf9a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xvi-adunanza-generale-2415": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XVI-ADUNANZA-GENERALE-2415",
+      "title": "Eventi",
+      "file": "487cbd97fde73e16.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/sei-x-sei-x-dodici-1188": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Sei-X-sei-X-dodici-1188",
+      "title": "Eventi",
+      "file": "e6e1d4e420ff863f.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/music-academy-2291": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Music-Academy-2291",
+      "title": "Eventi",
+      "file": "717e8e3cb9ed4df8.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/i-cena-di-caccia-2292": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/I-Cena-di-Caccia-2292",
+      "title": "Eventi",
+      "file": "097a9f541f68410e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-della-vittoria-2247": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-della-Vittoria-2247",
+      "title": "Eventi",
+      "file": "db989837efce39e4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/made-in-milan-2298": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Made-in-Milan-2298",
+      "title": "Eventi",
+      "file": "7388674d669fe032.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/tori-a-torino-2299": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Tori-a-Torino-2299",
+      "title": "Eventi",
+      "file": "954b4f70821c5d71.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/gran-consiglio-2311": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Gran-Consiglio-2311",
+      "title": "Eventi",
+      "file": "e49ea6f41b54f87a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/una-cena-avventurosa-2355": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Una-cena-avventurosa-2355",
+      "title": "Eventi",
+      "file": "7388d4df8d171bc1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ii-adunanza-provinciale-1189": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/II-ADUNANZA-PROVINCIALE-1189",
+      "title": "Eventi",
+      "file": "fad958d04800d20d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/aperitivo-degli-auspici-2375": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Aperitivo-degli-Auspici-2375",
+      "title": "Eventi",
+      "file": "6e3a6671cf834749.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/laboratorio-d-eleganza-148": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Laboratorio-d-Eleganza-148",
+      "title": "Eventi",
+      "file": "a6cec1eab6548f5e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-152": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-152",
+      "title": "Eventi",
+      "file": "b7844992c019250d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xii-adunanza-della-superba-61": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XII-Adunanza-della-Superba-61",
+      "title": "Eventi",
+      "file": "fc47ee0d1cadba55.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/vistochesiamoagenova-ii-149": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Vistochesiamoagenova-II-149",
+      "title": "Eventi",
+      "file": "183c20a93092a9e1.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/paris-sur-mesure-114": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Paris-sur-mesure-114",
+      "title": "Eventi",
+      "file": "5b5ba8343d659004.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xii-giostra-dei-panettoni-2437": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XII-Giostra-dei-Panettoni-2437",
+      "title": "Eventi",
+      "file": "e1ef56b4e0138126.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xi-giostra-dei-panettoni-2416": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XI-Giostra-dei-Panettoni-2416",
+      "title": "Eventi",
+      "file": "ed943e1e3c01d2b9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/x-giostra-dei-panettoni-2398": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/X-Giostra-dei-Panettoni-2398",
+      "title": "Eventi",
+      "file": "1130c42e883c7471.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-onori-2191": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-onori-2191",
+      "title": "Eventi",
+      "file": "354a71d31626204a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/pranzo-degli-auspici-2297": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Pranzo-degli-Auspici-2297",
+      "title": "Eventi",
+      "file": "8690f5592aeaa65b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-dei-bolliti-2295": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-dei-Bolliti-2295",
+      "title": "Eventi",
+      "file": "1a076e7dcc3796d7.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-2249": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-2249",
+      "title": "Eventi",
+      "file": "15da8c687d81ee66.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-genovese-degli-auspici-2190": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-Genovese-degli-Auspici-2190",
+      "title": "Eventi",
+      "file": "e97b5ff206a11b92.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-2301": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-2301",
+      "title": "Eventi",
+      "file": "d2182fe94387187a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-capitolina-2296": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-Capitolina-2296",
+      "title": "Eventi",
+      "file": "945ba0991ee9bdbd.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cucina--poesia-ed-enigmistica-150": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cucina--Poesia-ed-Enigmistica-150",
+      "title": "Eventi",
+      "file": "34d3379eb8037522.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-capitolina-degli-auspici-116": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-Capitolina-degli-Auspici-116",
+      "title": "Eventi",
+      "file": "1ae04b56c61b44b4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/annuale-cena-capitolina-degli-auspici-2354": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Annuale-Cena-Capitolina-degli-Auspici-2354",
+      "title": "Eventi",
+      "file": "fd55727399b21cbb.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-2250": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-2250",
+      "title": "Eventi",
+      "file": "a04cfbee03463e28.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/pranzo-di-natale-2251": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Pranzo-di-Natale-2251",
+      "title": "Eventi",
+      "file": "436a8c00aa34b848.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-giostra-dei-panettoni-97": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-giostra-dei-panettoni-97",
+      "title": "Eventi",
+      "file": "95951892c35cfaac.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/xiii-dress-code-117": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/XIII-DRESS-CODE-117",
+      "title": "Eventi",
+      "file": "94fd4949884c2339.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-capitolina-2438": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-Capitolina-2438",
+      "title": "Eventi",
+      "file": "d2c1f52953e21b03.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/sera-degli-auspici-2300": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Sera-degli-Auspici-2300",
+      "title": "Eventi",
+      "file": "b11dd6379c22e41b.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/napoli-profonda-2294": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Napoli-Profonda-2294",
+      "title": "Eventi",
+      "file": "e3ede8f5e9e526e4.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-2302": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-2302",
+      "title": "Eventi",
+      "file": "21b153275c4a47df.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-di-concerto-2374": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-di-Concerto-2374",
+      "title": "Eventi",
+      "file": "66e8d3a4647c7100.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/camicia-2248": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/CAMICIA-2248",
+      "title": "Eventi",
+      "file": "4a41f86ff2a26666.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/ix-giostra-2206": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/IX-Giostra-2206",
+      "title": "Eventi",
+      "file": "2ed37526e8f32276.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/bicchierata-cavalleresca-1190": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/BICCHIERATA-CAVALLERESCA-1190",
+      "title": "Eventi",
+      "file": "876c0b3e44d87f43.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-capitolina-degli-auspici-2399": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-Capitolina-degli-Auspici-2399",
+      "title": "Eventi",
+      "file": "6ba2e28aef36f42a.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/pietre-d-angolo-2353": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Pietre-d-Angolo-2353",
+      "title": "Eventi",
+      "file": "a9432bd01f7dd119.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/la-giacca-2192": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/La-Giacca-2192",
+      "title": "Eventi",
+      "file": "03732a4c0125c6d2.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/viii-giostra-1187": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/VIII-Giostra-1187",
+      "title": "Eventi",
+      "file": "c31b063d7f544a2d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/luci-sul-lago-151": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Luci-sul-Lago-151",
+      "title": "Eventi",
+      "file": "59559bb576d39966.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-capitolina--147": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-Capitolina--147",
+      "title": "Eventi",
+      "file": "d282796b8d435c17.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/pranzo-degli-auspici-2357": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Pranzo-degli-Auspici-2357",
+      "title": "Eventi",
+      "file": "468a37b485ba2d73.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/giostra-dei-panettoni-vii-ave-martini-v-62": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Giostra-dei-panettoni-VII-Ave-Martini-V-62",
+      "title": "Eventi",
+      "file": "ce4336042a5e8dca.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-di-concerto-2436": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-di-Concerto-2436",
+      "title": "Eventi",
+      "file": "bc023c9fc383cc31.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-di-concerto-2410": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/CAVALIERI-DI-CONCERTO-2410",
+      "title": "Eventi",
+      "file": "8ca36edd9e7dd6d3.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-del-concerto-2303": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-del-Concerto-2303",
+      "title": "Eventi",
+      "file": "ef6a18c2b588ed9e.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-di-concerto-2280": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-di-Concerto-2280",
+      "title": "Eventi",
+      "file": "570487236a52bf49.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-di-concerto-n--3-2393": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-di-Concerto-n--3-2393",
+      "title": "Eventi",
+      "file": "fc229150e12bc1dc.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-2252": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-2252",
+      "title": "Eventi",
+      "file": "90189e67a2c1c1dd.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-capitolina-2193": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-Capitolina-2193",
+      "title": "Eventi",
+      "file": "c6bc4a535fa46b48.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cavalieri-alla-scala-2400": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cavalieri-alla-Scala-2400",
+      "title": "Eventi",
+      "file": "3386e3cc7cd8e14d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-dei-bei-ricordi-2293": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-dei-bei-ricordi-2293",
+      "title": "Eventi",
+      "file": "ec53376b9992b72d.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cenetta-degli-auspici-2356": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cenetta-degli-Auspici-2356",
+      "title": "Eventi",
+      "file": "20b5dff0eba97ea9.json"
+    },
+    "/news-page/eventi/dettaglio-eventi/evento/cena-degli-auspici-169": {
+      "path": "/News-page/eventi/Dettaglio-Eventi/Evento/Cena-degli-Auspici-169",
+      "title": "Eventi",
+      "file": "850e54addba6f88a.json"
+    },
+    "/nuovocontributo?id=3": {
+      "path": "/NuovoContributo?Id=3",
+      "title": "AGGIUNGA NUOVO CONTRIBUTO IN TAUROMACHIA",
+      "file": "66c2a41428a69369.json"
+    }
+  },
+  "failures": [
+    {
+      "path": "/",
+      "error": "Contenuto principale non riconosciuto"
+    },
+    {
+      "path": "/Castello",
+      "error": "Contenuto principale non riconosciuto"
+    },
+    {
+      "path": "/PorticoMaestri/GennaroSolito.aspx",
+      "error": "404 Not Found"
+    },
+    {
+      "path": "/PorticoMaestri/ColtelleriaPreattoni.aspx",
+      "error": "404 Not Found"
+    },
+    {
+      "path": "/PorticoMaestri/SartoriaGigliotti.aspx",
+      "error": "404 Not Found"
+    },
+    {
+      "path": "/Dandy/Doc/Estetica",
+      "error": "500 Internal Server Error"
+    },
+    {
+      "path": "/Dandy/Doc/Patchogue",
+      "error": "500 Internal Server Error"
+    },
+    {
+      "path": "/EcoMansueti",
+      "error": "404 Not Found"
+    },
+    {
+      "path": "/MenduniPolitica",
+      "error": "404 Not Found"
+    },
+    {
+      "path": "/Public/Allegati/636070315062285166InsegneMarche.bmp",
+      "error": "Contenuto principale non riconosciuto"
+    },
+    {
+      "path": "/Public/FileUpload/636101935976093576Shaker.bmp",
+      "error": "Contenuto principale non riconosciuto"
+    },
+    {
+      "path": "/Public/FileUpload/636091007878374434Civilt%C3%A0%20e%20progresso.bmp",
+      "error": "Contenuto principale non riconosciuto"
+    },
+    {
+      "path": "/Forum/Dettaglio-Forum/Forum/Dettaglio-Forum/Abbigliamento-7/Scarpe-nere-263",
+      "error": "404 Not Found"
+    },
+    {
+      "path": "/Dandy/Galleria/RaoulHausmann.aspx",
+      "error": "500 Internal Server Error"
+    }
+  ]
+}

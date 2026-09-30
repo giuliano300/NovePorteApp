@@ -1,0 +1,31 @@
+<header class="site-header">
+  <a class="brand" routerLink="/" aria-label="Nove Porte, Cittadella"><img class="desktop-logo" src="assets/logo-int.png" alt="Cavalleresco Ordine dei Guardiani delle Nove Porte"><img class="mobile-logo" src="assets/logo-porta.png" alt="Nove Porte"></a>
+  <button class="menu-toggle" type="button" (click)="toggleMobile()" aria-label="Apra il menu" [attr.aria-expanded]="mobileOpen()"><span></span><span></span><span></span></button>
+  <nav [class.open]="mobileOpen()" aria-label="Navigazione principale">
+    <i>|</i><a routerLink="/">Cittadella</a><i>|</i>
+    <div class="nav-group">
+      <button type="button" (click)="toggleMenu('porte')" [attr.aria-expanded]="openMenu() === 'porte'">Porte</button>
+      <div class="submenu" [class.open]="openMenu() === 'porte'" (click)="closeMenus()">
+        <a routerLink="/Forum/Dettaglio-Forum/Arte-1">Arte</a><a routerLink="/Forum/Dettaglio-Forum/Donne-2">Donne</a>
+        <a routerLink="/Forum/Dettaglio-Forum/Tauromachia-3">Tauromachia</a><a routerLink="/Forum/Dettaglio-Forum/Azione-4">Azione</a>
+        <a routerLink="/Forum/Dettaglio-Forum/Fumo-5">Fumo</a><a routerLink="/Forum/Dettaglio-Forum/Gioco-6">Gioco</a>
+        <a routerLink="/Forum/Dettaglio-Forum/Abbigliamento-7">Abbigliamento</a><a routerLink="/Forum/Dettaglio-Forum/Gola-8">Gola</a>
+        <a routerLink="/Forum/Dettaglio-Forum/La-nona-porta-9">La nona porta</a>
+      </div>
+    </div><i>|</i>
+    <div class="nav-group">
+      <button type="button" (click)="toggleMenu('luoghi')" [attr.aria-expanded]="openMenu() === 'luoghi'">Luoghi</button>
+      <div class="submenu" [class.open]="openMenu() === 'luoghi'" (click)="closeMenus()">
+        <a routerLink="/Convenzioni">Fornitori</a><a routerLink="/SalottoLancillotto">Salotto di Lancillotto</a>
+        <a routerLink="/Studio">Studio del Gran Maestro</a><a routerLink="/Panopticon/LePanoramiche">Panopticon</a>
+        <a routerLink="/Portico">Portico dei maestri</a><a routerLink="/IlDandy">Il Dandy</a>
+        <a routerLink="/LettereOrdine">Lettere all'Ordine</a><a routerLink="/Registro">Registro</a>
+        <a routerLink="/Atti">Atti</a>
+      </div>
+    </div><i>|</i>
+    <a routerLink="/Fortezza">Fortezza</a><i>|</i><a routerLink="/Eventi">Eventi</a><i>|</i><a class="muted" routerLink="/Castello">Castello</a><i>|</i>
+    @if (showPersonalArea) {
+      <a class="personal-area" routerLink="/PersonalArea" title="Accesso alla scheda personale" aria-label="Accesso alla scheda personale"><img src="assets/login.png" alt=""></a><i>|</i>
+    }
+  </nav>
+</header>

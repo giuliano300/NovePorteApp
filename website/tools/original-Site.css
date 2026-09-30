@@ -1,0 +1,4458 @@
+﻿body,html{
+	padding: 0;
+	margin: 0 auto;
+    height:100%;
+}
+
+body{
+    font-family:'GothamBook';
+    color:#534741;
+	font-size:20px;
+	cursor:default;
+	line-height:22px;
+    display:none;
+    overflow-x:hidden;
+}
+
+
+    /*body::-webkit-scrollbar {
+        display:none;
+    }*/
+
+.full-width{
+    width:100%!important;
+}
+
+
+img {
+    border:0px none;
+}
+
+border {
+    border:0px none;
+}
+
+select {
+    outline:none;
+    border-radius: 0;
+}
+
+input [type=checkbox]{
+    outline:none;
+    border-radius: 0;
+
+}
+
+input{
+    outline:none;
+    border-radius: 0;
+
+}
+
+textarea{
+    outline:none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+a:link, a:visited {
+    color:#333;
+    text-decoration:none;
+    transition-property:color;
+    transition-duration:.2s;
+
+}
+
+a:hover {
+    color:#C1272D;
+    text-decoration:none;
+}
+
+ul {
+    top:0;
+    left:0;
+    padding:0px;
+    margin:0 auto;
+}
+
+li {
+    list-style:none;
+    list-style-type:none;
+    display:inline;
+}
+
+.relative{
+    position:relative;
+}
+
+.absolute{
+    position:absolute;
+}
+
+.no-padding{
+    padding:0 !important;
+}
+
+.padding-10{
+    padding:10px;
+}
+
+.padding-25{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.padding-top-25{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.padding-left-rigth-10{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.Error{
+    color:#C1272D;
+    float:left;
+    padding:5px;
+}
+.Error2{
+    color:#C1272D;
+    float:left;
+    padding:0px;
+    font-size:15px;
+}
+
+.empty{
+    float:left;
+    width:100%;
+    text-align:center;
+    padding:100px 0 0 0;
+}
+
+.navigation {
+    width:100%;
+    height:75px;
+    float:left;
+    padding:0px;
+    margin:0;
+    background:#C7B299;
+    position:absolute;
+    box-shadow:1px 2px 25px #444;
+    z-index:3000;
+    top:-120px;
+}
+
+
+    .navigation nav {
+        float:right;
+        padding:25px 0 0 0;
+        margin:0;
+        font-size:20px;
+        font-family:'AvianoLight';
+        color:#4D4D4D;
+    }
+
+        .navigation nav a:link, .navigation nav a:visited {
+            color:#4D4D4D;
+            text-decoration:none;
+        }
+        .navigation nav a:hover {
+            color:#FFF;
+            text-decoration:none;
+        }
+
+
+        a.linkcastello:link, a.linkcastello:visited {
+            color:#838383!important;
+            text-decoration:none;
+        }
+        a.linkcastello:hover {
+            color:#FFF!important;
+            text-decoration:none;
+        }
+
+
+
+        .navigation nav li {
+            float:left;
+            padding:0 27px 0 0;
+            position:relative;
+        }
+
+
+
+.sub-menu {
+    min-width:300px;
+    float:left;
+    position:absolute;
+    background:rgba(140,134,117,0.65);
+    font-size:16px;
+    padding:15px;
+    line-height:30px;
+    top:52px;
+    left:-35px;
+    font-family: 'AvianoRegular';
+    display:none;
+}
+
+    .sub-menu a:link, .sub-menu a:visited {
+        width:100%;
+        float:left;
+        color:#FFF!important;
+        padding:0 5px;
+        text-decoration:none;
+        background:none;
+        transition-property:color, background;
+        transition-duration:.3s;
+    }
+
+
+    .sub-menu a:hover {
+        width:100%;
+        float:left;
+        color:#FFF!important;
+        padding:0 5px;
+        text-decoration:none;
+        background:#4D4D4D;
+    }
+
+
+
+.logo-int {
+    width:320px;
+    height:75px;
+    float:left;
+    padding:5px 0;
+    margin:0;
+    background-color:#8C8675;
+    text-align:center;
+}
+
+    .logo-int img {
+        width:220px;
+    }
+
+
+.navigation-mobile {
+    width:100%;
+    float:left;
+    padding:8px 0;
+    margin:0;
+    background:#C7B299;
+    box-shadow:1px 5px 25px #333;
+}
+
+.btn-menu-mobile {
+    width:100%;
+    height:55px;
+    float:left;
+    padding:13px 0 0 0;
+    margin:0;
+    font-size:25px;
+    text-align:right;
+}
+
+.menu-mobile-open {
+    width:100%;
+    float:left;
+    padding:15px;
+    margin:0;
+    background:rgba(98,91,85,.8);
+    position:absolute;
+    z-index:9999;
+    top:70px;
+    font-size:20px;
+    font-family:'AvianoLight';
+    display:none;
+    text-align:center;
+}
+
+    .menu-mobile-open ul {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+    }
+
+    .menu-mobile-open li {
+        width:100%;
+        float:left;
+        padding:0 0 15px 0;
+
+    }
+
+        .menu-mobile-open a:link, .menu-mobile-open a:visited, .menu-mobile-open a:hover {
+            color:#FFF;
+            text-decoration:none;
+        }
+
+
+.sub-menu-mobile {
+    width:100%;
+    float:left;
+    padding:10px 0;
+    margin:0;
+    font-size:16px;
+    display:none;
+}
+
+    .sub-menu-mobile a:link, .sub-menu-mobile a:visited, .sub-menu-mobile a:hover {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:4px 0 0 0;
+        margin:0 0 4px 0;
+        background:rgba(98,91,85,.85);
+        color:#FFF;
+    }
+
+/*Cittadella*/
+
+.cittadella {
+    width:100%;
+    height:100vh;
+    float:left;
+    padding:0px;
+    margin:0;
+    overflow:hidden;
+    position:relative;
+    background:#EFDDB9;
+}
+
+    .cittadella img {
+        width:100%;
+    }
+
+.logo-cittadella {
+   float:left;
+   position:absolute;
+   z-index:100;
+   top:0;
+}
+
+.logo-cittadella img{
+    width:250px;
+}
+
+
+.btn-cittadella {
+   float:left;
+   padding:0;
+   color:#534741;
+   font-family: 'AvianoBold';
+   position:absolute;
+   z-index:200;
+   font-size:20px;
+   cursor:pointer;
+   transition-property:color;
+   transition-duration:.3s;
+}
+
+    .btn-cittadella:hover {
+        color:#000;
+    }
+
+.arte {
+    top:32%;
+    left:28.5%;
+}
+.donne {
+    top:22%;
+    left:40%;
+}
+.nonaporta {
+    top:19.5%;
+    left:52%;
+}
+.tauromachia {
+    top:25%;
+    right:22%;
+}
+.gioco {
+    top:44.5%;
+    right:13%;
+}
+.fumo {
+    bottom:24%;
+    right:12%;
+}
+.gola {
+    bottom:10%;
+    right:19%;
+}
+.abbigliamento {
+    bottom:3%;
+    right:36%;
+}
+.azione {
+    bottom:6%;
+    right:52%;
+}
+
+.lnk-Fortezza {
+    width:12%;
+    height:25%;
+    top: 36%;
+    left: 18%;
+}
+
+.dandy {
+    top: 37%;
+    right:8.5%;
+}
+.registro {
+    bottom: 2.5%;
+    right: 10.5%;
+}
+.atti {
+    bottom: 10%;
+    left: 8%;
+}
+.panocticon {
+    top: 47%;
+    left: 33%;
+}
+.custos {
+    bottom: 4%;
+    left: 26%;
+}
+.salotto {
+    top: 38%;
+    left: 55%;
+}
+.maestro {
+    top: 51%;
+    right: 26%;
+}
+.eventi {
+    top: 47.5%;
+    right: 42.8%;
+}
+.biblioteca {
+    bottom: 21.8%;
+    left:41%;
+}
+.video {
+    bottom: 19.2%;
+    left:49.5%;
+}
+.portico {
+    bottom: 19.2%;
+    right:30%;
+}
+.rettore {
+    bottom: 24%;
+    right:23.3%;
+}
+
+
+/*Cittadella end*/
+
+
+/*Forum page*/
+
+.content-page-std {
+    width:100%;
+    min-height:100vh;
+    float:left;
+    padding:130px 0 0 0;
+    margin:0;
+    background:url("/Images/BgSite.jpg") repeat-y top;
+}
+
+.content-page-std2 {
+    width:100%;
+    min-height:100vh;
+    float:left;
+    padding:130px 0 0 0;
+    margin:0;
+    background:url("/Images/BgSite2.jpg") repeat-y top;
+}
+
+.contain-forum {
+    width:100%;
+    min-height:83vh;
+    float:left;
+    padding:0 15px;
+    margin:0;
+    border-left:1px solid #333;
+    border-right:1px solid #333;
+    font-size:17px;
+    line-height:18px;
+}
+
+    .contain-forum h1 {
+        width:100%;
+        float:left;
+        padding:0 0 20px 0;
+        margin:0;
+        color:#333;
+        font-family: 'AvianoRegular';
+        font-size:30px;
+    }
+    .contain-forum h3 {
+        width:100%;
+        float:left;
+        padding:10px 0;
+        margin:0;
+        color:#534741;
+        font-family: 'AvianoRegular';
+        font-size:24px;
+        border-top:1px solid #666;
+        border-bottom:1px solid #666;
+    }
+    .contain-forum h4 {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0;
+        font-size:18px;
+        font-weight:bold;
+    }
+    .contain-forum h5 {
+        width:100%;
+        float:left;
+        padding:15px 0 25px 0;
+        margin:0;
+        font-size:14px;
+        text-align:right;
+        font-weight:bold;
+    }
+
+
+.forum-thumb {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+}
+
+    .forum-thumb a:link, .forum-thumb a:visited,  .forum-thumb a:hover{
+        color:#534741!important;
+    }
+
+
+    .forum-thumb article {
+        padding:15px 0 0 0;
+        text-align:justify;
+    }
+
+    .forum-thumb article img{
+        /*display:none!important;*/
+    }
+ 
+    .forum-thumb section{
+        padding:10px 0 0 0;
+        margin:0;
+        font-size:15px;
+    }
+
+
+
+.contain-img-forum {
+    width:100%;
+    padding:0px;
+    margin:0;
+    float:left;
+    position:relative;
+    text-align:left;
+}
+
+    .contain-img-forum img {
+        width:100%;
+    }
+
+    .contain-img-forum h2 {
+        width:100%;
+        float:left;
+        padding:10px;
+        margin:0;
+        background:rgba(44,47,49,.9);
+        position:absolute;
+        color:#f3f3f3;
+        font-family: 'AvianoRegular';
+        font-size:24px;
+    }
+
+.column-left {
+    width:100%;
+    min-height:80vh;
+    float:left;
+    padding:0px;
+    margin:0;
+}
+.column-right {
+    width:100%;
+    min-height:80vh;
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+.column-right h3 {
+    font-size:24px;
+    font-family: 'AvianoRegular';
+    font-weight:bold;
+    padding:0 0 30px 0;
+    margin:0;
+    text-align:center;
+}
+
+.menu-forum {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+    font-family: 'AvianoRegular';
+    font-size:18px;
+}
+
+    .menu-forum ul {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+    }
+
+    .menu-forum li {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:right;
+    }
+
+    .menu-forum a:link, .menu-forum a:visited {
+        color:#333;
+        text-decoration:none;
+    }
+    .menu-forum a:hover {
+        color:#666;
+        text-decoration:none;
+    }
+
+.ricerca-forum {
+    width:80%;
+    float:right;
+    padding:30px 0 0 0;
+    margin:0;
+}
+
+    .ricerca-forum input[type=text] {
+        width:80%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0;
+        background:#FFF;
+        border:0px none;
+        color:#666;
+        font-size:14px;
+    }
+
+    .ricerca-forum input[type=submit] {
+        width:20%;
+        height:30px;
+        float:left;
+        padding:0;
+        margin:0;
+        background:#FFF;
+        border:0px none;
+        background-image:url("/Images/IcnCerca.png");
+        background-position-x:center;
+        background-position-y:center;
+        background-repeat:no-repeat;
+        cursor:pointer;
+    }
+
+.btn-porta {
+    width:90%;
+    float:right;
+    padding:10px;
+    margin:0 0 30px 0;
+    background:#8C8675;
+    font-family: 'AvianoRegular';
+    font-size:20px;
+    text-align:center;
+}
+
+    .btn-porta a:link, .btn-porta a:visited {
+        color:#333;
+        text-decoration:none;
+    }
+
+    .btn-porta a:hover {
+        color:#FFF;
+        text-decoration:none;
+    }
+
+
+.archivio-forum {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+}
+
+    .archivio-forum img {
+        width:100%;
+    }
+
+    .archivio-forum h3 {
+        width:100%;
+        float:left;
+        padding:0 0 5px 0;
+        margin:0;
+        font-family: 'AvianoLight';
+        font-size:18px;
+        text-align:center;
+    }
+
+    .archivio-forum a:link, .archivio-forum a:visited {
+        color:#333;
+        text-decoration:none;
+    }
+
+    .archivio-forum a:hover {
+        color:#666;
+        text-decoration:none;
+    }
+
+.img-articolo-det {
+    width:100%;
+    float:left;
+    padding:0px!important;
+    margin:0!important;
+}
+
+    .img-articolo-det img {
+        width:100%!important;
+    }
+
+    .img-articolo-det a {
+        float:left;
+        width:100%;
+    }
+
+.contain-form-det {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+}
+
+.contain-form-det article{
+    width:100%;
+    float:left;
+    padding:30px 0 0 0;
+    margin:0;
+    font-family: 'GothamBook';
+    font-size:19px;
+    color:#534741;
+    text-align:justify;
+    line-height:22px;
+}
+
+.contain-form-det .dettaglio-articolo{
+    width:100%;
+    float:left;
+    padding:30px 0 0 0;
+    margin:0;
+    font-family: 'GothamBook';
+    font-size:19px;
+    color:#534741;
+    text-align:justify;
+    line-height:22px;
+}
+
+
+.contain-form-det h1{
+    width:100%;
+    float:left;
+    padding:0 0 10px 0;
+    margin:0;
+    font-family:'AvianoBold';
+    font-size:37px;
+}
+.contain-form-det h2{
+    width:100%;
+    float:left;
+    padding:0 0 20px 0;
+    margin:0;
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+    .contain-form-det a:link, .contain-form-det a:visited {
+        float:right;
+        color:#8C8675;
+        text-decoration:none;
+        font-family:'AvianoRegular';
+        font-size:22px;
+    }
+    .contain-form-det a:hover {
+        float:right;
+        color:#333;
+        text-decoration:none;
+        font-family:'AvianoRegular';
+        font-size:22px;
+    }
+
+.relatore {
+    width:100%;
+    float:left;
+    padding:10px 0;
+    margin:0;
+    border-top:1px solid #666;
+    border-bottom:1px solid #666;
+}
+
+    .relatore h3 {
+        width:50%;
+        float:left;
+        padding:10px 0;
+        margin:0;
+        font-family:'AvianoRegular';
+        font-size:25px;
+        color:#4D4D4D;
+        border:0px!important;
+    }
+    .relatore h4 {
+        width:50%;
+        float:left;
+        padding:15px 0;
+        margin:0;
+        font-size:14px;
+        text-align:right;
+        font-weight:bold;
+        color:#4D4D4D;
+        border:0px!important;
+    }
+
+
+.commenti-forum {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+}
+
+.add-commento {
+    width:100%;
+    float:left;
+    padding:0 15px 0 0;
+    margin:0;
+    /*border-top:1px solid #666;
+    border-bottom:1px solid #666;*/
+}
+
+    .add-commento a {
+        float:right;
+        padding:10px;
+        margin:15px 0 0 18px;
+        background:#52A2AD;
+        color:#FFF;
+        font-family:'AvianoRegular';
+        font-size:20px;
+        cursor:pointer;
+    }
+
+.form-add-intervento{
+    /*border:solid 1px #333;*/
+    margin:20px 0 0 0;
+    display:none;
+    font-weight:normal;
+}
+
+    .form-add-intervento input{
+        float:left;
+        width:95%;
+        border:solid 1px rgba(255,255,255,0.5);
+        padding:10px;
+        margin:0 0 15px 0;
+        font-weight:normal;
+    }
+
+    .form-add-intervento textarea{
+        float:left;
+        width:95%;
+        border:solid 1px rgba(255,255,255,0.5);
+        padding:10px;
+        margin:0 0 15px 0;
+        height:120px;
+        font-weight:normal;
+    }
+
+    .form-add-intervento a:hover{
+       background:#666;
+    }
+
+.form-add-risposta{
+    /*border:solid 1px #333;*/
+    padding:20px 30px;
+    display:none;
+    background:rgba(255,255,255,.71);
+    float:left;
+}
+
+    .form-add-risposta p{
+        float:left;
+        width:50%;
+    }
+
+    .form-add-risposta p span{
+        float:left;
+        width:10px!important;
+    }
+
+    .form-add-risposta input{
+        float:left;
+        width:97%;
+        border:solid 1px rgba(255,255,255,0.5);
+        padding:10px;
+        margin:0 0 15px 0;
+    }
+
+    .form-add-risposta textarea{
+        float:left;
+        width:98%;
+        border:solid 1px rgba(255,255,255,0.5);
+        padding:10px;
+        margin:0 0 15px 0;
+        height:120px;
+    }
+
+    .form-add-risposta a{
+       width:98%;
+       background:#52A2AD;
+       float:left;
+       text-align:center;
+       padding:6px;
+       color:#fff;
+       font-size:14px;
+    }
+
+    .form-add-risposta a:hover{
+       background:#666;
+    }
+
+    .form-add-risposta h4{
+        float:left!important;
+        margin: 0!important;
+        padding: 0!important;    
+    }
+
+
+.container-risposte {
+    float: right;
+    padding: 20px 30px 20px 30px !important;
+    margin: 0 !important;
+    width:100%;
+    background: rgba(255,255,255,.81);
+    background-size:35px;
+    background-position-x:-20px;
+    position:relative;
+    border-bottom:solid 1px #dddddd;
+}
+.container-risposte:before{
+    background-image: url('/images/arrow.png');
+    background-repeat:no-repeat;
+    background-size:40px 40px;
+    display: inline-block;
+    width:50px; 
+    height: 40px;
+    content:"";
+    position:absolute;
+    left:35px;
+    top:16px
+}
+
+    .container-risposte h2{
+        float:right;
+        font-size:25px;
+        /*font-weight:600;*/
+        margin:0!important;
+        width:100%;
+        text-align:left;
+        padding: 5px 0 10px 70px;
+        line-height:28px;
+        font-family: 'AvianoRegular';
+        text-transform:uppercase;
+    }
+
+    .container-risposte span{
+        float:left;
+        margin:0 0 5px 0;
+        width:94%;
+        text-align:justify;
+    }
+
+    .container-risposte no-foto{
+        margin-left:60px!important;
+    }
+
+
+     .container-risposte .DivImg{
+         margin:0 0 0 60px;
+     }
+
+    .container-risposte span:first-child{
+        font-size:19px;
+        line-height:23px;
+    }
+
+    .container-risposte h6 span {
+        width:100%;
+        font-size:15px !important;
+        font-weight:600;
+    }
+
+    .container-risposte .col-lg-7 span{
+        width:104%!important;
+    }
+
+.list-commenti {
+    width:100%;
+    float:left;
+    padding:0 0 0 0;
+    margin:0;
+}
+
+    .list-commenti span{
+        width:100%;
+        float:left;
+        padding:10px 0 5px 0;
+    }
+
+    .list-commenti h2 {
+        float:left;
+        padding:5px 10px;
+        margin:35px 0 0 0;
+        background:rgba(77,77,77,.15);
+        font-family:'AvianoRegular';
+        font-size:25px;
+    }
+
+    .list-commenti h6 {
+        width:100%;
+        text-align:right;
+        font-size:11px;
+        font-weight:bold;
+    }
+
+
+    .list-commenti article{
+        width:100%;
+        float:left;
+        padding:30px;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:16px;
+        background:rgba(255,255,255,.71);
+        line-height:23px;
+    }
+
+    .list-commenti article h4{
+        font-family: 'GothamBook';
+        font-size:19px;
+        font-weight:bold;
+        margin:0 !important;
+        padding:0!important;
+    }
+
+
+    .Risposta{
+        float:left;
+        width:100%;
+        text-align:center;
+        padding:6px 0;
+        background:#52A2AD;
+        color:#FFF;
+        cursor:pointer;
+    }
+
+    .Risposta:hover{
+        background:#666;
+        color:#fff;
+    }
+
+/*Forum page end*/
+
+
+/*Contain porta*/
+
+.contain-porta {
+    width:100%;
+    height:100vh;
+    background:url("/Images/BgLegno.jpg") no-repeat top;
+    float:left;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+
+.content-papiro {
+    width:100%;
+    height:100vh;
+    float:left;
+    padding:0px;
+    margin:100px 0 0 0;
+    position:relative;
+    overflow:hidden;
+}
+
+.papiro {
+    width:100%;
+    float:left;
+    position:absolute;
+    bottom:10%;
+    z-index:100;
+}
+
+    .papiro img {
+        width:100%;
+    }
+
+.text-porta {
+    width:75%;
+    height:75vh;
+    overflow:hidden!important;
+    position:absolute;
+    padding:0px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    top:10%;
+    z-index:200;
+    float:left;
+}
+
+    .text-porta h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:24px;
+    }
+
+        .text-porta h1 span {
+            color:#C1272D;
+        }
+
+
+    .text-porta article {
+        width:100%;
+        float:left;
+        padding:20px 0 0 0;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+
+.line {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:9% 0 0 0;
+    border-top:1px solid #666;
+}
+
+.logo-porta {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+    text-align:center;
+}
+
+    .logo-porta img {
+        width:70px;
+    }
+
+
+.back-forum {
+    width:230px;
+    height:30px;
+    float:left;
+    padding:5px 0 0 0;
+    margin:0;
+    background:#8C8675;
+    color:#333;
+    font-family:'AvianoRegular';
+    font-size:20px;
+    position:absolute;
+    z-index:500;
+    text-align:center;
+    cursor:pointer;
+    bottom:10vh;
+    left:8vh;
+}
+
+
+.back-panopticon {
+    width:90%;
+    height:30px;
+    float:left;
+    padding:5px 0 0 0;
+    margin:50px 0 0 3vh;
+    background:#52A2AD;
+    color:#FFF;
+    font-family:'AvianoRegular';
+    font-size:16px;
+    text-align:center;
+    cursor:pointer;
+}
+
+
+/*Contain porta end*/
+
+
+/*Eventi*/
+
+.logo-eventi {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+    text-align:center;
+}
+
+    .logo-eventi img {
+        width:70px;
+    }
+
+    .eventi h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+        .eventi h1 span {
+            color:#C1272D;
+        }
+
+    .eventi article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0 0 50px 0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+        border-bottom:1px solid #666;
+    }
+
+.eventi-thumb {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+}
+
+.eventi-thumb a{
+    width:100%;
+    float:left;
+    padding:0 0 20px 0;
+    margin:0;
+}
+
+.img-eventi-thumb {
+    width:100%;
+    height:185px;
+    float:left;
+    padding:0px;
+    margin:0;
+    overflow:hidden;
+    position:relative;
+}
+
+.img-eventi-thumb img{
+    width:100%;
+}
+
+.caption-eventi {
+    width:90%;
+    height:60%;
+    float:left;
+    padding:15px;
+    margin:0;
+    position:absolute;
+    z-index:100;
+    background:rgba(0,0,0,.55);
+    top:20%;
+    left:5%;
+    color:#FFF;
+    text-align:center;
+}
+
+    .caption-eventi h2 {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        font-family:'AvianoRegular';
+        font-size:28px;
+    }
+
+    .caption-eventi article{
+        width:100%;
+        float:left;
+        padding:10px 0 0 0;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:18px;
+    }
+
+    .eventi-descr{
+        width:100%;
+        height:185px;
+        float:left;
+        padding:10% 0;
+        margin:0;
+        overflow:hidden;
+        border-top:1px solid #666;
+        border-bottom:1px solid #666;
+        text-align:center;
+    }
+
+    .eventi-descr h3 {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        font-family:'AvianoBold';
+        font-size:32px;
+    }
+    .eventi-descr h4 {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        font-family:'AvianoRegular';
+        font-size:26px;
+    }
+
+
+.eventi-thumb a:link, .eventi-thumb a:visited{
+    color:#534741;
+}
+.eventi-thumb a:hover {
+    color:#000;
+}
+
+.btn-calendario {
+    width:100%;
+    float:left;
+    padding:20px 0 0 0;
+    margin:0;
+    font-family:'AvianoRegular';
+    font-size:23px;
+    text-align:center;
+}
+
+    .btn-calendario a:link, .btn-calendario a:visited {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#8C8675;
+        color:#FFF;
+        transition-property:background;
+        transition-duration:.3s;
+    }
+
+    .btn-calendario a:hover {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#736357;
+        color:#FFF;
+
+    }
+
+
+/*Eventi end*/
+
+/*Eventi det*/
+
+    .eventi-det h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+        .eventi-det span {
+            color:#C1272D;
+        }
+
+    .eventi-det article {
+        width:100%;
+        float:left;
+        padding:0 20px 20px 20px;
+        margin:0 0 50px 0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+        border-bottom:1px solid #666;
+        background:rgba(255,255,255,.71);
+    }
+
+    .Foto-Evento{
+        float:left;
+        width:100%;
+        padding:20px 0;
+    }
+
+    .VideoEvento{
+        width:100%;
+        padding:0 0 20px 0;
+    }
+
+    .contain-foto{
+        height:120px;
+        overflow:hidden;
+        width:100%;
+        margin:0 0 30px 0;
+    }
+
+    .contain-foto img{
+       width:110%;
+    }
+
+    .img-eventi-det {
+        width:100%;
+        height:185px;
+        float:left;
+        padding:0px;
+        margin:30px 0;
+        overflow:hidden;
+        position:relative;
+    }
+
+    .img-eventi-det img{
+        width:100%;
+    }
+
+    .caption-eventi-det {
+        width:90%;
+        height:60%;
+        float:left;
+        padding:15px;
+        margin:0;
+        position:absolute;
+        z-index:100;
+        background:rgba(0,0,0,.55);
+        top:20%;
+        left:5%;
+        color:#FFF!important;
+        text-align:center;
+}
+
+    .caption-eventi-det h2 {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        font-family:'AvianoRegular';
+        font-size:28px;
+    }
+
+    .caption-eventi-det h3{
+        width:100%;
+        float:left;
+        padding:10px 0 0 0;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:18px;
+    }
+.btn-pdf {
+    width:100%;
+    float:left;
+    padding:20px 0 0 0;
+    margin:0;
+    font-family:'AvianoRegular';
+    font-size:20px;
+    text-align:center;
+}
+
+    .btn-pdf a:link, .btn-pdf a:visited {
+        width:230px;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#52A2AD;
+        color:#FFF;
+        transition-property:background;
+        transition-duration:.3s;
+    }
+
+    .btn-pdf a:hover {
+        width:230px;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#3C7F84;
+        color:#FFF;
+
+    }
+
+.btn-eventi {
+    width:100%;
+    float:left;
+    padding:20px 0 0 0;
+    margin:0;
+    font-family:'AvianoRegular';
+    font-size:18px;
+    text-align:center;
+}
+
+    .btn-eventi a:link, .btn-eventi a:visited {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#52A2AD;
+        color:#FFF;
+        transition-property:background;
+        transition-duration:.3s;
+    }
+
+    .btn-eventi a:hover {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#3C7F84;
+        color:#FFF;
+
+    }
+
+/*Eventi det end*/
+
+
+/*Lettere all'ordine*/
+
+.lettere-ordine {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+}
+
+    .lettere-ordine h1 {
+        width:100%;
+        float:left;
+        padding:0 0 30px 0;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoSerifBold';
+        font-size:24px;
+        color:#534741;
+        }
+
+    .lettere-ordine input[type=text] {
+        width:94%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+    .lettere-ordine input[type=email] {
+        width:94%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+
+
+    .lettere-ordine textarea{
+        width:94%;
+        height:250px;
+        float:left;
+        padding:5px;
+        margin:0 0 15px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:rgba(255,255,255,.4);
+        border:0px;
+        color:#333;
+    }
+
+
+    .lettere-ordine input[type=submit] {
+        width:100px;
+        height:30px;
+        float:right;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:#52A2AD;
+        border:0px;
+        color:#FFF;
+    }
+
+
+
+    .lettere-ordine input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #333;
+    }
+    .lettere-ordine input::-moz-placeholder { /* Firefox 19+ */
+      color: #333;
+    }
+    .lettere-ordine input:-ms-input-placeholder { /* IE 10+ */
+      color: #333;
+    }
+    .lettere-ordine input:-moz-placeholder { /* Firefox 18- */
+      color: #333;
+    }
+
+    .lettere-ordine textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #333;
+    }
+    .lettere-ordine textarea::-moz-placeholder { /* Firefox 19+ */
+      color: #333;
+    }
+    .lettere-ordine textarea:-ms-input-placeholder { /* IE 10+ */
+      color: #333;
+    }
+    .lettere-ordine textarea:-moz-placeholder { /* Firefox 18- */
+      color: #333;
+    }
+
+
+/*Lettere all'ordine end*/
+
+/*Fornitori*/
+
+.logo-fornitori {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+    text-align:center;
+}
+
+    .logo-fornitori img {
+        width:70px;
+    }
+
+    .fornitori h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+        .fornitori h1 span {
+            color:#C1272D;
+        }
+
+    .fornitori article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0 0 50px 0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+
+.elenco-fornitori {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+}
+
+.img-elenco-fornitori {
+    width:100%;
+    height:180px;
+    overflow:hidden;
+    float:left;
+    padding:0px;
+    margin:0;
+}
+
+    .img-elenco-fornitori img {    
+        width:100%;
+    }
+
+
+.elenco-fornitori section {
+    width:100%;
+    float:left;
+    padding:15px;
+    margin:0 0 30px 0;
+    background:rgba(0,0,0,.5);
+    color:#FFF;
+    text-align:center;
+}
+
+
+    .elenco-fornitori h2 {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        font-family:'AvianoRegular';
+        font-size:28px;
+    }
+
+    .elenco-fornitori article{
+        width:100%;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:16px;
+    }
+
+
+/*Fornitori end*/
+
+/*Studio*/
+
+.logo-studio {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+    text-align:center;
+}
+
+    .logo-studio img {
+        width:70px;
+    }
+
+}
+
+    .studio h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold'!important;
+        font-size:26px;
+    }
+
+        .studio h1 span {
+            color:#C1272D;
+        }
+
+    .studio article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0 0 50px 0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+        border-bottom:1px solid #666;
+    }
+
+
+.foto-studio {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+    position:relative;
+}
+
+    .foto-studio img {
+        width:100%;
+        float:left;
+    }
+
+
+.btn-studio {
+    position:absolute;
+    z-index:200;
+    font-family:'AvianoBold';
+    font-size:22px;
+}
+
+.scrivania {
+    left:4.5%;
+    top:27%;
+}
+
+.posta {
+    right:0;
+    top:27%;
+    right:7%;
+}
+
+
+/*Studio end*/
+
+/*Il Dandy*/
+
+.logo-dandy {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+    text-align:center;
+}
+
+    .logo-dandy img {
+        width:70px;
+    }
+
+    .dandy h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+        .dandy h1 span {
+            color:#C1272D;
+        }
+
+    .dandy article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0 0 50px 0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+        border-bottom:1px solid #666;
+    }
+
+
+    .dandy-page h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+        .dandy-page h1 span {
+            color:#C1272D;
+        }
+
+    .dandy-page article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0 0 20px 0;
+        font-family: 'GothamBook';
+        font-size:17px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+        border-bottom:1px solid #666;
+    }
+
+    .no-border {
+        border:none!important;
+    }
+
+
+.dandy-page a:link, .dandy-page a:visited {
+    color:#C1272D;
+}
+
+.dandy-page a:hover {
+    color:#534741;
+}
+
+
+.dandy-page li {
+    width:100%;
+    float:left;
+    list-style:circle;
+    list-style-type:circle;
+    padding:0 0 10px 0;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.dandy-page img{
+    padding:0 0 15px 0;
+}
+
+.menu-dandy {
+    width:100%;
+    height:30px;
+    float:left;
+    padding:0px;
+    margin:15px 0 0 0;
+    background:#8C8675;
+}
+
+    .menu-dandy ul {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        position:relative;
+    }
+
+        .menu-dandy li{
+            width:25%;
+            float:left;
+            padding:4px 0 0 0;
+            margin:0;
+            text-align:center;
+            font-family:'AvianoRegular';
+            font-size:17px;
+            position:relative;
+            color:#FFF;
+            transition-property:color;
+            transition-duration:.3s;
+        }
+
+            .menu-dandy li:hover {
+                color:#DDD;
+                cursor:pointer;
+            }
+
+
+            .sub-menu-dandy {
+                width:100%;
+                float:left;
+                position:absolute;
+                background:rgba(140,134,117,0.87);
+                font-size:16px;
+                padding:15px;
+                line-height:30px;
+                top:30px;
+                left:0;
+                font-family:'AvianoRegular';
+                text-align:left;
+                display:none;
+                z-index:9999;
+            }
+
+                .sub-menu-dandy a:link, .sub-menu-dandy a:visited {
+                    width:100%;
+                    float:left;
+                    color:#FFF!important;
+                    padding:0 5px;
+                    text-decoration:none;
+                    border-bottom:1px solid #FFF;
+                }
+
+                .sub-menu-dandy a:hover {
+                    width:100%;
+                    float:left;
+                    color:#333!important;
+                    padding:0 5px;
+                    text-decoration:none;
+                }
+
+
+.btn-dandy {
+    width:100%;
+    float:left;
+    padding:20px 0 0 0;
+    margin:0;
+    font-family:'AvianoRegular';
+    font-size:18px;
+    text-align:center;
+}
+
+    .btn-dandy a:link, .btn-dandy a:visited {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#52A2AD;
+        color:#FFF;
+        transition-property:background;
+        transition-duration:.3s;
+    }
+
+    .btn-dandy a:hover {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#3C7F84;
+        color:#FFF;
+
+    }
+
+
+
+/*Il dandy end*/
+
+
+
+/*Animazione Fortezza*/
+
+.animation-fortezza {
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    float:left;
+    padding:0px;
+    margin:0;
+    background:url("/Images/BgCastello.jpg") no-repeat;
+}
+
+.bg-castello {
+    width:100%;
+    height:100vh;
+    float:left;
+    padding:0px;
+    margin:0;
+    position:absolute;
+    z-index:100;
+}
+
+.bg-castello img{
+    width:100%;
+}
+
+.cavaliere-1 {
+    width:500px;
+    float:left;
+    padding:0px;
+    margin:0;
+    position:absolute;
+    z-index:300;
+    right:-50%;
+    bottom:0;
+}
+
+    .cavaliere-1 img {
+        width:100%;
+    }
+
+
+.cavaliere-2 {
+    width:355px;
+    float:left;
+    padding:0px;
+    margin:0;
+    position:absolute;
+    z-index:300;
+    right:44%;
+    bottom:3%;
+    display:none;
+}
+
+    .cavaliere-2 img {
+        width:100%;
+    }
+
+
+.cavaliere-3 {
+    width:187px;
+    float:left;
+    padding:0px;
+    margin:0;
+    position:absolute;
+    z-index:300;
+    left:30%;
+    top:40%;
+    display:none;
+}
+
+    .cavaliere-3 img {
+        width:100%;
+    }
+/*Animazione Fortezza end*/
+
+/*Fortezza code*/
+
+.fortezza-code {
+    width:100%;
+    height:100vh;
+    float:left;
+    padding:0px;
+    margin:0;
+    overflow:hidden;
+    position:relative;
+    background:url("/Images/Fortezza.jpg") no-repeat top;
+}
+
+    .fortezza-code img {
+        width:100%;
+        position:absolute;
+        z-index:200;
+    }
+
+
+.over-bg {
+    width:100%;
+    height:100vh;
+    float:left;
+    padding:0px;
+    margin:0;
+    overflow:hidden;
+    background:rgba(51,51,51,.5);
+    position:absolute;
+    z-index:300;
+}
+
+
+.enter-code {
+    width:100%;
+    float:left;
+    padding:30px 50px;
+    margin:25vh 0 0 0;
+    background:rgba(199,194,191,.9);
+}
+
+    .enter-code h1 {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0;
+        font-family:'AvianoLight';
+        font-size:22px;
+        text-align:center;
+    }
+
+    .enter-code input[type=password] {
+        width:100%;
+        height:50px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 15px 0;
+        border:1px #999 solid;
+        text-align:center;
+    }
+    .enter-code input[type=submit] {
+        width:100%;
+        height:50px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 15px 0;
+        border:0px;
+        text-align:center;
+        background:#625B55;
+        color:#FFF;
+    }
+
+    .enter-code span{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        color:#C1272D;
+        font-size:14px;
+        text-align:center;
+    }
+
+.close-popup {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+    text-align:right;
+    font-size:30px;
+}
+
+
+.fortezza-det {
+    width:100%;
+    height:100vh;
+    float:left;
+    padding:0px;
+    margin:0;
+    overflow:hidden;
+    position:relative;
+    background:#8C8675;
+}
+
+    .fortezza-det img {
+        width:100%;
+    }
+
+
+.btn-fortezza {
+   float:left;
+   padding:0;
+   color:#222;
+   font-family: 'AvianoBold';
+   position:absolute;
+   z-index:500;
+   font-size:20px;
+   cursor:pointer;
+   transition-property:color;
+   transition-duration:.3s;
+}
+
+    .btn-fortezza:hover {
+        color:#534741;
+    }
+
+.Soci {
+    bottom:31%;
+    left:4%;
+    text-align:center!important;
+}
+.Convenzioni {
+    bottom:39%;
+    left:29.5%;
+}
+.Forum {
+    bottom:11.5%;
+    left:46%;
+}
+.Atti {
+    top:58%;
+    left:46%;
+}
+.Oggetti {
+    top:57%;
+    right:30%;
+}
+.Calendario {
+    top:43%;
+    right:4%;
+}
+
+
+/*Fortezza code end*/
+
+/*Soci*/
+
+.logo-soci {
+    width:100%;
+    float:left;
+    padding:0 0 30px 0;
+    margin:0;
+    text-align:center;
+}
+
+    .logo-soci img {
+        width:70px;
+    }
+
+    .soci h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+
+
+
+    .soci h3{
+        width:100%;
+        float:left;
+        padding:10px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+    .soci h2{
+        font-size:22px;
+    }
+
+    .soci h4{
+        font-size:16px;
+    }
+
+    .soci h1 span {
+        color:#C1272D;
+    }
+
+
+    .soci article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+    .soci section {
+        width:100%;
+        float:left;
+        padding:20px 0 30px 0;
+        margin:0;
+        font-family: 'MinionPro';
+        font-size:19px;
+        color:#736357;
+        text-align:center;
+    }
+
+
+.profilo-soci {
+    width:100%;
+    float:left;
+    padding:15px 0;
+    margin:0;
+}
+
+    .profilo-soci img {
+        width:100%;
+        float:left;
+    }
+
+    .profilo-soci h2 {
+        width:100%;
+        float:left;
+        padding:10px 0 5px 0;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:18px;
+    }
+    .profilo-soci h3 {
+        width:100%;
+        float:left;
+        padding:0 0 10px 0;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoRegular';
+        font-size:16px;
+    }
+
+
+.btn-soci {
+    width:100%;
+    float:left;
+    padding:15px 0;
+    margin:0;
+}
+
+    .btn-soci a:link, .btn-soci a:visited {
+        width:100%;
+        height:52px;
+        float:left;
+        background:rgba(0,0,0,.51);
+        color:#FFF;
+        text-align:center;
+        font-size:15px;
+        font-family:'AvianoRegular';
+        padding:15px 0 0 0;
+        margin:0;
+        transition-property:background;
+        transition-duration:.3s;
+    }
+
+    .btn-soci a:hover {
+        width:100%;
+        height:52px;
+        float:left;
+        background:rgba(82,162,173,.90);
+        color:#FFF;
+        text-align:center;
+        font-size:15px;
+        font-family:'AvianoRegular';
+        padding:15px 0 0 0;
+        margin:0;
+    }
+
+    .bg-filtro-soci{
+        background:rgba(0,0,0,.35);
+    }
+    
+    .bg-filtro-soci input{
+        background:rgba(0,0,0,.2);
+        color:#FFF;
+    }    
+
+    .bg-filtro-soci a{
+        background:rgba(0,0,0,.2);
+        color:#FFF;
+    }
+
+   .bg-filtro-soci ::-webkit-input-placeholder {
+       color:#ddd;
+    }
+
+   .bg-filtro-soci :-moz-placeholder { /* Firefox 18- */
+       color:#ddd;
+    }
+
+   .bg-filtro-soci ::-moz-placeholder {  /* Firefox 19+ */
+       color:#ddd;
+    }
+
+   .bg-filtro-soci :-ms-input-placeholder {  
+       color:#ddd;
+    }
+
+
+.filtro-soci{
+    float:left;
+    width:100%;
+}
+
+.filtro-soci input, .filtro-soci select, .filtro-soci a{
+    width:30%!important;
+    float:left;
+    border:solid 1px #f1f1f1!important;
+    font-size:14px!important;
+    padding:12.5px 0!important;
+    margin:0 0 0 2%!important;
+}
+
+/*Soci end*/
+
+/*Cittadella Mobile*/
+
+.cittadella-mobile {
+    width:100%;
+    min-height:100vh;
+    float:left;
+    padding:100px 0 0 0;
+    margin:0;
+    background:url("/Images/BgCastello.jpg") repeat-y;
+    font-family:'AvianoBold';
+    font-size:16px;
+}
+
+    .cittadella-mobile section {
+        width:100%;
+        float:left;
+        padding:0 0 30px 0;
+        margin:0 0 0 0;
+        /*border-bottom:1px solid #666;*/
+    }
+
+    .border-bottom {
+        border-bottom:1px solid #666;
+    }
+
+.cittadella-mobile a:link, .cittadella-mobile a:visited{
+    width:100%;
+    height:38px;
+    float:left;
+    padding:7px 0 0 0;
+    margin:30px 0 0 0;
+    text-align:center;
+    border:1px solid #666;
+    background:rgba(255,255,255,.2)
+}
+.cittadella-mobile a:hover{
+    width:100%;
+    height:38px;
+    float:left;
+    padding:7px 0 0 0;
+    margin:30px 0 0 0;
+    text-align:center;
+    border:1px solid #666;
+    background:rgba(255,255,255,.2)
+}
+
+
+a.menu-mobile-full:link, a.menu-mobile-full:visited{
+    width:100%;
+    height:45px!important;
+    float:left;
+    padding:11px 0 0 0;
+    margin:0 0 0 0;
+    text-align:center;
+    border:1px solid #666;
+    font-size:20px;
+    background:rgba(199,178,153,.7)
+}
+a.menu-mobile-full:hover{
+    width:100%;
+    height:45px!important;
+    float:left;
+    padding:11px 0 0 0;
+    margin:0 0 0 0;
+    text-align:center;
+    border:1px solid #666;
+    font-size:20px;
+    background:rgba(199,178,153,.7)
+}
+
+/*Cittedella mobile end*/
+
+
+/*Fortezza Mobile*/
+
+.fortezza-mobile {
+    width:100%;
+    min-height:100vh;
+    float:left;
+    padding:100px 0 0 0;
+    margin:0;
+    background:url("/Images/BgCastello.jpg") repeat-y;
+    font-family:'AvianoBold';
+    font-size:16px;
+}
+
+    .fortezza-mobile section {
+        width:100%;
+        float:left;
+        padding:0 0 30px 0;
+        margin:0 0 30px 0;
+        border-bottom:1px solid #666;
+    }
+
+.fortezza-mobile a:link, .fortezza-mobile a:visited{
+    width:100%;
+    height:40px;
+    float:left;
+    padding:9px 0 0 0;
+    margin:30px 0 0 0;
+    text-align:center;
+    border:1px solid #666;
+}
+.fortezza-mobile a:hover{
+    width:100%;
+    height:40px;
+    float:left;
+    padding:9px 0 0 0;
+    margin:30px 0 0 0;
+    text-align:center;
+    border:1px solid #666;
+}
+
+/*fortezza mobile end*/
+
+
+/*Menu Dandy Mobile*/
+
+.menu-dandy-mobile {
+    width:100%;
+    float:left;
+    padding:20px 0 0 0;
+    margin:0;
+}
+
+    .menu-dandy-mobile ul {
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+    }
+
+    .menu-dandy-mobile li {
+        width:100%;
+        float:left;
+        padding:10px 0;
+        margin:0 0 8px 0;
+        background:#8C8675;
+        color:#FFF;
+        text-align:center;
+        font-family:'AvianoRegular';
+        font-size:16px;
+        position:relative;
+        cursor:pointer;
+    }
+
+.sub-menu-dandy-mobile {
+    width:100%;
+    float:left;
+    padding:10px 0;
+    margin:0;
+    font-size:14px;
+    background:#DDD;
+    display:none;
+}
+
+    .sub-menu-dandy-mobile a {
+        color:#333;
+        width:100%;
+        float:left;
+        padding:0 0 8px 0;
+    }
+/*Menu Dandy Mobile end*/
+
+/*Galleria Dandy*/
+
+.link-galleria {
+    width:100%;
+    float:left;
+    padding:35px 0 0 0;
+    margin:0;
+    font-family:'AvianoBold';
+    font-size:25px;
+}
+
+
+.link-galleria span{
+    float:left;
+    padding:0 5.5px 5px 5.5px;
+    margin:0;
+}
+
+    .link-galleria span:hover {
+        color:#C1272D;
+        cursor:pointer;
+    }
+
+.galleria-result {
+    width:100%;
+    float:left;
+    padding:20px 0 0 0;
+    margin:0;
+    text-align:center;
+}
+
+    .galleria-result section {
+        /*display:none;*/
+    }
+
+    .galleria-result h2 {
+        width:100%;
+        float:left;
+        padding:15px 0 0px 0;
+        margin:0;
+        text-align:center;
+        font-size:50px;
+        font-family:'AvianoBold';
+        color:#C1272D;
+    }
+
+    .galleria-result a:link, .galleria-result a:visited {
+        color:#534741;
+        font-size:16px;
+    }
+    .galleria-result a:hover {
+        color:#C1272D;
+        font-size:16px;
+    }
+/*Galleria Dandy end*/
+
+/*LAncillotto*/
+
+    .Lancillotto h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+        .Lancillotto h1 span {
+            color:#C1272D;
+        }
+
+    .Lancillotto article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0 0 0 0;
+        font-family: 'GothamBook';
+        font-size:17px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+
+
+
+/*Lancillotto end*/
+
+
+/*Galleria Dandy*/
+
+.link-monologhi {
+    width:100%;
+    float:left;
+    padding:30px 0 0 0;
+    margin:0;
+    font-family:'AvianoBold';
+    font-size:25px;
+}
+
+
+.link-monologhi span{
+    float:left;
+    padding:0 5.5px 5px 5.5px;
+    margin:0;
+}
+
+    .link-monologhi span:hover {
+        color:#C1272D;
+        cursor:pointer;
+    }
+
+.monologhi-result {
+    width:100%;
+    float:left;
+    padding:40px 0 0 0;
+    margin:0;
+    text-align:center;
+}
+
+
+    .monologhi-result h2 {
+        width:100%;
+        float:left;
+        padding:30px 0 10px 0;
+        margin:0;
+        text-align:center;
+        font-size:40px;
+        font-family:'AvianoBold';
+        color:#C1272D;
+    }
+
+    .monologhi-result a:link, .monologhi-result a:visited {
+        color:#534741;
+        font-size:16px;
+    }
+    .monologhi-result a:hover {
+        color:#C1272D;
+        font-size:16px;
+    }
+
+.btn-back-salotto {
+    width:100%;
+    float:left;
+    padding:15px 0;
+    margin:0;
+    text-align:center;
+    font-family:'AvianoRegular';
+    font-size:18px;
+}
+
+    .btn-back-salotto a:link, .btn-back-salotto a:visited {
+        background:#C1272D;
+        color:#FFF;
+        transition-property:background;
+        transition-duration:.3s;
+        padding:10px;
+    }
+
+    .btn-back-salotto a:hover {
+        background:#534741;
+        color:#FFF;
+        padding:10px;
+    }
+
+/*Galleria Dandy end*/
+
+/*Rubrica Lancillotto*/
+
+    .rubrica h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+    .rubrica h1 span {
+        color:#C1272D;
+    }
+
+
+    .rubrica article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+    .rubrica section {
+        font-size:15px;
+    }
+
+
+
+.rubrica-int {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+    font-size:16px;
+    text-align:justify;
+}
+
+    .rubrica-int section {
+        width:100%;
+        float:left;
+        padding:15px 0;
+        margin:0;
+        text-align:center;
+    }
+
+
+/*Rubrica Lancillotto end*/
+
+/*Compendio*/
+
+    .compendio h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+        .compendio h1 span {
+            color:#C1272D;
+        }
+
+    .compendio article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0 0 0 0;
+        font-family: 'GothamBook';
+        font-size:17px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+
+
+
+/*Compendio end*/
+
+/*Compendio page*/
+
+    .compendio-page h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+        .compendio-page h1 span {
+            color:#C1272D;
+        }
+
+    .compendio-page article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0 0 0 0;
+        font-family: 'GothamBook';
+        font-size:17px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+
+/*Compendio page end*/
+
+
+/*Registrati*/
+
+.registrati {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+}
+
+    .registrati h1 {
+        width:100%;
+        float:left;
+        padding:0 0 30px 0;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoSerifBold';
+        font-size:24px;
+        color:#534741;
+        }
+
+    .registrati input[type=text] {
+        width:94%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+    .registrati input[type=email] {
+        width:97%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+
+    .registrati input[type=tel] {
+        width:94%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+
+
+
+    .registrati textarea{
+        width:97%;
+        height:100px;
+        float:left;
+        padding:5px;
+        margin:0 0 15px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:rgba(255,255,255,.4);
+        border:0px;
+        color:#333;
+    }
+
+
+    .registrati input[type=submit] {
+        width:200px;
+        height:30px;
+        float:right;
+        padding:0 5px;
+        margin:0 20px 30px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:#52A2AD;
+        border:0px;
+        color:#FFF;
+    }
+
+    .registrati section {
+        width:98%;
+        float:left;
+        padding:0 0 20px 0;
+        margin:0 0 30px 0;
+        font-family: 'GothamBook';
+        font-size:16px;
+        text-align:justify;
+        border-bottom:1px solid #CCC;
+    }
+
+
+
+    .registrati input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #333;
+    }
+    .registrati input::-moz-placeholder { /* Firefox 19+ */
+      color: #333;
+    }
+    .registrati input:-ms-input-placeholder { /* IE 10+ */
+      color: #333;
+    }
+    .registrati input:-moz-placeholder { /* Firefox 18- */
+      color: #333;
+    }
+
+    .registrati textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #333;
+    }
+    .registrati textarea::-moz-placeholder { /* Firefox 19+ */
+      color: #333;
+    }
+    .registrati textarea:-ms-input-placeholder { /* IE 10+ */
+      color: #333;
+    }
+    .registrati textarea:-moz-placeholder { /* Firefox 18- */
+      color: #333;
+    }
+
+
+/*Registrati*/
+
+/*Panopticon*/
+
+    .Panopticon h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+    .Panopticon h1 span {
+        color:#C1272D;
+    }
+
+
+    .Panopticon article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+    .Panopticon section {
+        font-size:15px;
+    }
+
+.panoramiche {
+    width:100%;
+    float:left;
+    padding:15px 0;
+    margin:0;
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+}
+
+    .panoramiche img {
+        padding:0 0 10px 0;
+    }
+
+/*Panopticon*/
+
+
+/*Portico*/
+
+    .portico h1{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:26px;
+    }
+
+    .portico h1 span {
+        color:#C1272D;
+    }
+
+
+    .portico article {
+        width:100%;
+        float:left;
+        padding:20px 0;
+        margin:0;
+        font-family: 'GothamBook';
+        font-size:19px;
+        color:#534741;
+        text-align:justify;
+        line-height:20px;
+    }
+    .portico span {
+        font-size:15px;
+    }
+
+.portico a:link, .portico a:visited {
+    color:#C1272D;
+}
+
+.portico a:hover {
+    color:#333;
+}
+
+
+/*Portico*/
+
+.list-soci{
+    font-size:14px;
+    padding:30px 5px;
+    background:rgba(255,255,255,0.5);
+    margin:10px 0;
+}
+
+    .list-soci div{
+        height:65px;
+        border-bottom:solid 1px #ccc;
+        padding:20px 0;
+    }
+
+
+    .list-soci a{
+       padding:5px 15px;
+       border:solid 1px rgba(255,255,255,0.5);
+       font-size:14px;
+       width:350px;
+       background:rgba(255,255,255,1)
+    }
+    .list-soci a:hover{
+       background:rgba(255,255,255,0.5);
+       color:#534741
+    }
+/*PAGINE*/
+.ContainerDataPager {
+    font-size:14px;
+    float:right;
+    /*width:100%;*/
+    margin:10px 0 30px 0;
+    /*padding:30px 0;*/
+    text-align:center;
+    /*font-family:'Open Sans';*/
+    position:relative;
+}
+
+.ContainerDataPager #DataPagerProducts {
+   /*background:#fff !important;*/
+   /*padding:0 143px 0 0!important;*/
+   float:right;
+   margin:0 10px 0 0;
+}
+
+#DataPagerProducts span{
+    color:#fff;
+    background:#5a493d;
+    padding:5px 8px;
+    margin:2px;
+    text-align:center;
+    border:solid 1px #736357
+    }
+
+.ContainerDataPager a {
+    color:#fff;
+    background:#8C8675;
+    padding:5px 8px;
+    margin:2px;
+    text-align:center;
+    border:solid 1px #8C8675
+    }
+
+.ContainerDataPager a:hover {
+    background:#736357;
+    color:#fff !important;
+   }
+
+
+.page-socio{
+    font-size:16px;
+    padding:30px 5px;
+    background:rgba(255,255,255,0.5);
+    margin:10px 0;
+}
+
+
+.Dati-personali{
+
+}
+
+    .Dati-personali h2{
+        font-size:16px;
+        font-weight:bold;
+        margin:0;
+        padding:10px 0 0 0;
+    }
+
+.Dettaglio-dati{
+    float:left;
+    padding:30px;
+}
+
+
+    .Dettaglio-dati h3{
+        font-size:16px;
+        font-weight:bold;
+        margin:0;
+        padding:20px 0 0 0;
+        float:left;
+        width:100%;
+        text-align:left;
+    }
+
+    .Dettaglio-dati p{
+       background:#ede6dd;
+       float:left;
+       width:100%;
+       padding:10px;
+    }
+
+    .lnkback{
+        border:solid 1px #534741;
+        left:15px;
+        top:10px;
+        padding:5px 10px;
+        font-size:14px;
+    }
+
+    .lnkback:hover{
+        background:#534741;
+        color:#FFF;
+    }
+
+    .top-30{
+        top:-30px!important;
+    }
+
+    .right-0{
+        right:0!important;
+        left:auto !important;
+    }
+
+    .right-10{
+        right:10px!important;
+        left:auto !important;
+    }
+
+    .img-profilo{
+        width:80%;
+        margin:0% 10%;
+    }
+
+.filtri-soci{
+    width:100%;
+    float:left;
+    padding:10px 0;
+    margin:20px 0;
+    background:rgba(255,255,255,0.5);
+}
+
+.socio-filtri{
+    float:none!important;
+    margin-top:60px
+}
+
+  
+    .socio-filtri input[type=text]{
+       width:100%!important;
+        margin:10px 0!important;
+    }
+
+  .socio-filtri a{
+        width:100%!important;
+        margin:10px 0!important;
+    }
+
+
+    .filtri-soci input[type=text]{
+       width:31.0%;
+       height:40px;
+       padding:0 5px;
+       float:left;
+       border:solid 1px #DDD;
+       font-size:16px;
+       margin:0 1%;
+    }
+
+    .filtri-soci select{
+       padding:8px 0;
+       border:solid 1px rgba(255,255,255,0.5);
+       font-size:14px;
+       margin:5px 20px;
+       width:350px;
+    }
+
+    .filtri-soci a{
+        width:33.3%;
+        height:40px;
+        float:left;
+        background:#8C8675;
+        text-align:center;
+        font-size:16px;
+        color:#FFF;
+        padding:8px 0 0 0;
+        margin:0;
+        transition-property:background;
+        transition-duration:.3s;
+
+    }
+    .filtri-soci a:hover{
+        background:#333;
+    }
+
+.NuovoContributo{
+    display:block;
+    padding:0 10px;
+    border-right:none!important;
+    font-weight:300!important;
+}
+
+
+.NuovoContributo .form-add-intervento{
+    display:block;
+    padding:0 10px;
+}
+
+
+
+.NuovoContributo a{
+    background:#52A2AD;
+    color:#FFF;
+    float:left;
+    width:95%;
+    text-align:center;
+    padding:10px;
+    margin:0 0 15px 0;
+}
+
+.NuovoContributo label{
+    width:48.5%;
+    float:left;
+}
+
+
+.ricerca-forum a{
+    font-size:13px;
+    float:right;
+    padding:10px 0;
+}
+
+
+.container-sotto-categorie{
+    float:left;
+    padding:20px 5px;
+    width:100%;
+}
+
+.container-sotto-categorie a{
+    float:right;
+    /*width:90%;*/
+    text-align:right;
+    font-size:15px;
+}
+
+.container-link{
+    width:100%;
+    float:left;
+}
+
+
+.LnkDel{
+    float:right;
+    width:10%!important;
+    text-align:right;
+    color:#C1272D !important;
+}
+
+.Selected{
+   color:#C1272D!important;
+}
+
+.TblCategorie{
+    font-size:15px;
+    width:100%;
+}
+
+    .TblCategorie tr {
+        width:47.4%!important;
+        float:left;
+    }
+
+
+    .TblCategorie tr td{
+        padding:8px 0 3px 5px;
+        width:98%;
+        float:left;
+    }
+
+    .TblCategorie tr:nth-child(4n+1), .TblCategorie tr:nth-child(4n+2){
+        background:rgba(255,255,255,0.8);
+    }
+
+    .TblCategorie label{
+        float:left;
+        cursor:pointer;
+        width:90%;
+    }
+
+    .TblCategorie label:hover{
+        color:#C1272D
+    }
+
+    .TblCategorie input{
+        float:left;
+        width:35px!important;
+        margin:2px 0 0 0;
+    }
+
+    .NuovoContributo h2{
+       font-size:20px;
+       padding:0!important;
+       margin:0 0 10px 0!important
+    }
+
+    .note-editor{
+        width:95%!important;
+        margin:0!important;
+        float:left;
+    }
+
+
+    /*Atti*/
+
+    .btn-atti {
+    width:100%;
+    float:left;
+    padding:20px 0 0 0;
+    margin:0 0 20px 0;
+    font-family:'AvianoRegular';
+    font-size:16px;
+    text-align:center;
+}
+
+    .btn-atti a:link, .btn-atti a:visited {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#52A2AD;
+        color:#FFF;
+        transition-property:background;
+        transition-duration:.3s;
+    }
+
+    .btn-atti a:hover {
+        width:100%;
+        height:30px;
+        float:left;
+        padding:5px 0 0 0;
+        margin:0;
+        background:#3C7F84;
+        color:#FFF;
+
+    }
+
+
+    /*Atti end*/
+
+    /*Ordini Convenzioni*/
+
+    .ordini-convenzioni h2{
+        width:100%;
+        float:left;
+        padding:30px 0;
+        margin:0;
+        text-align:center;
+        font-family:'AvianoBold';
+        font-size:20px;
+    }
+
+
+
+    .ordini-convenzioni input[type=text] {
+        width:97%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:14px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+    .ordini-convenzioni input[type=email] {
+        width:97%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:14px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+
+    .ordini-convenzioni input[type=tel] {
+        width:97%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:14px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+
+    .ordini-convenzioni select {
+        width:98%;
+        height:30px;
+        float:left;
+        padding:0 5px;
+        margin:0 0 30px 0;
+        font-size:14px;
+        font-family:'AvianoRegular';
+        background:rgba(51,51,51,.1);
+        border:0px;
+        color:#333;
+    }
+
+
+
+    .ordini-convenzioni textarea{
+        width:99%;
+        height:100px;
+        float:left;
+        padding:5px;
+        margin:0 0 15px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:rgba(255,255,255,.4);
+        border:0px;
+        color:#333;
+    }
+
+
+    .ordini-convenzioni input[type=submit] {
+        width:200px;
+        height:30px;
+        float:right;
+        padding:0 5px;
+        margin:0 1% 30px 0;
+        font-size:16px;
+        font-family:'AvianoRegular';
+        background:#52A2AD;
+        border:0px;
+        color:#FFF;
+    }
+
+
+.ordini-convenzioni label {
+    font-size:14px;
+    padding:0 0 0 5px;
+    float:left;
+}
+
+.ordini-convenzioni input[type=radio] {
+    float:left;
+    margin:5px 0 0 15px;
+}
+
+    .ordini-convenzioni input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #222;
+    }
+    .ordini-convenzioni input::-moz-placeholder { /* Firefox 19+ */
+      color: #222;
+    }
+    .ordini-convenzioni input:-ms-input-placeholder { /* IE 10+ */
+      color: #222;
+    }
+    .ordini-convenzioni input:-moz-placeholder { /* Firefox 18- */
+      color: #222;
+    }
+
+    .ordini-convenzioni textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #222;
+    }
+    .ordini-convenzioni textarea::-moz-placeholder { /* Firefox 19+ */
+      color: #222;
+    }
+    .ordini-convenzioni textarea:-ms-input-placeholder { /* IE 10+ */
+      color: #222;
+    }
+    .ordini-convenzioni textarea:-moz-placeholder { /* Firefox 18- */
+      color: #222;
+    }
+
+
+
+    /*Ordini Convenzioni end*/
+
+
+    .contenitore-membri {
+        text-align:center;
+    }
+
+
+    .box-membri{
+        height:500px;
+        overflow:hidden;
+        border:solid 1px #ddd;
+        padding:10px;
+        background:rgba(255,255,255,0.5);
+        width:32.3%;
+        display:inline-block;
+    }
+
+
+
+    .box-membri .box-img{
+        height:400px;
+        overflow:hidden;
+    }
+    .box-membri .box-img img{
+        width:100%;
+    }
+
+    @media(max-width:480px){
+
+        .list-soci{
+            padding:5px 10px 10px!important;
+        }
+
+        .box-membri {
+            height: 250px !important;
+            width: 46.3% !important;
+        }
+
+            .box-membri .box-img {
+                height: 140px!important;
+            }
+
+        .nomeCognome {
+            padding: 15px 5px 0 15px !important;
+            float:left;
+        }
+
+       .list-soci div {
+            padding: 0 !important;
+            height: 65px !important;
+            border-bottom: solid 1px #ccc !important;
+            margin: 5px 0 !important;
+        }
+
+        .list-soci a {
+            margin: 14px 0 0 !important;
+            float:left!important;
+            width:auto!important;
+        }
+
+        .box-membri h2 {
+           font-size:18px!important;
+        }
+
+  }
+
+    .box-membri h2{
+        float:left;
+        width:100%;
+        text-align:center;
+        margin:10px 0 0 0;
+    }
+
+    .box-membri h3{
+        float:left;
+        width:100%;
+        text-align:center;
+        margin:0;
+        font-size:15px;
+    }
+
+
+
+     .eventi-thumb h1{
+        float:left;
+        width:100%;
+        text-align:center;
+        font-family:'AvianoRegular';
+        margin:5px 0 22px 0;
+        font-size:32px
+    }
+
+    .btn-puls-eventi{
+        float:left;
+        width:50%;
+    }
+
+    .btn-puls-eventi a{
+        float:left;
+        width:98%!important;
+        margin:0 1%!important;
+        padding:11px 0!important;
+        height:40px!important;
+    }
+
+
+    .elenco-atti{
+        width:100%;
+        float:left;
+        padding:0px;
+        margin:0;
+        font-size:16px;
+    }
+
+    .elenco-atti h2{
+        width:100%;
+        float:left;
+        padding:0 0 10px 0;
+        margin:0;
+        font-family:'AvianoBold';
+        font-size:20px;
+    }
+
+        .elenco-atti span {
+            color:#C1272D
+        }
+
+/*PERSONAL AREA*/
+.container-request-pass{
+    width:100%;
+    float:left;
+    margin:0;
+    padding:10vh 0 0 0;
+}
+
+
+.container-request-pass article{
+    width:96%;
+    float:left;
+    margin:0;
+    padding:0 0 30px 0;
+    font-size:18px;
+    text-align:center;
+    font-family:'AvianoBold';
+}
+
+    .container-request-pass input[type=text]{
+        width: 96%;
+        height: 35px;
+        float: left;
+        padding:0 5px;
+        margin:0 0 15px 0;
+        font-size: 16px;
+        font-family: 'AvianoRegular';
+        background: rgba(51,51,51,.1);
+        border: 0px;
+        color: #333;
+    }
+    .container-request-pass input[type=email]{
+        width: 96%;
+        height: 35px;
+        float: left;
+        padding:0 5px;
+        margin:0;
+        font-size: 16px;
+        font-family: 'AvianoRegular';
+        background: rgba(51,51,51,.1);
+        border: 0px;
+        color: #333;
+    }
+
+    .container-request-pass a{
+        width:96%;
+        height:35px;
+        background:#52A2AD;
+        font-size:18px;
+        padding:7px 0 0 0;
+        text-align:center;
+        float:left;
+        margin:15px 0 0 0;
+        color:#fff;
+        font-family:"AvianoRegular"
+    }
+
+
+    .container-request-pass input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #333;
+    }
+    .container-request-pass input::-moz-placeholder { /* Firefox 19+ */
+      color: #333;
+    }
+    .container-request-pass input:-ms-input-placeholder { /* IE 10+ */
+      color: #333;
+    }
+    .container-request-pass input:-moz-placeholder { /* Firefox 18- */
+      color: #333;
+    }
+
+
+.container-login{
+    width:100%;
+    float:left;
+    margin:0;
+    padding:10vh 0 0 0;
+}
+.container-loggato{
+    width:100%;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.container-login h1{
+        width:96%;
+        float:left;
+        margin:0px 0 30px 0 !important;
+        text-align:center;
+        font-family:"AvianoBold";
+        font-size:25px;
+}
+
+.container-loggato h1{
+        width:100%;
+        float:left;
+        margin:0 0 30px 0 !important;
+        text-align:center;
+        font-family:"AvianoBold";
+        font-size:25px;
+}
+.container-loggato h2{
+        width:100%;
+        float:left;
+        margin:0 0 20px 0 !important;
+        text-align:center;
+        font-family:"AvianoBold";
+        font-size:18px;
+        color:#52A2AD;
+}
+
+.container-loggato section {
+    width:98%;
+    float:left;
+    padding:5px;
+    margin:10px 0;
+    font-size:15px;
+    border:1px solid #8C8675;
+}
+
+
+    .container-login input[type=password]{
+        width: 96%;
+        height: 35px;
+        float: left;
+        padding:0 5px;
+        margin:0;
+        font-size: 16px;
+        font-family: 'AvianoRegular';
+        background: rgba(51,51,51,.1);
+        border: 0px;
+        color: #333;
+    }
+
+    .container-login input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #333;
+    }
+    .container-login input::-moz-placeholder { /* Firefox 19+ */
+      color: #333;
+    }
+    .container-login input:-ms-input-placeholder { /* IE 10+ */
+      color: #333;
+    }
+    .container-login input:-moz-placeholder { /* Firefox 18- */
+      color: #333;
+    }
+
+    .container-login a{
+        width:96%;
+        height:35px;
+        background:#52A2AD;
+        font-size:18px;
+        padding:7px 0 0 0;
+        text-align:center;
+        float:left;
+        margin:15px 0 0 0;
+        color:#fff;
+        font-family:"AvianoRegular"
+    }
+
+    .container-login a:hover{
+        /*background:#666;
+        border:solid 1px #666;
+        color:#FFF;*/
+    }
+
+.TblCategoria{
+    float:left;
+    width:100%;
+    margin:10px 0;
+    border:solid 1px #dedede;
+    background: rgba(255,255,255,.4);
+}
+
+    .TblCategoria tr{
+        float:left;
+        width:50%;
+        padding:10px 15px 5px 25px;
+   }
+
+    .TblCategoria tr label{
+        cursor:pointer;
+        font-size:15px;
+        padding:0 0 3px 5px;
+   }
+
+.form-group{
+   width:100% !important;
+}
+
+    .form-group label{
+        float:left;
+        padding:0 0 5px 0;
+        margin:0;
+        font-size:14px;
+    }
+
+   .form-group select{
+        width: 97%;
+        height: 35px;
+        float: left;
+        padding:0 5px;
+        margin:4px 0 15px 0;
+        font-size: 16px;
+        font-family: 'AvianoRegular';
+        background: rgba(51,51,51,.1);
+        border: 0px;
+        color: #333;
+   }
+   .form-group input[type=text]{
+        width: 97%;
+        height: 35px;
+        float: left;
+        padding:0 5px;
+        margin:4px 0 15px 0;
+        font-size: 16px;
+        font-family: 'AvianoRegular';
+        background: rgba(51,51,51,.1);
+        border: 0px;
+        color: #333;
+   }
+   .form-group input[type=file]{
+        width: 100%;
+        height: 35px;
+        float: left;
+        padding:0;
+        margin:4px 0 15px 0;
+        font-size: 15px;
+        font-family: 'AvianoRegular';
+        border: 0px;
+        color: #333;
+   }
+
+    .form-group textarea{
+        width: 99%;
+        height: 120px;
+        float: left;
+        padding:0 5px;
+        margin:4px 0 15px 0;
+        font-size: 16px;
+        font-family: 'AvianoRegular';
+        background: rgba(51,51,51,.1);
+        border: 0px;
+        color: #333;
+   }
+
+    .form-group input[type=checkbox]{
+       width:30px;
+       float:none!important;
+   }
+
+    .SpnError{
+        width:1%;
+        float:left;
+        color:#C1272D
+    }
+
+    .form-group a{
+        width:99%;
+        height:35px;
+        background:#52A2AD;
+        font-size:16px;
+        padding:7px 0 0 0;
+        text-align:center;
+        float:left;
+        margin:30px 0 0 0;
+        color:#fff;
+        font-family:"AvianoRegular"
+    }
+
+    .form-group .Validate{
+        font-size:15px;
+        color:#019a37;
+    }
+
+    .form-group label{
+        padding:10px 0 0 0;
+    }
+
+
+
+.anteprima-castello {
+    width:100%;
+    height:100vh;
+    float:left;
+    padding:0;
+    background:url("/Images/BgCastello.jpg") repeat-y;
+}
+
+
+.anteprima-castello {
+    width:100%;
+    float:left;
+    padding:130px 0 0 0;
+    margin:0;
+}
+
+.content-pergamena {
+    width:100%;
+    float:left;
+    padding:0px;
+    margin:0;
+    position:relative;
+}
+
+    .content-pergamena img {
+        width:100%;
+        position:absolute;
+        z-index:100;
+    }
+
+    .content-pergamena article {
+        width:100%;
+        float:left;
+        padding:150px 0 0 0;
+        margin:0;
+        position:absolute;
+        z-index:200;
+        font-family:"AvianoRegular";
+        font-size:24px;
+        color:#000;
+        text-align:center;
+    }
+
+    .content-pergamena a:link, .content-pergamena a:visited {
+        color:#000;
+        font-size:28px;
+        text-decoration:none;
+    }
+    .content-pergamena a:hover {
+        color:#666;
+        font-size:28px;
+        text-decoration:none;
+    }
+
+
+    /*OGGETTI*/
+
+
+    .box-prodotto{
+        float:left;
+        width:100%;
+        font-size:16px;
+        text-align:left;
+        border:solid 1px #534741;
+        background:rgba(255,255,255,0.4);
+        padding:5px;
+        margin:10px 0;
+        height:160px;
+        overflow:hidden;
+    }
+    .box-prodotto img{
+        float:left;
+        width:20%;
+        margin:0 2% 0 0;
+    }
+
+    .TitoloProdotto{
+        float:left;
+        width:48%;
+        margin:1% 2% 0 0;
+        text-align:justify;
+        line-height: 20px;
+    }
+
+        .TitoloProdotto h1{
+            float:left;
+            text-align:left;
+            font-size:20px;
+        }
+
+        .price{
+            float:left;
+            width:24%;
+            line-height:140px;
+            font-weight:600;
+            text-align:right;
+        }
+        .giacenza{
+            float:left;
+            width:8%;
+             line-height:140px;
+            font-weight:600;
+            text-align:left;
+       }        
+        
+        .det{
+            float:left;
+            line-height:140px;
+            font-weight:600;
+       }      
+          
+        .det a{
+            float:left;
+            font-weight:600;
+            color:#534741;
+       }          
+        .det a:hover{
+            color:#8C8675;
+       }
+
+
+.box-categoria {
+    width:49.5%!important;
+    margin: 10px 0.5% 10px 0!important;
+    height: 145px;
+    transition: all;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    padding: 0;
+}
+
+    .box-categoria:hover {
+        background: rgba(255, 255, 255, 1);
+        border: solid 1px #56080b;
+    }
+
+    .box-categoria img{
+        float:left;
+        width:44%;
+        margin:0 1% 0 0;
+    }
+
+    .box-categoria .TitoloProdotto{
+        float:left;
+        text-align:justify;
+        font-size:14px;
+        margin:1% !important;
+        line-height: 16px;
+        width: 50%
+    }
+
+
+    /*DETTAGLIO PRODOTTO*/
+
+    .box-dettaglio-prodotto{
+        float:left;
+        width:96%;
+        margin:10px 2%;
+    }
+
+        .box-dettaglio-prodotto a{
+            float:left;
+            width:100%;
+        }
+
+        .box-dettaglio-prodotto img{
+            float:left;
+            width:100%;
+        }
+
+        .box-dettaglio-prodotto p{
+            float:left;
+            padding:0 0 10px 0;
+            font-size:18px;
+            width:100%;
+            line-height:26px;
+            text-align:justify;
+            min-height: 30px;
+        }
+
+       .box-dettaglio-prodotto  .price{
+           line-height:24px;
+           margin:-20px 0 0 0;
+           font-size:40px;
+           width:38%;
+           float:left;
+           text-align:left;
+       }
+
+        .box-dettaglio-prodotto .descrizioneOggetto{
+            margin:-20px 0 0 0;
+            width:30%;
+            float:left;
+            text-align:left;
+            padding:5px 5px 0 5%;
+            font-size:28px;
+            display: none;
+        }
+
+
+        .box-dettaglio-prodotto .disponibilita{
+            margin:-20px 0 0 0;
+            width:32%;
+            float:right;
+            text-align:right;
+            padding:8px 1% 0 0;
+        }
+
+
+    .box-dati-personali{
+        float:left;
+        width:100%;
+        margin:10px 0;
+    }
+
+    .box-dati-personali h2{
+        font-size:16px;
+        font-weight:600;
+        line-height:24px;
+        padding-left:15px;
+    }
+
+    .box-dati-personali h3{
+        font-size:16px;
+        padding:20px 0 0 0;
+        margin:0;
+        text-align:left!important;
+        text-transform:capitalize!important;
+        font-family:'GothamBook'!important;
+        font-weight:600;
+    }
+
+    .box-dati-personali article{
+        float:left;
+        width:100%;
+        margin:0;
+        padding:10px 0;
+    }
+
+    .box-dati-personali article input{
+        float:left;
+        width:48.5%;
+        padding:10px;
+        font-size:16px;
+    }
+
+    .box-dati-personali article textarea{
+        float:left;
+        width:98%;
+        padding:10px;
+        font-size:16px;
+        margin: 10px 0 0 0;
+        height:90px;
+    }
+
+    .box-dati-personali article .Error{
+       padding:0 2px 0 0;
+    }
+
+
+    .box-dati-personali article input[type=checkbox]{
+        float:left;
+        height:22px;
+        width:22px;
+        margin:0px 10px 0 0;
+    }
+
+    .box-dati-personali article input[type=file]{
+        float:left;
+        width:98%;
+        background:#534741;
+        color:#FFF;
+        font-size:12px;
+        outline:none;
+    }
+
+
+    .box-dati-personali article label{
+        cursor:pointer;
+        font-size:16px;
+    }
+
+    .box-dati-personali article select{
+        float:left;
+        width:48.5%;
+        padding:12px;
+        font-size:16px;
+    }
+
+    .box-dati-personali article .full{
+        float:left;
+        width:98%;
+    }
+
+    .box-acquista{
+        float:left;
+        padding:10px 5% 50px 2%;
+        width:100%
+    }
+
+    .box-acquista input{
+        /*float:right;*/
+        width:100px;
+        height:50px;
+        text-align:center;
+        float:left;
+        margin:0 0 0 13%;
+    }
+    .box-acquista a{
+        float:right;
+        width:220px;
+        text-align:center;
+        padding:14px;
+        background:#534741;
+        color:#FFF;
+        font-size:15px;
+        margin:0 0 0 5px;
+    }
+
+    a.back-oggetti{
+        width:250px;
+        background:#534741;
+        color:#FFF;
+        padding:10px 20px;
+        float:left;
+        margin:20px 0 20px 33%;
+        font-size:15px;
+        text-align:center;
+    }
+
+    a.back-oggetti:hover{
+        background:#8C8675;
+    }
+
+    .font-size-15{
+        font-size:15px;
+    }
+
+    .box-totale{
+        float:left;
+        width:40%;
+        font-size:22px;
+        color:#56080b;
+        font-weight:600;
+        margin:-4px 0 0 15px;
+        line-height:30px;
+    }
+
+    .box-bonifico{
+        float:left;
+        margin:5px 0 10px 0;
+        text-align:justify;
+        font-size:14px;
+        line-height:24px;
+        width:98%;
+        border:solid 1px #534741;
+        background:rgba(255,255,255,0.4);
+        padding:10px 20px;
+   }
+    .box-bonifico h4{
+        font-size:16px;
+        padding:0;
+        margin:0;
+        text-align:left!important;
+        text-transform:capitalize!important;
+        font-family:'GothamBook'!important;
+        font-weight:600;
+           line-height:25px;
+           color:#534741;
+  }
+
+    .aBoxProdotto {
+        height: 148px;
+        overflow: hidden;
+        float: left;
+    }
+
+    .aBoxProdotto:hover{
+        color:#534741;
+    }
+
+.btn-back {
+    float: right;
+    margin: 40px 0 20px 0;
+    background: #5a493d;
+}
+
+.btn-back a{
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px;
+    float: left;
+}
+
+.fotoMini {
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+}
+
+    .fotoMini p{
+        float: left;
+        width: 32.33%;
+        margin: 0 0.5%;
+    }
+
+    .fotoMini p a{
+        float: left;
+        width:100%;
+        height: 150px;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .fotoMini p img{
+            float: left;
+            height: 100%;
+            width: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }

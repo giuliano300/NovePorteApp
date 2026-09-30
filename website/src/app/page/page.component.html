@@ -1,0 +1,7 @@
+<np-site-header [showPersonalArea]="showPersonalArea()" />
+<main class="legacy-page">
+  @if (loading()) { <div class="page-state">Caricamento…</div> }
+  @else if (error()) {
+    <section class="page-state"><h1>{{ pageTitle() }}</h1><p>Questa pagina è in fase di migrazione.</p><a routerLink="/">Torni alla Cittadella</a></section>
+  } @else { <div class="imported-content" [innerHTML]="content()"></div> }
+</main>

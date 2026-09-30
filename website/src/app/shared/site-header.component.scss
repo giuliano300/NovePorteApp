@@ -1,0 +1,49 @@
+:host { display: block; }
+.site-header { align-items: stretch; background: #c7b299; box-shadow: 1px 2px 25px #444; display: flex; height: 75px; left: 0; position: absolute; right: 0; top: 0; z-index: 3000; }
+.brand { align-items: center; background: #8c8675; display: flex; flex: 0 0 320px; justify-content: center; }
+.brand img { width: 220px; }
+.brand .mobile-logo { display: none; }
+nav { align-items: flex-start; color: #4d4d4d; display: flex; margin-left: auto; padding: 25px 0 0; width: auto; font-family: AvianoLight, sans-serif; font-size: 20px; font-style: normal; font-weight: 400; line-height: 22px; }
+nav > * { flex: 0 0 auto; margin-right: 27px; }
+nav > a, nav button { transition: color .2s ease; }
+nav > a:hover, nav button:hover { color: #fff; }
+nav i { font-style: normal; }
+nav .muted { color: #838383; }
+.personal-area img { vertical-align: middle; width: 45px; }
+.nav-group { display: block; position: relative; }
+.nav-group button { background: transparent; border: 0; color: inherit; cursor: pointer; line-height: 22px; padding: 0; }
+.submenu { background: rgba(140,134,117,.65); display: none; font: 400 16px/30px AvianoRegular, sans-serif; left: -35px; min-width: 300px; padding: 15px; position: absolute; top: 52px; }
+.submenu.open { display: grid; }
+.submenu a { color: #fff; padding: 0 5px; }
+.submenu a:hover { background: #4d4d4d; }
+.menu-toggle { display: none; }
+
+@media (max-width: 1300px) {
+  nav { font-size: 17px; }
+  nav > * { margin-right: 20px; }
+}
+
+@media (max-width: 1100px) {
+  nav > * { margin-right: 10px; }
+}
+
+@media (max-width: 1024px) {
+  nav { font-size: 16px; }
+}
+
+@media (max-width: 991px) {
+  .site-header { height: 70px; position: relative; }
+  .brand { flex: 0 0 50%; }
+  .brand .desktop-logo { display: none; }
+  .brand .mobile-logo { display: block; height: 52px; width: auto; }
+  .menu-toggle { background: transparent; border: 0; cursor: pointer; display: grid; gap: 5px; margin: auto 20px auto auto; padding: 10px; }
+  .menu-toggle span { background: #534741; display: block; height: 2px; width: 27px; }
+  nav { align-items: stretch; background: rgba(98,91,85,.8); display: none; flex-direction: column; left: 0; margin: 0; padding: 15px; position: absolute; top: 70px; width: 100%; }
+  nav.open { display: flex; }
+  nav > * { margin: 0; }
+  nav > a, .nav-group button { color: #fff; padding: 10px; text-align: center; width: 100%; }
+  nav i { display: none; }
+  .personal-area img { margin: 0 auto; }
+  .nav-group { display: block; height: auto; }
+  .submenu { background: rgba(30,25,22,.35); left: 0; position: relative; top: 0; }
+}

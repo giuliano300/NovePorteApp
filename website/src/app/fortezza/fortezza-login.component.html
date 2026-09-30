@@ -1,0 +1,13 @@
+<main class="login-page">
+  <np-site-header />
+  <div class="shade"></div>
+  <form (ngSubmit)="submit()" autocomplete="off">
+    <a class="close" routerLink="/" aria-label="Chiuda">×</a>
+    <img src="assets/logo-porta.png" alt="Nove Porte">
+    <h1>digiti il codice segreto</h1>
+    <label for="password">Codice segreto</label>
+    <input id="password" name="password" [(ngModel)]="password" type="password" required autocomplete="current-password">
+    <button type="submit" [disabled]="loading()">{{ loading() ? 'ATTENDERE…' : 'ACCEDA' }}</button>
+    @if (error()) { <p class="error" role="alert">{{ error() }}</p> }
+  </form>
+</main>

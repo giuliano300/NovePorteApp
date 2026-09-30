@@ -68,3 +68,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Angular website: generated and local-only content
+/website/.angular/
+/website/dist/
+/website/private/
+/website/research_*.html

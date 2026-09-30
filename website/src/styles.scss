@@ -1,0 +1,10 @@
+@font-face{font-family:Aviano;src:url('/assets/fonts/aviano-light.woff2') format('woff2');font-weight:300;font-display:swap}
+@font-face{font-family:Aviano;src:url('/assets/fonts/aviano-bold.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:Gotham;src:url('/assets/fonts/gotham-book.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:AvianoRegular;src:url('/assets/fonts/AvianoSans2_1.woff2') format('woff2');font-display:swap}
+@font-face{font-family:AvianoBold;src:url('/assets/fonts/legacy-aviano-bold.woff2') format('woff2'),url('/assets/fonts/legacy-aviano-bold.woff') format('woff'),url('/assets/fonts/legacy-aviano-bold.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:AvianoLight;src:url('/assets/fonts/legacy-aviano-light.woff2') format('woff2'),url('/assets/fonts/legacy-aviano-light.woff') format('woff'),url('/assets/fonts/legacy-aviano-light.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:AvianoSerifBold;src:url('/assets/fonts/AvianoSerifBold_0.woff2') format('woff2');font-display:swap}
+@font-face{font-family:GothamBook;src:url('/assets/fonts/ufonts_com_gothambook.woff2') format('woff2');font-display:swap}
+@font-face{font-family:MinionPro;src:url('/assets/fonts/MinionProMediumCnIt_2.woff2') format('woff2');font-display:swap}
+:root{color-scheme:light;font-family:Gotham,Arial,sans-serif;color:#534741;background:#efddb9}*{box-sizing:border-box}html,body{min-height:100%;margin:0}body{overflow-x:hidden}a{color:inherit;text-decoration:none}button,input{font:inherit}

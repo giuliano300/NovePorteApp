@@ -1,0 +1,1054 @@
+﻿@media(max-width:1440px){
+
+    .cavaliere-1 {
+        width: 400px;
+    }
+    .cavaliere-2 {
+        width: 230px;
+    }
+    .cavaliere-3 {
+        width: 100px;
+    }
+
+    .cittadella img {
+        width:105%;
+    }
+
+    .text-porta {
+        height:70vh!important;
+    }
+
+
+    .btn-cittadella {
+       font-size:17px;
+    }
+
+
+    .arte {
+        top:31%;
+        left:29%;
+    }
+    .donne {
+        top:21%;
+        left:41%;
+    }
+    .nonaporta {
+        top:18%;
+        left:54%;
+    }
+    .tauromachia {
+        top:23%;
+        right:17%;
+    }
+    .gioco {
+        top:41.5.7%;
+        right:8%;
+    }
+    .fumo {
+        bottom:28%;
+        right:7%;
+    }
+    .gola {
+        bottom:14%;
+        right:15%;
+    }
+    .abbigliamento {
+        bottom:7%;
+        right:32%;
+    }
+    .azione {
+        bottom:10%;
+        right:49%;
+    }
+
+    .dandy {
+        top: 35%;
+        right: 3%;
+    }
+    .registro {
+        bottom: 7%;
+        right: 5%;
+    }
+    .atti {
+        bottom: 15%;
+        left: 8%;
+    }
+    .panocticon {
+        top: 44.8%;
+        left: 33.3%;
+    }
+    .custos {
+        bottom: 37%;
+        left: 39.5%;
+    }
+    .salotto {
+        top: 36%;
+        left: 57%;
+    }
+    .maestro {
+        top: 47.5%;
+        right: 22%;
+    }
+    .eventi {
+        top: 44%;
+        right: 40%;
+    }
+    .biblioteca {
+        bottom: 25.7%;
+        left:43%;
+    }
+    .video {
+        bottom: 23.3%;
+        left:52%;
+    }
+    .portico {
+        bottom: 23.5%;
+        right:26.5%;
+    }
+    .rettore {
+        bottom: 27.7%;
+        right:19%;
+    }
+
+
+
+.btn-fortezza {
+   font-size:18px;
+}
+
+
+    .Soci {
+        bottom:40%;
+        left:3.5%;
+    }
+    .Convenzioni {
+        bottom:48%;
+        left:28%;
+    }
+    .Forum {
+        bottom:17%;
+        left:45%;
+    }
+    .Atti {
+        top:51%;
+        left:45.7%;
+    }
+    .Oggetti {
+        top:50%;
+        right:29.5%;
+    }
+    .Calendario {
+        top:38%;
+        right:2.5%;
+    }
+
+    .papiro {
+        bottom:-8%;
+    }
+
+.column-right {
+    padding:13.5vh 0 0 0;
+}
+
+
+
+}
+
+@media(max-width:1300px) {
+    .cavaliere-1 {
+        width: 350px;
+    }
+    .cavaliere-2 {
+        width: 180px;
+    }
+    .cavaliere-3 {
+        width: 80px;
+    }
+
+    .cittadella img {
+        width:105%;
+    }
+
+    .btn-cittadella {
+       font-size:17px;
+    }
+
+
+    .arte {
+        top:31%;
+        left:29%;
+    }
+    .donne {
+        top:21%;
+        left:41%;
+    }
+    .nonaporta {
+        top:18%;
+        left:54%;
+    }
+    .tauromachia {
+        top:23%;
+        right:17%;
+    }
+    .gioco {
+        top:42%;
+        right:7%;
+    }
+    .fumo {
+        bottom:26%;
+        right:6%;
+    }
+    .gola {
+        bottom:12%;
+        right:15%;
+    }
+    .abbigliamento {
+        bottom:4%;
+        right:32%;
+    }
+    .azione {
+        bottom:9%;
+        right:49%;
+    }
+
+    .dandy {
+        top: 35%;
+        right: 3%;
+    }
+    .registro {
+        bottom: 4%;
+        right: 5%;
+    }
+    .atti {
+        bottom: 13%;
+        left: 8%;
+    }
+    .panocticon {
+        top: 44.8%;
+        left: 33.3%;
+    }
+    .custos {
+        bottom: 5%;
+        left: 27%;
+    }
+    .salotto {
+        top: 36%;
+        left: 57%;
+    }
+    .maestro {
+        top: 48.5%;
+        right: 22%;
+    }
+    .eventi {
+        top: 45%;
+        right: 40%;
+    }
+    .biblioteca {
+        bottom: 24.3%;
+        left:42%;
+    }
+    .video {
+        bottom: 22%;
+        left:52%;
+    }
+    .portico {
+        bottom: 21.5%;
+        right:26.5%;
+    }
+    .rettore {
+        bottom: 26%;
+        right:19%;
+    }
+
+
+    .btn-fortezza {
+       font-size:18px;
+    }
+
+
+    .Soci {
+        bottom:35.5%;
+        left:3.3%;
+    }
+    .Convenzioni {
+        bottom:44%;
+        left:28%;
+    }
+    .Forum {
+        bottom:14.3%;
+        left:45%;
+    }
+    .Atti {
+        top:52%;
+        left:45.5%;
+    }
+    .Oggetti {
+        top:50%;
+        right:29.3%;
+    }
+    .Calendario {
+        top:39%;
+        right:2%;
+    }
+
+    .papiro {
+        bottom:-20%;
+    }
+
+.text-porta {
+    height:68vh;
+}
+
+    .enter-code {
+        padding:30px;
+        margin:27vh 0 0 0;
+    }
+
+        .enter-code h1 {
+            font-size:22px;
+        }
+
+    .contain-form-det a:link, .contain-form-det a:visited {
+        font-size:22px;
+    }
+    .contain-form-det a:hover {
+        font-size:22px;
+    }
+
+    .forum-thumb {
+        font-size:14px;
+        line-height:18px;
+    }
+
+    .contain-forum h3 {
+        padding:7px 0;
+        font-size:20px;
+    }
+
+    .contain-forum h4 {
+        padding:10px 0;
+        font-size:16px;
+    }
+
+    .menu-forum {
+        font-size:14px;
+    }
+
+    .btn-porta {
+        bottom:5%;
+    }
+
+    .contain-form-det h1{
+        padding:0 0 10px 0;
+        font-size:30px;
+    }
+    .contain-form-det h2{
+        font-size:20px;
+    }
+
+
+    .contain-form-det a:link, .contain-form-det a:visited {
+        font-size:20px;
+    }
+    .contain-form-det a:hover {
+        font-size:20px;
+    }
+
+    .column-right {
+        padding:13vh 0 0 0;
+    }
+
+    .ricerca-forum {
+        width:100%;
+    }
+
+
+    .navigation nav {
+        font-size:17px;
+    }
+
+    .navigation nav li {
+        float:left;
+        padding:0 20px 0 0;
+        position:relative;
+    }
+
+
+}
+
+@media(max-width:1024px){
+    .navigation nav {
+        font-size:16px;
+    }
+
+        .navigation nav li {
+            float:left;
+            padding:0 10px 0 0;
+            position:relative;
+        }
+
+.elenco-fornitori section {
+    padding:12px;
+    margin:0 0 20px 0;
+}
+
+
+    .elenco-fornitori h2 {
+        font-size:20px;
+    }
+
+    .elenco-fornitori article{
+        font-size:14px;
+    }
+
+    .img-elenco-fornitori {
+    height:110px;
+}
+
+
+    .Soci {
+        bottom:53%;
+        left:3%;
+    }
+    .Convenzioni {
+        bottom:60%;
+        left:28%;
+    }
+    .Forum {
+        bottom:37.4%;
+        left:45%;
+    }
+    .Atti {
+        top:38%;
+        left:45%;
+    }
+    .Oggetti {
+        top:35%;
+        right:28%;
+    }
+    .Calendario {
+        top:28%;
+        right:2%;
+    }
+
+.btn-studio {
+    font-size:19px;
+}
+
+    .scrivania {
+        left:4.2%;
+        top:27%;
+    }
+
+    .posta {
+        right:0;
+        top:27%;
+        right:6%;
+    }
+
+}
+
+@media(max-width:768px){
+
+
+    .content-page-std {
+        padding:30px 0 0 0;
+    }
+
+    .content-page-std2 {
+        padding:30px 0 0 0;
+    }
+
+    .content-page-std {
+        padding:30px 0 0 0;
+    }
+
+.content-papiro {
+    margin:0 0 0 0;
+}
+
+    .papiro {
+        bottom:0;
+    }
+
+.text-porta {
+    top:22%;
+    height:55vh;
+}
+
+    .text-porta article {
+        padding:10px 0 0 0;
+        font-size:15px;
+        line-height:18px;
+    }
+
+    .text-porta h1{
+        font-size:25px;
+    }
+
+    .logo-porta {
+        padding:0 0 15px 0;
+    }
+
+    .logo-porta img {
+        width:50px;
+    }
+
+    .back-forum {
+    top:15vh;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.btn-porta {
+    width:100%;
+    margin:20px 0;
+    position:relative;
+}
+
+.ricerca-forum {
+    width:100%;
+}
+
+.column-left {
+    min-height: 0;
+    padding:0 0 30px 0;
+}
+.contain-forum {
+    min-height:0;
+    font-size:14px;
+    line-height:18px;
+}
+
+    .contain-forum h3 {
+        font-size:22px;
+    }
+    .contain-forum h4 {
+        font-size:14px;
+    }
+    .contain-forum h5 {
+        font-size:12px;
+    }
+
+.contain-form-det article{
+    font-family: 'GothamBook';
+    font-size:16px;
+    line-height:18px;
+}
+
+
+.contain-form-det h1{
+    font-size:25px;
+}
+.contain-form-det h2{
+    padding:0 0 10px 0;
+    font-size:18px;
+}
+
+
+    .contain-form-det a:link, .contain-form-det a:visited {
+        float:left;
+        padding:15px 0;
+        font-size:18px;
+    }
+    .contain-form-det a:hover {
+        float:left;
+        padding:15px 0;
+        font-size:18px;
+    }
+
+
+    .list-commenti h2 {
+        font-size:20px;
+    }
+
+
+    .list-commenti article{
+        font-size:16px;
+        line-height:20px;
+    }
+
+
+
+.img-elenco-fornitori {
+    height:100px;
+}
+
+
+
+.elenco-fornitori section {
+    padding:15px;
+    margin:0 0 20px 0;
+}
+
+
+    .elenco-fornitori h2 {
+        font-size:22px;
+    }
+
+    .elenco-fornitori article{
+        font-size:15px;
+    }
+
+
+    /*OGGETTI*/
+    .box-prodotto{
+        height:auto;
+    }
+
+    .box-prodotto img{
+        width:100%;
+    }
+
+    .TitoloProdotto, .TitoloProdotto h1, .TitoloProdotto p{
+        width:100%;
+    }
+
+    .TitoloProdotto h1, .TitoloProdotto p{
+       margin:5px 0;
+    }
+
+    .price {
+        float: left;
+        width:50%;
+        line-height: 40px;
+        font-weight: 600;
+        text-align: left;
+        font-size:22px;
+    }
+
+    .box-dettaglio-prodotto .price {
+        margin: -10px 0 0 0;
+        font-size:22px;
+    }
+
+
+    .box-dettaglio-prodotto p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .box-dettaglio-prodotto .disponibilita {
+        margin: -10px 0 0 0;
+        font-size:14px;
+    }
+
+    .box-dati-personali h2 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+
+    .box-dati-personali article {
+        padding:0;
+    }
+
+    .box-dati-personali article input {
+        float: left;
+        width: 96%;
+        padding: 10px;
+        font-size: 14px;
+        margin:10px 0;
+    }
+
+    .box-dati-personali article input[type=file] {
+        width: 96%;
+    }
+
+    .box-dati-personali article select {
+        float: left;
+        width: 96%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .box-dati-personali article label {
+        font-size: 13px;
+        width:80%;
+        line-height:18px;
+    }
+
+    .box-dati-personali article input[type=checkbox] {
+        margin: 8px 10px 25px 0;
+    }
+
+    .box-totale {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        color: #56080b;
+        font-weight: 600;
+        margin: -5px 0 20px 15px;
+        line-height: 30px;
+    }
+
+    .box-acquista input {
+        margin: 0 0 0 4%;
+    }
+
+    .box-acquista a {
+        margin: 0 15px 0 5px;
+    }
+
+    .box-categoria {
+        width:99%!important;
+        min-height:250px;
+        overflow:hidden
+    }
+
+    .box-categoria img{
+        margin-top:-30px;
+    }
+
+    .aBoxProdotto{
+        height:280px;
+    }
+
+    .box-img{
+        height:160px;
+        overflow:hidden;
+    }
+
+    .box-categoria .TitoloProdotto {
+        width: 95%;
+    }
+
+    .box-prodotto {
+        float: left;
+        width: 48%;
+        margin: 10px 1%;
+    }
+
+    .price{
+        width:100%;
+        font-size:18px;
+    }
+}
+
+@media(max-width:480px){
+
+    .content-page-std {
+        padding:30px 0 0 0;
+    }
+
+    .content-page-std2 {
+        padding:30px 0 0 0;
+    }
+
+
+.btn-porta {
+    width:100%;
+    margin:20px 0;
+    position:relative;
+}
+
+.ricerca-forum {
+    width:100%;
+}
+
+.column-left {
+    min-height: 0;
+    padding:0 0 30px 0;
+}
+.contain-forum {
+    min-height:0;
+    font-size:14px;
+    line-height:18px;
+}
+
+    .contain-forum h3 {
+        font-size:22px;
+    }
+    .contain-forum h4 {
+        font-size:14px;
+    }
+    .contain-forum h5 {
+        font-size:12px;
+    }
+
+.contain-form-det article{
+    font-family: 'GothamBook';
+    font-size:16px;
+    line-height:18px;
+}
+
+
+.contain-form-det h1{
+    font-size:25px;
+}
+.contain-form-det h2{
+    padding:0 0 10px 0;
+    font-size:18px;
+}
+
+
+    .contain-form-det a:link, .contain-form-det a:visited {
+        float:left;
+        padding:15px 0;
+        font-size:18px;
+    }
+    .contain-form-det a:hover {
+        float:left;
+        padding:15px 0;
+        font-size:18px;
+    }
+
+
+    .list-commenti h2 {
+        font-size:20px;
+    }
+
+
+    .list-commenti article{
+        font-size:16px;
+        line-height:20px;
+    }
+
+
+.content-papiro {
+    margin:0 0 0 0;
+}
+
+    .papiro {
+        bottom:10%;
+    }
+
+.text-porta {
+    top:40%;
+    height:46vh!important;
+}
+
+    .text-porta article {
+        padding:10px 0 0 0;
+        font-size:15px;
+        line-height:18px;
+    }
+
+    .text-porta h1{
+        font-size:20px;
+    }
+
+    .logo-porta {
+        padding:0 0 15px 0;
+    }
+
+    .logo-porta img {
+        width:50px;
+    }
+
+.back-forum {
+    top:25vh;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.cittadella-mobile {
+    font-size:14px;
+    padding:30px 0 0 0;
+}
+
+
+.enter-code {
+    padding:15px;
+    margin:10vh 0 0 0;
+    background:rgba(199,194,191,.9);
+}
+
+
+
+    .enter-code h1 {
+        padding:20px 0;
+        font-size:18px;
+    }
+
+.img-elenco-fornitori {
+    height:65px;
+}
+
+
+
+.elenco-fornitori section {
+    padding:12px;
+    margin:0 0 20px 0;
+}
+
+
+    .elenco-fornitori h2 {
+        font-size:16px;
+    }
+
+    .elenco-fornitori article{
+        font-size:14px;
+    }
+
+
+    .menu-forum li {
+        text-align:left;
+    }
+
+    .container-sotto-categorie a{
+        text-align:left;
+    }
+
+
+
+    .contain-forum h1 {
+        font-size:25px;
+    }
+    .contain-forum h3 {
+        font-size:24px;
+    }
+
+    .contain-forum h4 {
+        padding:40px 0 20px 0;
+        line-height:25px;
+    }
+
+    .contain-img-forum {
+        width:100%;
+        height:300px;
+        overflow:hidden;
+    }
+
+
+    .archivio-forum {
+        width:100%;
+        text-align:center;
+    }
+
+    .archivio-forum h3 {
+        padding:0 0 10px 0;
+    }
+
+
+    .column-right h3 {
+        text-align:center;
+    }
+
+
+    .dettaglio-articolo img {
+        width:100%!important;
+    }
+
+    .commenti-forum img {
+        width:100%!important;
+    }
+
+
+    .btn-calendario {
+        padding:30px 0 20px 0;
+        font-size:22px;
+    }
+
+
+    .btn-calendario a:link, .btn-calendario a:visited {
+        height:50px;
+    }
+
+    .btn-calendario a:hover {
+        height:50px;
+    }
+
+
+
+    .caption-eventi h2 {
+        font-size:19px;
+    }
+
+    .caption-eventi article{
+        font-size:15px;
+        line-height:16px;
+    }
+
+
+    .caption-eventi-det h2 {
+        font-size:19px;
+    }
+
+    .caption-eventi-det article{
+        font-size:15px;
+        line-height:16px;
+    }
+
+    .img-eventi-thumb img{
+        width:150%;
+    }
+
+    .eventi-descr{
+        height:120px;
+        padding:8% 0;
+        border-top:0px;
+        margin:0 0 30px 0;
+    }
+
+    .eventi-descr h3 {
+        font-size:30px;
+    }
+    .eventi-descr h4 {
+        font-size:24px;
+    }
+
+
+    .lnkback{
+        left:18px;
+    }
+
+    .lastdiv{
+        height:95px!important;
+        border-bottom:solid 4px #CCC!important;
+        padding:20px 0!important;
+        margin:0 0 50px 0;
+    }
+
+
+    .filtri-soci input{
+       width:310px;
+    }
+
+    .filtri-soci select{
+       width:310px;
+    }
+
+    .filtri-soci a{
+       float:left;
+       width:100px;
+       margin:10px 0 0 20px;
+    }
+
+        .btn-calendario {
+            padding:0 0 20px 0!important;
+            font-size:15px!important;
+        }
+
+        .btn-puls-eventi{
+            float:left;
+            width:100%!important;
+            font-size:13px!important;
+         }
+
+       .contain-foto{
+            height:100px;
+            width:100%;
+        }
+
+    .content-pergamena article{
+        padding:0;
+        font-size:16px;
+        line-height:16px;
+    }
+
+    .anteprima-castello{
+        padding:60px 0 0 0;
+    }
+
+    .anteprima-castello a{
+        line-height:24px;
+    }
+
+}
+

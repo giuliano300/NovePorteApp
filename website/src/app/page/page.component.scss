@@ -1,0 +1,286 @@
+.legacy-page{min-height:100vh}.page-state{background:#eadfc9 url('/assets/paper.jpg') repeat;margin:0 auto;min-height:100vh;padding:165px 25px 90px;text-align:center}.page-state h1{font:normal clamp(30px,5vw,52px)/1.1 AvianoBold,sans-serif}.page-state a{color:#7b302a}.imported-content{color:#534741;font:20px/22px GothamBook,Arial,sans-serif;min-height:100vh}.imported-content::after{clear:both;content:"";display:table}.imported-content [id],.imported-content a[name]{scroll-margin-top:90px}@media(max-width:768px){.page-state{padding-top:90px}}
+
+/* The legacy page used Font Awesome only for these two status squares. */
+.imported-content .menu-forum li{height:22px;line-height:22px}
+.imported-content .menu-forum li .fa-square{display:inline-block;font:normal 18px/18px Arial,sans-serif!important;height:18px;vertical-align:middle;width:16px}
+.imported-content .menu-forum li .fa-square::before{content:"\25A0"}
+
+/* Keep the search field on the same baseline as the original ASP.NET control. */
+.imported-content .ricerca-forum{display:flex;flex-wrap:nowrap;font-size:0}
+.imported-content .ricerca-forum input[type=text]{flex:1 1 auto;float:none;width:auto}
+.imported-content .ricerca-forum input[type=submit]{flex:0 0 20%;float:none;width:20%}
+
+.imported-content .container-sotto-categorie .container-link{cursor:pointer}
+.imported-content .container-sotto-categorie .forum-category-active a{color:#8c8675;text-decoration:underline}
+.imported-content .forum-thumb[hidden]{display:none!important}
+.imported-content .form-add-risposta.forum-reply-open{display:block!important}
+.imported-content .form-add-intervento.forum-intervention-open{display:block!important}
+.imported-content .sub-menu-dandy.dandy-menu-open,
+.imported-content .sub-menu-dandy-mobile.dandy-menu-open{display:block!important}
+.imported-content .calendar-title .fa-chevron-left,.imported-content .calendar-title .fa-chevron-right{display:inline-block;font:normal 14px/14px Arial,sans-serif;width:10px}
+.imported-content .calendar-title .fa-chevron-left::before{content:"\2039"}
+.imported-content .calendar-title .fa-chevron-right::before{content:"\203A"}
+.imported-content .calendar-title .np-calendar-label{white-space:nowrap}
+.imported-content .Calendar .EventoEsistente{cursor:pointer}
+
+/* The original door pages use the same thin vertical scroller around #Scrolltext. */
+.imported-content .text-porta:has(#Scrolltext){
+  box-sizing:border-box;
+  overflow-x:hidden!important;
+  overflow-y:auto!important;
+  overscroll-behavior:contain;
+  padding-right:14px;
+  scrollbar-color:#888 rgba(0,0,0,.15);
+  scrollbar-width:thin;
+}
+.imported-content .text-porta:has(#Scrolltext)::-webkit-scrollbar{width:16px}
+.imported-content .text-porta:has(#Scrolltext)::-webkit-scrollbar-track{
+  background:linear-gradient(to right,transparent 7px,rgba(0,0,0,.15) 7px,rgba(0,0,0,.15) 9px,transparent 9px);
+}
+.imported-content .text-porta:has(#Scrolltext)::-webkit-scrollbar-thumb{
+  background:#888;
+  background-clip:content-box;
+  border-left:7px solid transparent;
+  border-right:7px solid transparent;
+  min-height:48px;
+}
+.imported-content .text-porta:has(#Scrolltext)::-webkit-scrollbar-button:single-button{
+  background-color:transparent;
+  background-position:center;
+  background-repeat:no-repeat;
+  display:block;
+  height:20px;
+}
+.imported-content .text-porta:has(#Scrolltext)::-webkit-scrollbar-button:single-button:vertical:decrement{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 8l4-4 4 4' fill='none' stroke='%23888' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+.imported-content .text-porta:has(#Scrolltext)::-webkit-scrollbar-button:single-button:vertical:increment{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+
+/* Shared contribution form: aligned fields and accessible custom category checks. */
+.imported-content .NuovoContributo .form-add-intervento{
+  column-gap:20px;
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  margin-top:20px;
+  row-gap:14px;
+}
+.imported-content .NuovoContributo .form-add-intervento>label{
+  float:none;
+  margin:0;
+  width:auto;
+}
+.imported-content .NuovoContributo .form-add-intervento>label.full-width,
+.imported-content .NuovoContributo .form-add-intervento>h2,
+.imported-content .NuovoContributo .form-add-intervento>.TblCategorie{
+  grid-column:1/-1;
+}
+.imported-content .NuovoContributo .form-add-intervento input[type=text],
+.imported-content .NuovoContributo .form-add-intervento input[type=email],
+.imported-content .NuovoContributo .form-add-intervento textarea,
+.imported-content .NuovoContributo .form-add-intervento .note-editor,
+.imported-content .NuovoContributo>a{
+  box-sizing:border-box;
+  float:none;
+  margin:0;
+  width:100%!important;
+}
+.imported-content .NuovoContributo .TblCategorie{
+  display:grid;
+  gap:8px 16px;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  width:100%;
+}
+.imported-content .NuovoContributo .TblCategorie br{display:none}
+.imported-content .NuovoContributo .TblCategorie input[type=checkbox]{
+  height:1px;
+  margin:0!important;
+  opacity:0;
+  pointer-events:none;
+  position:absolute;
+  width:1px!important;
+}
+.imported-content .NuovoContributo .TblCategorie label{
+  align-items:center;
+  background:rgba(255,255,255,.72);
+  border:1px solid rgba(140,134,117,.18);
+  box-sizing:border-box;
+  cursor:pointer;
+  display:flex;
+  float:none;
+  font-size:16px;
+  min-height:42px;
+  padding:8px 12px 8px 44px;
+  position:relative;
+  transition:background-color .18s ease,border-color .18s ease,color .18s ease;
+  width:100%;
+}
+.imported-content .NuovoContributo .TblCategorie label::before{
+  background:#fff;
+  border:1px solid #8c8675;
+  box-sizing:border-box;
+  content:"";
+  height:20px;
+  left:12px;
+  position:absolute;
+  top:10px;
+  transition:background-color .18s ease,border-color .18s ease;
+  width:20px;
+}
+.imported-content .NuovoContributo .TblCategorie label::after{
+  border:solid #fff;
+  border-width:0 2px 2px 0;
+  content:"";
+  height:10px;
+  left:19px;
+  opacity:0;
+  position:absolute;
+  top:13px;
+  transform:rotate(45deg);
+  width:5px;
+}
+.imported-content .NuovoContributo .TblCategorie input[type=checkbox]:checked+label{
+  background:rgba(82,162,173,.16);
+  border-color:#52a2ad;
+  color:#3f7f88;
+}
+.imported-content .NuovoContributo .TblCategorie input[type=checkbox]:checked+label::before{
+  background:#52a2ad;
+  border-color:#52a2ad;
+}
+.imported-content .NuovoContributo .TblCategorie input[type=checkbox]:checked+label::after{opacity:1}
+.imported-content .NuovoContributo .TblCategorie input[type=checkbox]:focus-visible+label{
+  outline:2px solid #52a2ad;
+  outline-offset:2px;
+}
+.imported-content .NuovoContributo .TblCategorie label:hover{
+  background:rgba(255,255,255,.92);
+  border-color:#52a2ad;
+  color:#534741;
+}
+
+/* Word-like editor shared by new contributions, forum interventions and replies. */
+.imported-content .np-rich-editor{
+  background:#fff;
+  border:1px solid #b7b1a3;
+  box-sizing:border-box;
+  clear:both;
+  display:block;
+  float:none;
+  margin:8px 0 16px;
+  overflow:hidden;
+  width:100%;
+}
+.imported-content .NuovoContributo .form-add-intervento>.np-rich-editor{
+  grid-column:1/-1;
+  margin:0;
+}
+.imported-content .np-rich-toolbar{
+  align-items:center;
+  background:linear-gradient(#faf9f6,#ebe8e0);
+  border-bottom:1px solid #c8c2b5;
+  display:flex;
+  flex-wrap:wrap;
+  gap:3px;
+  min-height:42px;
+  padding:5px 7px;
+}
+.imported-content .np-rich-tool{
+  align-items:center;
+  background:transparent;
+  border:1px solid transparent;
+  border-radius:2px;
+  box-sizing:border-box;
+  color:#4d4d4d;
+  cursor:pointer;
+  display:inline-flex;
+  float:none;
+  font:400 13px/1.1 Arial,sans-serif;
+  height:30px;
+  justify-content:center;
+  margin:0;
+  min-width:30px;
+  padding:5px 7px;
+  text-transform:none;
+  width:auto;
+}
+.imported-content .np-rich-tool:hover{
+  background:#fff;
+  border-color:#aaa395;
+  color:#3f7f88;
+}
+.imported-content .np-rich-tool:focus-visible{
+  outline:2px solid #52a2ad;
+  outline-offset:1px;
+}
+.imported-content .np-rich-bold{font-weight:700}
+.imported-content .np-rich-italic{font-style:italic}
+.imported-content .np-rich-underline{text-decoration:underline}
+.imported-content .np-rich-center{padding-left:9px;padding-right:9px;text-align:center}
+.imported-content .np-rich-right{justify-content:flex-end;padding-left:11px;padding-right:4px}
+.imported-content .np-rich-divider{
+  align-self:stretch;
+  background:#c8c2b5;
+  display:block;
+  margin:2px 3px;
+  width:1px;
+}
+.imported-content .np-rich-image-input{display:none!important}
+.imported-content .np-rich-surface{
+  background:#fff;
+  box-sizing:border-box;
+  color:#534741;
+  cursor:text;
+  font:16px/1.55 GothamBook,Arial,sans-serif;
+  min-height:260px;
+  outline:none;
+  overflow-wrap:anywhere;
+  padding:14px 16px;
+  text-align:left;
+  width:100%;
+}
+.imported-content .np-rich-surface:empty::before{
+  color:#9a968c;
+  content:attr(data-placeholder);
+  pointer-events:none;
+}
+.imported-content .np-rich-surface:focus{box-shadow:inset 0 0 0 2px rgba(82,162,173,.3)}
+.imported-content .np-rich-surface h2{
+  color:#534741;
+  font:400 22px/1.25 AvianoBold,Arial,sans-serif;
+  margin:10px 0;
+}
+.imported-content .np-rich-surface p{margin:0 0 10px}
+.imported-content .np-rich-surface ul,
+.imported-content .np-rich-surface ol{margin:8px 0;padding-left:30px}
+.imported-content .np-rich-surface blockquote{
+  border-left:3px solid #52a2ad;
+  color:#706b62;
+  margin:12px 0;
+  padding:5px 0 5px 14px;
+}
+.imported-content .np-rich-surface a{color:#3f7f88;text-decoration:underline}
+.imported-content .np-rich-surface img{
+  display:block;
+  height:auto;
+  margin:12px auto;
+  max-width:100%;
+}
+.imported-content .np-rich-dragging .np-rich-surface{
+  background:rgba(82,162,173,.08);
+  box-shadow:inset 0 0 0 2px #52a2ad;
+}
+@media(max-width:767px){
+  .imported-content .NuovoContributo .form-add-intervento,
+  .imported-content .NuovoContributo .TblCategorie{grid-template-columns:1fr}
+  .imported-content .NuovoContributo .form-add-intervento>label,
+  .imported-content .NuovoContributo .form-add-intervento>label.full-width,
+  .imported-content .NuovoContributo .form-add-intervento>h2,
+  .imported-content .NuovoContributo .form-add-intervento>.TblCategorie,
+  .imported-content .NuovoContributo .form-add-intervento>.np-rich-editor{grid-column:1}
+  .imported-content .np-rich-toolbar{gap:2px;padding:4px}
+  .imported-content .np-rich-tool{font-size:12px;height:28px;min-width:28px;padding:4px 6px}
+  .imported-content .np-rich-divider{margin:2px 1px}
+  .imported-content .np-rich-surface{min-height:220px;padding:12px}
+}

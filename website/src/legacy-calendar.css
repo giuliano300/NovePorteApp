@@ -1,0 +1,478 @@
+.imported-content .Calendar{
+    float:left;
+    width:98%;
+    padding:0 0 0 2%;
+    font-family:'AvianoLight'!important;
+}
+
+.imported-content .border-calendar{
+    border-bottom:solid 1px #d9d9d9;
+    border-left:solid 1px #d9d9d9;
+    width:100%;
+}
+
+.imported-content .day{
+    float:left;
+    width:14.28%;
+    /*height:100px;*/
+    text-align:center;
+    padding:5px 0;
+    font-size:12px;
+    color:#000000;
+    /*border-right:solid 1px #d9d9d9;
+    border-top:solid 1px #d9d9d9;*/
+    background:#EEE;
+}
+.imported-content .day-first{
+    float:left;
+    width:14.28%;
+    /*height:100px;*/
+    text-align:center;
+    padding:5px 0;
+    font-size:12px;
+    color:#000000;
+    border-left:solid 1px #d9d9d9;
+    background:#EEE;
+}
+.imported-content .day-last {
+    float: left;
+    width: 14.28%;
+    /*height:100px;*/
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+    color: #000000;
+    border-right: solid 1px #d9d9d9;
+    background: #EEE;
+}
+
+.imported-content .calendar-title{
+    float:left;
+    width:100%;
+    text-align:center;
+    padding:10px 0 5px 0;
+    font-size:14px;
+}
+
+.imported-content .DataVuota{
+    cursor:default!important;
+}
+
+.imported-content .Calendar a{
+    float:left;
+    width:14.28%;
+    height:40px;
+    border-right:solid 1px #d9d9d9;
+    border-top:solid 1px #d9d9d9;
+    background:#fff;
+    transition:background;
+    transition-duration:0.6s;
+    padding:35px 0 0 12px;
+    color:#333;
+    font-weight:bold;
+    font-size:12px;
+    text-shadow:1px 1px 1px #eeeeee;
+    position:relative;
+}
+
+.imported-content .Calendar a span{
+    position:absolute;
+    z-index:10;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+    .imported-content .Calendar a p{
+       float:left;
+       font-size:25px;
+       padding:0 10px;
+    }
+
+    .imported-content .Calendar a i{
+       float:left;
+       padding:8px 0 0 0;
+    }
+
+.imported-content .Calendar a div{
+    float:left;
+    padding:1px 0 0 0;
+    font-weight:400;
+    color:#000;
+}
+
+.imported-content .Calendar a:hover{
+    /*background:#eeeeee;*/
+}
+
+.imported-content .disabled{
+    background:#f9f9f9!important;
+    cursor:default;
+}
+
+.imported-content .no-padding{
+    padding:0;
+}
+
+.imported-content .Today{
+    border:solid 1px #076700!important;
+    background:#eeeeee!important;
+}
+
+.imported-content .EventoEsistente{
+    background:#61c56f !important;
+    color:#fff!important;
+    text-shadow:0 0 0 !important;
+    transition:background;
+    transition-duration:0.6s;
+}
+
+.imported-content .EventoEsistente:hover{
+    background:#6be47b !important;
+}
+
+.imported-content .content-giorno{
+    float:left;
+    width:100%;
+}
+
+.imported-content .content-giorno select{
+    border:solid 1px #e7eaec;
+}
+
+.imported-content .content-giorno span{
+    margin:0 30%;
+}
+
+.imported-content .container-ore{
+    max-height:70vh;
+    overflow-y:scroll;
+    padding:12px 0 0 0!important;
+    float:left;
+    /*position:relative;*/
+    overflow-x:hidden;
+}
+
+.imported-content .content-ora{
+    float:left;
+    width:100%;
+    position:relative;
+}
+
+.imported-content .content-ora span{
+    float:left;
+    width:3%;
+    text-align:right;
+    padding:0 10px 7px 0;
+    margin-top:-9px;
+    border-right:solid 1px #d9d9d9;
+}
+
+.imported-content .content-ora a{
+    float:left;
+    width:96%;
+    height:25px;
+    padding:10px;
+}
+
+.imported-content .content-ora a.Partita{
+    position:absolute;
+    top:0;
+    left:3%;
+    z-index:9;
+    background:rgba(0,103,0,0.8);
+    color:#fff;
+    text-shadow:0px 0px 0px #fff!important;
+    font-size:13px;
+    font-weight:normal;
+}
+
+.imported-content .content-ora a.Partita label{
+    font-size:15px;
+    margin:0 10px;
+    font-weight:300;
+}
+
+.imported-content .content-ora a.Partita:hover{
+    background:rgba(0,103,0,0.9);
+}
+
+.imported-content .content-ora a.height-1{
+    height:25px;
+}
+.imported-content .content-ora a.height-2{
+    height:50px;
+}
+.imported-content .content-ora a.height-3{
+    height:75px;
+}
+.imported-content .content-ora a.height-4{
+    height:100px;
+}
+.imported-content .content-ora a.height-5{
+    height:125px;
+}
+.imported-content .content-ora a.height-6{
+    height:150px;
+}
+.imported-content .content-ora a.height-7{
+    height:175px;
+}
+.imported-content .content-ora a.height-8{
+    height:200px;
+}
+.imported-content .content-ora a.height-9{
+    height:225px;
+}
+.imported-content .content-ora a.height-10{
+    height:250px;
+}
+.imported-content .content-ora a.height-11{
+    height:275px;
+}
+.imported-content .content-ora a.height-12{
+    height:300px;
+}
+.imported-content .content-ora a.height-13{
+    height:325px;
+}
+.imported-content .content-ora a.height-14{
+    height:350px;
+}
+.imported-content .content-ora a.height-15{
+    height:375px;
+}
+.imported-content .content-ora a.height-16{
+    height:400px;
+}
+
+
+.imported-content .content-ora a.width-1{
+    width:96%;
+}
+.imported-content .content-ora a.width-2{
+    width:48%;
+}
+.imported-content .content-ora a.width-3{
+    width:32%;
+}
+.imported-content .content-ora a.width-4{
+    width:24%;
+}
+
+.imported-content .container-popup{
+    width:calc(100% + 30px);
+    height:100vh;
+    position:fixed;
+    z-index:999999!important;
+    background:rgba(255,255,255,0.6);
+    top:-95px;
+    z-index:9999;
+    left:-16px
+    /*display:none;*/
+}
+
+.imported-content .PopUpAddPartita{
+    background:#f3f3f4;
+    width:880px;
+    height:650px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    padding:20px 30px;
+    border:solid 1px #ddd;
+}
+
+    .imported-content .PopUpAddPartita h1{
+       float:left;
+       font-size:24px;
+       margin:0;
+    }
+
+    .imported-content .PopUpAddPartita label{
+       float:left;
+       font-size:14px;
+       width:100%;
+       padding:20px 0 0 0;
+       font-weight:300;
+    }
+
+    .imported-content .PopUpAddPartita input{
+       float:left;
+       font-size:14px;
+       width:93.5%;
+       padding:10px;
+       font-weight:300;
+    }
+    .imported-content .PopUpAddPartita select{
+       float:left;
+       font-size:14px;
+       width:95%;
+       padding:10px;
+       font-weight:300;
+    }
+
+    .imported-content .Insert{
+        float:left!important;
+        width:98%!important;
+        border:solid 1px #076700!important;
+        text-align:center!important;
+        padding:15px!important;
+        height:50px!important;
+        margin:30px 0 0 0;
+        background:rgba(0,103,0,0.6)!important;
+        color:#fff!important;
+        text-shadow:0 0 0 #fff!important;
+    }
+
+    .imported-content .Insert:hover{
+        background:rgba(0,103,0,1) !important;
+        color:#fff;
+    }
+
+    .imported-content .Elimina{
+        float:left!important;
+        width:96%!important;
+        border:solid 1px #dd0000 !important;
+        text-align:center!important;
+        padding:15px!important;
+        height:50px!important;
+        margin:5px 0 0 0!important;
+        background:#dd0000!important;
+        color:#fff!important;
+        text-shadow:0 0 0 #fff!important;
+    }
+
+    .imported-content .Elimina:hover{
+        background:#f80000!important;
+    }
+
+
+    .imported-content .AddVideo{
+        float:left!important;
+        width:98%!important;
+        border:solid 1px rgba(0,103,0,0.6) !important;
+        text-align:center!important;
+        padding:15px!important;
+        height:50px!important;
+        margin:5px 0 0 0!important;
+        background:rgba(0,103,0,0.6) !important;
+        color:#fff!important;
+        text-shadow:0 0 0 #fff!important;
+    }
+
+    .imported-content .AddVideo:hover{
+        background:rgba(0,103,0,1)!important;
+    }
+
+
+    .imported-content .relative{
+        position:relative;
+    }
+
+    .imported-content a.Close{
+        position:absolute;
+        top:-10px;
+        right:5px;
+        padding:0!important;
+        margin:0!important;
+        border:0!important;
+        background:none!important;
+        width:10px;
+        font-size:15px;
+    }
+
+
+    .imported-content .LnkAddElement{
+        position:absolute !important;
+        background:none!important;
+        width:20px!important;
+        border:solid 0px #fff!important;
+        top:5px;
+        right:20px;
+    }
+
+    .imported-content .LnkAddElement:after{
+        content:'+';
+        font-size:16px;
+    }
+
+    .imported-content .LnkAddElement p{
+        position:absolute;
+        z-index:500;
+        border:solid 1px #d9d9d9;
+        background:#e7eaec;
+        color:#000000;
+        font-size:13px!important;
+        width:250px;
+        padding:10px!important;
+        box-shadow:0 0 0 #fff!important;
+        font-weight:300;
+        top:10px;
+        display:none;
+    }
+
+
+.imported-content .bg-Eventi{
+    float:left;
+    width:100%;
+    background:rgba(141,134,118,0.7);
+    margin:0 0 20px 0;
+    padding:5px 0 25px 15px;
+}
+
+.imported-content .white{
+    color:#fff;
+}
+
+.imported-content .cursor-default{
+    cursor:default!important;
+}
+
+.imported-content .content-eventi{
+    height:230px;
+    overflow-y:auto;
+    width:45%;
+}
+
+.imported-content .content-eventi a{
+    float:left;
+    width:95%;
+    text-align:center;
+    padding:10px 0;
+    border-bottom:solid 1px #8e7f7f
+}
+
+.imported-content .content-eventi a span{
+    padding:0 0 5px 0;
+    font-size:14px;
+}
+
+.imported-content .content-eventi::-webkit-scrollbar {
+    width:6px;
+    cursor:pointer!important;
+}
+
+.imported-content .content-eventi::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.imported-content .content-eventi::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+@media(max-width:480px) {
+
+.imported-content .content-eventi{
+    width:100%;
+}
+
+    .imported-content .Calendar {
+        width: 97%;
+        padding:0 0 20px 0;
+    }
+}

@@ -1,0 +1,6 @@
+<main class="cittadella">
+  <np-site-header />
+  <img class="map" src="assets/cittadella.jpg" alt="Mappa della Cittadella delle Nove Porte">
+  <a class="fortezza-hit" routerLink="/Fortezza" aria-label="Fortezza"></a>
+  @for (link of links; track link.path) { <a [class]="'map-link '+link.className" [routerLink]="link.path">{{ link.label }}</a> }
+</main>
