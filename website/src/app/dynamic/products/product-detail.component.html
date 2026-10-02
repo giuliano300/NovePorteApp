@@ -1,0 +1,113 @@
+<np-site-header [showPersonalArea]="true" />
+<main class="commerce-page imported-content">
+  <div class="content-page-std"><div class="container"><div class="soci wowload delay-02 fadeIn"><div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+      @if (loading()) {
+        <p class="commerce-state">Caricamento dell’oggetto…</p>
+      } @else if (!product()) {
+        <p class="commerce-state commerce-error">{{ error() }}</p>
+      } @else {
+        @if (product(); as current) {
+        <div class="logo-dandy"><img src="/assets/logo-porta.png" alt="Nove Porte"></div>
+        <div class="row title-row">
+          <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+          <div class="col-lg-6 col-md-6 col-sm-8"><h1>{{ current.name }}</h1></div>
+          <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 box-dettaglio-prodotto">
+            <div class="container-foto-prodotto">
+              <img class="main-product-photo" [src]="api.image(selectedPhoto())" [alt]="current.name" (error)="imageFallback($event)">
+              <div class="fotoMini">
+                @for (slot of [1, 2, 3]; track slot) {
+                  <p>
+                    @if (current.photos[slot]; as photo) {
+                      <button type="button" (click)="choosePhoto(photo)" [class.selected]="photo === selectedPhoto()">
+                        <img [src]="api.image(photo)" [alt]="current.name" (error)="imageFallback($event)">
+                      </button>
+                    } @else {
+                      <span class="empty-photo" aria-hidden="true"></span>
+                    }
+                  </p>
+                }
+              </div>
+            </div>
+            <p class="description-edge"></p>
+            <div class="product-description" [innerHTML]="current.description"></div>
+            <p class="description-edge"></p>
+            <div class="price">{{ current.price | number:'1.2-2':'it' }} Scudi</div>
+            <div class="disponibilita">disponibilità: {{ current.stock }}</div>
+          </div>
+
+          @if (current.stock > 0) {
+            <form class="order-form" [formGroup]="form" (ngSubmit)="submit()" novalidate>
+              <div class="col-md-12 box-dati-personali">
+                <article class="row buyer-fields">
+                  <h2>Per acquistare compili il modulo sottostante.<br>Carichi inoltre il documento comprovante l’acquisto dell’oggetto.</h2>
+                  <div class="col-lg-6"><input formControlName="name" placeholder="Nome" autocomplete="given-name"><small [class.visible]="invalid('name')">Inserisca il nome</small></div>
+                  <div class="col-lg-6"><input formControlName="surname" placeholder="Cognome" autocomplete="family-name"><small [class.visible]="invalid('surname')">Inserisca il cognome</small></div>
+                  <div class="col-lg-6"><input formControlName="address" placeholder="Via e civico" autocomplete="street-address"><small [class.visible]="invalid('address')">Inserisca l’indirizzo</small></div>
+                  <div class="col-lg-6"><input formControlName="postalCode" placeholder="CAP" autocomplete="postal-code"><small [class.visible]="invalid('postalCode')">Inserisca il CAP</small></div>
+                  <div class="col-lg-6"><input formControlName="city" placeholder="Città e provincia" autocomplete="address-level2"><small [class.visible]="invalid('city')">Inserisca la città e la provincia</small></div>
+                  <div class="col-lg-6"><input formControlName="contact" placeholder="Cellulare" autocomplete="tel"><small [class.visible]="invalid('contact')">Inserisca il cellulare</small></div>
+                </article>
+
+                <article class="row checkbox-row"><div class="col-lg-12">
+                  <input id="buyerShipping" type="checkbox" formControlName="buyerShipping">
+                  <label for="buyerShipping">L’indirizzo di spedizione coincide con quello dell’acquirente</label>
+                </div></article>
+
+                @if (!form.controls.buyerShipping.value) {
+                  <article class="row buyer-fields recipient-fields">
+                    <div class="col-lg-6"><input formControlName="recipientName" placeholder="Nome del destinatario"></div>
+                    <div class="col-lg-6"><input formControlName="recipientSurname" placeholder="Cognome del destinatario"></div>
+                    <div class="col-lg-12"><input formControlName="recipientAddress" placeholder="Indirizzo del destinatario"></div>
+                  </article>
+                }
+
+                <article class="row"><div class="col-lg-12">
+                  <select formControlName="shippingType" class="full" aria-label="Metodo di consegna">
+                    <option value="">Selezioni un metodo di consegna</option>
+                    <option value="Ritiro de visu">Ritiro de visu</option>
+                    <option value="Spedizione">Spedizione + {{ current.shipping | number:'1.2-2':'it' }} Scudi</option>
+                  </select>
+                  <small class="select-error" [class.visible]="invalid('shippingType')">Selezioni il metodo di consegna</small>
+                  @if (form.controls.shippingType.value === 'Ritiro de visu') {
+                    <textarea formControlName="pickupDetails" placeholder="Indichi il luogo o l’evento per il ritiro de visu"></textarea>
+                  }
+                </div></article>
+
+                <article class="row"><div class="col-md-12 box-bonifico">
+                  <h4>BONIFICO DA EFFETTUARE A FAVORE DI<br>Cavalleresco Ordine dei Guardiani delle Nove Porte</h4>
+                  IBAN: IT89E0200803475000103944034<br>
+                  BIC/SWIFT: UNCRITM1F02<br>
+                  <strong>Causale: Nome Cognome - Numero articoli - Descrizione Articolo.</strong>
+                </div></article>
+
+                <h3>Carichi il documento comprovante l’acquisto</h3>
+                <article class="receipt-row">
+                  <input id="receipt" type="file" accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png" (change)="onReceipt($event)">
+                  <small class="receipt-error" [class.visible]="form.touched && !receipt">Selezioni un documento comprovante l’acquisto</small>
+                </article>
+              </div>
+
+              @if (error()) { <p class="order-message order-error" role="alert">{{ error() }}</p> }
+              @if (success()) { <p class="order-message order-success" role="status">{{ success() }}</p> }
+
+              <div class="col-md-12 box-acquista">
+                <div class="box-totale">IMPORTO DA BONIFICARE {{ total() | number:'1.2-2':'it' }} Scudi</div>
+                <input type="number" formControlName="quantity" min="1" [max]="current.stock" aria-label="Quantità">
+                <button type="submit" [disabled]="submitting()">{{ submitting() ? 'INVIO IN CORSO…' : "CONCLUDA L'ACQUISTO" }}</button>
+              </div>
+            </form>
+          } @else {
+            <p class="commerce-state commerce-error">L’oggetto non è attualmente disponibile.</p>
+          }
+        </div>
+        <div class="btn-back"><a routerLink="/Oggetti" [queryParams]="{ IdCategoria: current.categoryId }">TORNI AI PRODOTTI</a></div>
+        }
+      }
+    </div>
+  </div></div></div></div>
+</main>

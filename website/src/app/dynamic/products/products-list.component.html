@@ -1,0 +1,36 @@
+<np-site-header [showPersonalArea]="true" />
+<main class="commerce-page imported-content">
+  <div class="content-page-std"><div class="container"><div class="soci wowload delay-02 fadeIn"><div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+      <div class="logo-dandy"><img src="/assets/logo-porta.png" alt="Nove Porte"></div>
+      <div class="row title-row">
+        <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+        <div class="col-lg-6 col-md-6 col-sm-8"><h1>{{ category()?.name || 'Oggetti' }}</h1></div>
+        <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+      </div>
+
+      @if (loading()) {
+        <p class="commerce-state">Caricamento degli oggetti…</p>
+      } @else if (error()) {
+        <p class="commerce-state commerce-error">{{ error() }}</p>
+      } @else {
+        @if (category(); as current) {
+          <div class="row"><div class="col-md-12 product-grid">
+            @for (product of current.products; track product.id) {
+              <a routerLink="/Oggetto" [queryParams]="{ Id: product.id }" class="aBoxProdotto product-link">
+                <div class="box-prodotto">
+                  <div class="box-img"><img [src]="api.image(product.photo)" [alt]="product.name" (error)="imageFallback($event)"></div>
+                  <div class="TitoloProdotto"><h1>{{ product.name }}</h1><p>{{ summary(product.description) }}</p></div>
+                  <div class="price">{{ product.price | number:'1.2-2':'it' }} Scudi</div>
+                </div>
+              </a>
+            } @empty {
+              <div class="empty">Nessun prodotto in questa categoria</div>
+            }
+          </div></div>
+        }
+      }
+      <div class="btn-back"><a routerLink="/CategorieOggetti">TORNI ALLE CATEGORIE</a></div>
+    </div>
+  </div></div></div></div>
+</main>

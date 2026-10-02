@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.angular/
+
+# Configurazioni locali e segreti: non devono entrare nel repository.
+.env
+.env.*
+!.env.example
+

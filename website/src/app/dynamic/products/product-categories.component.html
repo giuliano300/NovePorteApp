@@ -1,0 +1,43 @@
+<np-site-header [showPersonalArea]="true" />
+<main class="commerce-page imported-content">
+  <div class="content-page-std">
+    <div class="container">
+      <div class="soci wowload delay-02 fadeIn">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+            <div class="logo-dandy"><img src="/assets/logo-porta.png" alt="Nove Porte"></div>
+            <div class="row title-row">
+              <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+              <div class="col-lg-6 col-md-6 col-sm-8"><h1><span>C</span>ategorie</h1></div>
+              <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+            </div>
+
+            @if (loading()) {
+              <p class="commerce-state">Caricamento delle categorie…</p>
+            } @else if (error()) {
+              <p class="commerce-state commerce-error">{{ error() }}</p>
+            } @else {
+              <div class="row"><div class="col-md-12 category-grid">
+                @for (category of categories(); track category.id) {
+                  <a routerLink="/Oggetti" [queryParams]="{ IdCategoria: category.id }" class="aBoxProdotto">
+                    <div class="box-categoria box-prodotto">
+                      <div class="box-img">
+                        <img [src]="api.image(category.photo, true)" [alt]="category.name" (error)="imageFallback($event)">
+                      </div>
+                      <div class="TitoloProdotto">
+                        <h1>{{ category.name }}</h1>
+                        <p>{{ category.description }}</p>
+                      </div>
+                    </div>
+                  </a>
+                } @empty {
+                  <p class="commerce-state">Non sono presenti categorie disponibili.</p>
+                }
+              </div></div>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

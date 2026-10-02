@@ -1,5 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
-import { parse, parseFragment, serialize, serializeOuter } from '../../node_modules/parse5/dist/index.js';
+import { parse, parseFragment, serialize, serializeOuter } from '../node_modules/parse5/dist/index.js';
 
 const origin = 'https://noveporte.it';
 const sourcePath = '/Forum/Dettaglio-Forum/La-nona-porta-9';

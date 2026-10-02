@@ -1,0 +1,130 @@
+<np-site-header [showPersonalArea]="true" />
+<main class="legacy-page members-dynamic">
+  @if (loading()) {
+    <div class="members-state">Caricamento…</div>
+  } @else if (error()) {
+    <div class="members-state">
+      <p>{{ error() }}</p>
+      <a routerLink="/FortezzaCode" [queryParams]="{ returnUrl: '/Soci' }">Acceda alla Fortezza</a>
+    </div>
+  } @else if (mode() === 'home') {
+    <div class="imported-content np-legacy-soci-home" [innerHTML]="legacyHome()"></div>
+  } @else {
+    <div class="imported-content">
+      <div class="content-page-std">
+        <div class="container">
+          <div class="soci wowload delay-02 fadeIn">
+            @if (mode() === 'member' && member(); as currentMember) {
+              <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1">
+                  <div class="logo-dandy"><img src="/assets/logo-porta.png" alt="Nove Porte"></div>
+                  <div class="row title-row">
+                    <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+                    <div class="col-lg-6 col-md-6 col-sm-8"><h1>{{ currentMember.status }}</h1></div>
+                    <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+                  </div>
+                  <div class="row page-socio">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-lg-6 text-center">
+                          <img class="img-profilo" [src]="memberPhoto(currentMember.photo, currentMember.id)"
+                            [alt]="currentMember.name + ' ' + currentMember.surname" (error)="imageFallback($event)">
+                          <h2>{{ currentMember.name }} {{ currentMember.surname }}</h2>
+                          @if (currentMember.birthDate) { <h4>{{ currentMember.birthDate }}</h4> }
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="Dati-personali">
+                            @if (currentMember.address || currentMember.city || currentMember.postalCode) {
+                              <h2>Indirizzo</h2><span>{{ currentMember.address }} {{ currentMember.city }} {{ currentMember.postalCode }}</span>
+                            }
+                            @if (currentMember.homePhone) { <h2>Casa</h2><span>{{ currentMember.homePhone }}</span> }
+                            @if (currentMember.mobile) { <h2>Cellulare</h2><span>{{ currentMember.mobile }}</span> }
+                            @if (currentMember.officePhone) { <h2>Ufficio/Fax</h2><span>{{ currentMember.officePhone }}</span> }
+                            @if (currentMember.prefecture) { <h2>Prefettura</h2><span>{{ currentMember.prefecture }}</span> }
+                            @if (currentMember.membershipYear) { <h2>Anno iscrizione</h2><span>{{ currentMember.membershipYear }}</span> }
+                            @if (currentMember.email) { <h2>Email</h2><a [href]="'mailto:' + currentMember.email">{{ currentMember.email }}</a> }
+                          </div>
+                        </div>
+                      </div>
+                      @if (detailSections(currentMember).length) {
+                        <div class="row"><div class="Dettaglio-dati">
+                          @for (section of detailSections(currentMember); track section[0]) {
+                            <h3>{{ section[0] }}</h3><p>{{ section[1] }}</p>
+                          }
+                        </div></div>
+                      }
+                      <div class="row relative top-30"><button type="button" class="lnkback absolute" (click)="goBack()">Torni indietro</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            } @else {
+              @if (page(); as current) {
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <div class="logo-dandy"><img src="/assets/logo-porta.png" alt="Nove Porte"></div>
+                  <div class="row title-row">
+                    <div class="col-lg-3 col-md-3 col-sm-2"><div class="line"></div></div>
+                    <div class="col-lg-6 col-md-6 col-sm-8"><h1>{{ mode() === 'search' ? 'Ricerca soci' : current.title }}</h1></div>
+                    <div class="col-lg-3 col-md-3 col-sm-2 relative">
+                      <button type="button" class="lnkback absolute top-30 right-10" (click)="goBack()">Torni indietro</button>
+                      <div class="line"></div>
+                    </div>
+                  </div>
+
+                  @if (current.crest) {
+                    <div class="row"><div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 padding-top-25">
+                      <img class="full-width" [src]="crest(current.crest)" [alt]="current.title" (error)="imageFallback($event)">
+                    </div></div>
+                  }
+
+                  @if (current.officials.length) {
+                    <div class="row contenitore-membri">
+                      @for (official of current.officials; track official.id) {
+                        <div class="box-membri">
+                          <a [routerLink]="official.memberId ? '/Socio' : null" [queryParams]="official.memberId ? { Id: official.memberId } : null">
+                            <div class="box-img"><img [src]="officialPhoto(official.photo)" [alt]="official.name + ' ' + official.surname" (error)="imageFallback($event)"></div>
+                            <h2>{{ official.name }} {{ official.surname }}</h2><h3>{{ official.role }}</h3>
+                          </a>
+                        </div>
+                      }
+                    </div>
+                  }
+
+                  @if (!current.crest) {
+                    <div class="row filtri-soci filtro-soci">
+                      <input type="text" [(ngModel)]="search" (keyup.enter)="applyFilters()" placeholder="Ricerca per Nome e Cognome">
+                      @if (mode() === 'list') {
+                        <select [(ngModel)]="selectedPrefecture" aria-label="Prefettura">
+                          <option value="">tutte le prefetture</option>
+                          @for (prefecture of current.prefectures; track prefecture.id) { <option [value]="prefecture.name">{{ prefecture.name }}</option> }
+                        </select>
+                      }
+                      <a href="#" (click)="$event.preventDefault(); applyFilters()">FILTRA</a>
+                    </div>
+                  }
+
+                  <div class="row list-soci">
+                    @for (item of filteredMembers(); track item.id) {
+                      <div class="col-lg-1 col-xs-2 no-padding"><img [src]="memberPhoto(item.photo, item.id)" [alt]="item.name + ' ' + item.surname" height="60" (error)="imageFallback($event)"></div>
+                      <div [class]="current.crest ? 'col-lg-2 col-xs-7' : 'col-lg-3 col-xs-7'"><span class="nomeCognome">{{ item.surname }} {{ item.name }}</span></div>
+                      @if (current.crest) { <div class="col-lg-3 hidden-sm hidden-xs">{{ item.status }}</div> }
+                      @else { <div class="col-lg-2 hidden-sm hidden-xs">{{ item.prefecture }}</div> }
+                      <div class="col-lg-2 hidden-sm hidden-xs">{{ item.mobile }}</div>
+                      <div class="col-lg-3 hidden-sm hidden-xs">{{ item.email }}</div>
+                      <div class="col-lg-1 col-xs-3 lastdiv"><a routerLink="/Socio" [queryParams]="{ Id: item.id }">VEDI</a></div>
+                    } @empty {
+                      <p class="no-results">Nessun socio corrisponde ai criteri selezionati.</p>
+                    }
+                  </div>
+                  <div class="row relative"><button type="button" class="lnkback absolute" (click)="goBack()">Torni indietro</button></div>
+                </div>
+              </div>
+              }
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+</main>

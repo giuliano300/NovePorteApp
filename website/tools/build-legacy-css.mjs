@@ -1,5 +1,5 @@
-import postcss from '../../node_modules/postcss/lib/postcss.mjs';
-import selectorParser from '../../node_modules/postcss-selector-parser/dist/index.js';
+import postcss from '../node_modules/postcss/lib/postcss.mjs';
+import selectorParser from '../node_modules/postcss-selector-parser/dist/index.js';
 import { readFile, writeFile } from 'node:fs/promises';
 
 const sourceFiles = [

@@ -1,0 +1,31 @@
+:host { display: block; min-height: 100vh; }
+.legacy-page, .imported-content { min-height: 100vh; }
+.imported-content { color: #534741; font: 20px/22px GothamBook, Arial, sans-serif; }
+.imported-content::after { clear: both; content: ''; display: table; }
+.members-state {
+  background: #eadfc9 url('/assets/paper.jpg') repeat;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 165px 25px 90px;
+  text-align: center;
+}
+.members-state a { color: #7b302a; }
+.imported-content button.lnkback {
+  background: transparent;
+  color: #534741;
+  cursor: pointer;
+  font: 14px GothamBook, Arial, sans-serif;
+}
+.imported-content button.lnkback:hover { background: #534741; color: #fff; }
+.imported-content .title-row { position: relative; }
+.imported-content .no-results { padding: 25px; text-align: center; }
+.imported-content .Dati-personali a { color: #534741; overflow-wrap: anywhere; }
+.imported-content .box-membri > a { color: inherit; display: block; height: 100%; }
+.imported-content .box-membri > a:not([href]) { cursor: default; }
+.np-legacy-soci-home:empty::before {
+  content: 'Caricamento del Libro Soci…';
+  display: block;
+  padding: 165px 25px;
+  text-align: center;
+}
+@media (max-width: 767px) { .members-state { padding-top: 100px; } }

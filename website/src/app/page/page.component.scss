@@ -271,6 +271,31 @@
   background:rgba(82,162,173,.08);
   box-shadow:inset 0 0 0 2px #52a2ad;
 }
+
+/* Product order form: the legacy rule sized each input to half of an already
+   half-width Bootstrap column, leaving narrow fields and a large central gap. */
+.imported-content .box-dati-personali article.row > .col-lg-6{
+  padding-bottom:12px;
+}
+.imported-content .box-dati-personali article.row > .col-lg-6 > input:not([type='checkbox']):not([type='file']){
+  background:rgba(255,255,255,.94);
+  border:1px solid #8c8675;
+  box-sizing:border-box;
+  float:none;
+  margin:0;
+  min-height:46px;
+  outline:none;
+  transition:border-color .18s ease,box-shadow .18s ease;
+  width:100%;
+}
+.imported-content .box-dati-personali article.row > .col-lg-6 > input:not([type='checkbox']):not([type='file']):focus{
+  border-color:#52a2ad;
+  box-shadow:0 0 0 2px rgba(82,162,173,.2);
+}
+.imported-content .box-dati-personali article select.full{
+  box-sizing:border-box;
+  width:100%;
+}
 @media(max-width:767px){
   .imported-content .NuovoContributo .form-add-intervento,
   .imported-content .NuovoContributo .TblCategorie{grid-template-columns:1fr}
@@ -283,4 +308,5 @@
   .imported-content .np-rich-tool{font-size:12px;height:28px;min-width:28px;padding:4px 6px}
   .imported-content .np-rich-divider{margin:2px 1px}
   .imported-content .np-rich-surface{min-height:220px;padding:12px}
+  .imported-content .box-dati-personali article.row > .col-lg-6{padding-bottom:8px}
 }

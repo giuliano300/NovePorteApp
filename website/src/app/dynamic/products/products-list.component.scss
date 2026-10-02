@@ -1,0 +1,11 @@
+:host{display:block;min-height:100vh}
+.commerce-page{font-family:"GothamBook";font-size:20px;line-height:22px;min-height:100vh}
+.title-row{position:relative}
+.product-link{color:#534741;height:180px;width:100%}
+.commerce-state,.empty{box-sizing:border-box;padding:35px 15px;text-align:center;width:100%}
+.commerce-error{color:#7b302a}
+@media(max-width:767px){
+  .product-grid{display:flex;flex-flow:row wrap}
+  .product-link{height:280px!important;width:50%}
+  .product-link .box-prodotto{height:auto;margin:10px 1%;width:98%}
+}

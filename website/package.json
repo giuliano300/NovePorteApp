@@ -1,1 +1,36 @@
-{"name":"noveporte-website","version":"0.1.0","private":true,"scripts":{"start":"node dev.mjs","api":"node server.mjs","sync":"node tools/sync-public-content.mjs","sync:events":"node tools/sync-events-content.mjs","sync:fortezza":"node tools/sync-fortezza-content.mjs","css:sync":"node tools/build-legacy-css.mjs","build":"node ../node_modules/@angular/cli/bin/ng.js build"},"dependencies":{"@angular/animations":"^17.0.2","@angular/common":"^17.0.2","@angular/compiler":"^17.0.2","@angular/core":"^17.0.2","@angular/forms":"^17.0.2","@angular/platform-browser":"^17.0.2","@angular/platform-browser-dynamic":"^17.0.2","@angular/router":"^17.0.2","rxjs":"~7.8.0","tslib":"^2.3.0","zone.js":"~0.14.2"},"devDependencies":{"@angular-devkit/build-angular":"^17.0.0","@angular/cli":"^17.0.0","@angular/compiler-cli":"^17.0.2","typescript":"~5.2.2"}}
+{
+  "name": "noveporte-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node dev.mjs",
+    "api": "node server.mjs",
+    "sync": "node tools/sync-public-content.mjs",
+    "sync:events": "node tools/sync-events-content.mjs",
+    "sync:fortezza": "node tools/sync-fortezza-content.mjs",
+    "css:sync": "node tools/build-legacy-css.mjs",
+    "build": "ng build"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.0.2",
+    "@angular/common": "^17.0.2",
+    "@angular/compiler": "^17.0.2",
+    "@angular/core": "^17.0.2",
+    "@angular/forms": "^17.0.2",
+    "@angular/platform-browser": "^17.0.2",
+    "@angular/platform-browser-dynamic": "^17.0.2",
+    "@angular/router": "^17.0.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.0.0",
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.2",
+    "parse5": "^7.1.2",
+    "postcss": "^8.4.35",
+    "postcss-selector-parser": "^6.1.0",
+    "typescript": "~5.2.2"
+  }
+}

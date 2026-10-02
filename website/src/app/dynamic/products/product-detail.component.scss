@@ -1,0 +1,33 @@
+:host{display:block;min-height:100vh}
+.commerce-page{font-family:"GothamBook";font-size:20px;line-height:22px;min-height:100vh}
+.title-row{position:relative}
+.commerce-state{box-sizing:border-box;padding:170px 15px 80px;text-align:center;width:100%}
+.commerce-error,.order-error{color:#7b302a}
+.container-foto-prodotto>.main-product-photo{display:block;float:none;height:auto;width:100%}
+.fotoMini button{background:transparent;border:2px solid transparent;cursor:pointer;height:150px;overflow:hidden;padding:0;position:relative;width:100%}
+.fotoMini button.selected{border-color:#8c8675}
+.fotoMini button img{height:100%;left:50%;object-fit:cover;position:absolute;top:50%;transform:translate(-50%,-50%);width:100%}
+.fotoMini .empty-photo{display:block;height:150px;width:100%}
+.product-description{display:contents}
+:host ::ng-deep .product-description h1{color:#f00}
+.order-form{clear:both;display:block;width:100%}
+.buyer-fields>div{box-sizing:border-box;height:64px;padding-bottom:0}
+.buyer-fields input,.recipient-fields input{box-sizing:border-box;outline:none;width:100%!important}
+.buyer-fields small{color:#7b302a;display:block;font-size:12px;height:20px;opacity:0;padding-top:0}
+.buyer-fields small.visible{opacity:1}
+.checkbox-row input[type=checkbox]{height:22px;margin:0 10px 0 0;width:22px}
+.select-error{clear:both;color:#7b302a;display:block;float:left;font-size:12px;height:20px;opacity:0;padding:0 2px 0 0;width:100%}
+.select-error.visible{opacity:1}
+.receipt-row input[type=file]{background:#534741;color:#fff;font-size:12px;outline:none;width:98%!important}
+.receipt-error{clear:both;color:#7b302a;display:block;float:left;font-size:12px;height:20px;opacity:0;padding:0 2px 0 0;width:100%}
+.receipt-error.visible{opacity:1}
+.box-acquista button{background:#534741;border:0;color:#fff;cursor:pointer;float:right;font-size:15px;height:50px;margin:0 0 0 5px;padding:14px;text-align:center;width:220px}
+.box-acquista button:hover{background:#8c8675}
+.box-acquista button:disabled{cursor:wait;opacity:.65}
+.order-message{clear:both;font-size:15px;font-weight:600;margin:10px 15px;padding:12px;text-align:center}
+.order-success{background:rgba(82,162,173,.14);border:1px solid #52a2ad;color:#355f65}
+.btn-back{margin-right:25px}
+@media(max-width:767px){
+  .commerce-state{padding-top:110px}
+  .box-acquista button{margin:0 15px 0 5px;width:220px}
+}

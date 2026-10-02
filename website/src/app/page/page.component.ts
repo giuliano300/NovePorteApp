@@ -100,6 +100,13 @@ export class PageComponent implements OnDestroy {
     const anchor = target.closest<HTMLAnchorElement>('a');
     if (anchor) {
       const href = anchor.getAttribute('href');
+      const productThumbnail = anchor.closest('.fotoMini') ? anchor.querySelector<HTMLImageElement>('img') : null;
+      if (productThumbnail?.src) {
+        event.preventDefault();
+        const product = importedContent.querySelector<HTMLImageElement>('#ctl00_ContentPlaceHolder1_ImgProdotto');
+        if (product) product.src = productThumbnail.src;
+        return;
+      }
       const calendarAction = anchor.dataset['calendarAction'];
       if (calendarAction) {
         event.preventDefault();
@@ -551,7 +558,7 @@ export class PageComponent implements OnDestroy {
     };
 
     const controls = importedContent.querySelectorAll<HTMLElement>(
-      '.back-forum, .btn-back-salotto a, a[id$="_LnkBack"], .btn-porta a, .btn-eventi a, .btn-calendario a, .form-add-intervento a, .form-add-risposta a, button'
+      'a, button, option, input[type="submit"], input[type="button"]'
     );
     controls.forEach(control => {
       control.childNodes.forEach(node => {
@@ -564,6 +571,17 @@ export class PageComponent implements OnDestroy {
     importedContent.querySelectorAll<HTMLElement>('[aria-label]').forEach(control => {
       const label = control.getAttribute('aria-label');
       if (label) control.setAttribute('aria-label', formalize(label));
+    });
+
+    // Corregge due refusi presenti nel modulo storico di acquisto senza
+    // alterare i testi redazionali importati nelle altre pagine.
+    importedContent.querySelectorAll<HTMLElement>('.box-dati-personali h2').forEach(heading => {
+      heading.childNodes.forEach(node => {
+        if (node.nodeType !== Node.TEXT_NODE || !node.textContent) return;
+        node.textContent = node.textContent
+          .replace(/Per aquistare/gi, 'Per acquistare')
+          .replace(/Carichi\s*,\s*inoltre\s*,?/gi, 'Carichi inoltre,');
+      });
     });
   }
 

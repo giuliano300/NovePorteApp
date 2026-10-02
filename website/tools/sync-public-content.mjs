@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { parse, serializeOuter } from '../../node_modules/parse5/dist/index.js';
+import { parse, serializeOuter } from '../node_modules/parse5/dist/index.js';
 
 const origin = 'https://noveporte.it';
 const outputDir = new URL('../public/content/pages/', import.meta.url);

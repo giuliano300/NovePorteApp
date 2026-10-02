@@ -1,0 +1,9 @@
+:host{display:block;min-height:100vh}
+.commerce-page{font-family:"GothamBook";font-size:20px;line-height:22px;min-height:100vh}
+.title-row{position:relative}
+.category-grid{display:flex;flex-wrap:wrap}
+.category-grid .aBoxProdotto{box-sizing:border-box;color:#534741;flex:0 0 50%;height:165px;width:50%}
+.category-grid .box-categoria{width:99%!important}
+.commerce-state{box-sizing:border-box;padding:35px 15px;text-align:center;width:100%}
+.commerce-error{color:#7b302a}
+@media(max-width:767px){.category-grid{display:block}.category-grid .aBoxProdotto{display:block;height:280px;width:100%}.category-grid .box-categoria{width:99%!important}}
